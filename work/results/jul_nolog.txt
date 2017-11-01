@@ -1,0 +1,1475 @@
+# JMH 1.17.5 (released 242 days ago, please consider updating!)
+# VM version: JDK 1.8.0_101, VM 25.101-b13
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/bin/java
+# VM options: <none>
+# Warmup: 30 iterations, 1 s each
+# Measurement: 25 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: me.justpitch.loggingbenchmarks.LoggingBenchmark.javautilLog_nolog___Style
+
+# Run progress: 0.00% complete, ETA 00:04:35
+# Fork: 1 of 5
+# Warmup Iteration   1: 118.565 ±(99.9%) 2.988 ns/op
+# Warmup Iteration   2: 250.346 ±(99.9%) 107.566 ns/op
+# Warmup Iteration   3: 126.979 ±(99.9%) 24.923 ns/op
+# Warmup Iteration   4: 124.118 ±(99.9%) 1.541 ns/op
+# Warmup Iteration   5: 129.439 ±(99.9%) 1.238 ns/op
+# Warmup Iteration   6: 136.014 ±(99.9%) 1.890 ns/op
+# Warmup Iteration   7: 139.865 ±(99.9%) 1.656 ns/op
+# Warmup Iteration   8: 138.217 ±(99.9%) 0.646 ns/op
+# Warmup Iteration   9: 138.616 ±(99.9%) 0.763 ns/op
+# Warmup Iteration  10: 91.612 ±(99.9%) 3.307 ns/op
+# Warmup Iteration  11: 71.985 ±(99.9%) 4.513 ns/op
+# Warmup Iteration  12: 72.041 ±(99.9%) 1.934 ns/op
+# Warmup Iteration  13: 78.632 ±(99.9%) 4.324 ns/op
+# Warmup Iteration  14: 72.894 ±(99.9%) 1.546 ns/op
+# Warmup Iteration  15: 76.073 ±(99.9%) 4.311 ns/op
+# Warmup Iteration  16: 70.015 ±(99.9%) 1.009 ns/op
+# Warmup Iteration  17: 74.049 ±(99.9%) 5.297 ns/op
+# Warmup Iteration  18: 69.030 ±(99.9%) 0.557 ns/op
+# Warmup Iteration  19: 71.210 ±(99.9%) 1.339 ns/op
+# Warmup Iteration  20: 69.578 ±(99.9%) 0.654 ns/op
+# Warmup Iteration  21: 69.496 ±(99.9%) 0.759 ns/op
+# Warmup Iteration  22: 69.544 ±(99.9%) 0.606 ns/op
+# Warmup Iteration  23: 69.190 ±(99.9%) 0.459 ns/op
+# Warmup Iteration  24: 72.576 ±(99.9%) 2.235 ns/op
+# Warmup Iteration  25: 190.286 ±(99.9%) 7.259 ns/op
+# Warmup Iteration  26: 363.924 ±(99.9%) 6.063 ns/op
+# Warmup Iteration  27: 366.512 ±(99.9%) 7.056 ns/op
+# Warmup Iteration  28: 368.628 ±(99.9%) 9.208 ns/op
+# Warmup Iteration  29: 359.009 ±(99.9%) 4.229 ns/op
+# Warmup Iteration  30: 359.944 ±(99.9%) 4.397 ns/op
+Iteration   1: 347.974 ±(99.9%) 3.455 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   329.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   375.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   414.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   1056.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  1806.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 19052.445 ns/op
+                 javautilLog_nolog___Style·p1.00:   53952.000 ns/op
+
+Iteration   2: 310.198 ±(99.9%) 3.725 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   296.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   325.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   360.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   937.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  1561.470 ns/op
+                 javautilLog_nolog___Style·p0.9999: 21414.560 ns/op
+                 javautilLog_nolog___Style·p1.00:   64384.000 ns/op
+
+Iteration   3: 263.531 ±(99.9%) 4.955 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   242.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   280.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   305.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   841.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  1528.512 ns/op
+                 javautilLog_nolog___Style·p0.9999: 24756.614 ns/op
+                 javautilLog_nolog___Style·p1.00:   88576.000 ns/op
+
+Iteration   4: 224.008 ±(99.9%) 5.703 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   206.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   235.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   259.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   799.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  1140.654 ns/op
+                 javautilLog_nolog___Style·p0.9999: 9475.006 ns/op
+                 javautilLog_nolog___Style·p1.00:   157952.000 ns/op
+
+Iteration   5: 193.410 ±(99.9%) 1.977 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   182.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   203.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   218.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   637.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  970.070 ns/op
+                 javautilLog_nolog___Style·p0.9999: 10450.848 ns/op
+                 javautilLog_nolog___Style·p1.00:   22464.000 ns/op
+
+Iteration   6: 175.175 ±(99.9%) 4.085 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   166.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   181.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   197.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   522.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  859.510 ns/op
+                 javautilLog_nolog___Style·p0.9999: 8398.120 ns/op
+                 javautilLog_nolog___Style·p1.00:   120192.000 ns/op
+
+Iteration   7: 165.480 ±(99.9%) 4.424 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   154.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   169.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   181.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   416.180 ns/op
+                 javautilLog_nolog___Style·p0.999:  1474.472 ns/op
+                 javautilLog_nolog___Style·p0.9999: 17643.942 ns/op
+                 javautilLog_nolog___Style·p1.00:   91008.000 ns/op
+
+Iteration   8: 155.817 ±(99.9%) 1.228 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   151.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   161.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   171.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   399.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  740.911 ns/op
+                 javautilLog_nolog___Style·p0.9999: 7536.817 ns/op
+                 javautilLog_nolog___Style·p1.00:   18464.000 ns/op
+
+Iteration   9: 148.287 ±(99.9%) 0.799 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   144.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   157.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   166.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   352.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  714.511 ns/op
+                 javautilLog_nolog___Style·p0.9999: 2545.297 ns/op
+                 javautilLog_nolog___Style·p1.00:   16384.000 ns/op
+
+Iteration  10: 141.795 ±(99.9%) 0.887 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   137.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   150.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   160.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   314.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  685.560 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3761.120 ns/op
+                 javautilLog_nolog___Style·p1.00:   19424.000 ns/op
+
+Iteration  11: 138.476 ±(99.9%) 0.819 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   135.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   144.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   153.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   252.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  632.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3251.956 ns/op
+                 javautilLog_nolog___Style·p1.00:   20480.000 ns/op
+
+Iteration  12: 137.525 ±(99.9%) 2.715 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   129.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   137.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   150.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   455.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  701.872 ns/op
+                 javautilLog_nolog___Style·p0.9999: 11840.832 ns/op
+                 javautilLog_nolog___Style·p1.00:   47424.000 ns/op
+
+Iteration  13: 134.493 ±(99.9%) 1.123 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   129.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   138.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   150.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   406.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  630.758 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3839.644 ns/op
+                 javautilLog_nolog___Style·p1.00:   13472.000 ns/op
+
+Iteration  14: 128.657 ±(99.9%) 1.292 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   123.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   131.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   141.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   388.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  626.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3363.319 ns/op
+                 javautilLog_nolog___Style·p1.00:   15344.000 ns/op
+
+Iteration  15: 179.058 ±(99.9%) 84.519 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   123.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   131.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   141.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   346.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  594.426 ns/op
+                 javautilLog_nolog___Style·p0.9999: 10913.133 ns/op
+                 javautilLog_nolog___Style·p1.00:   1816576.000 ns/op
+
+Iteration  16: 128.130 ±(99.9%) 1.372 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   123.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   131.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   141.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   378.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  613.907 ns/op
+                 javautilLog_nolog___Style·p0.9999: 5817.341 ns/op
+                 javautilLog_nolog___Style·p1.00:   17792.000 ns/op
+
+Iteration  17: 131.658 ±(99.9%) 5.546 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   123.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   132.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   141.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   393.060 ns/op
+                 javautilLog_nolog___Style·p0.999:  646.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 10928.371 ns/op
+                 javautilLog_nolog___Style·p1.00:   120064.000 ns/op
+
+Iteration  18: 128.584 ±(99.9%) 1.228 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   123.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   132.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   141.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   394.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  635.516 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3465.053 ns/op
+                 javautilLog_nolog___Style·p1.00:   19104.000 ns/op
+
+Iteration  19: 129.130 ±(99.9%) 1.555 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   123.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   131.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   140.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   387.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  637.299 ns/op
+                 javautilLog_nolog___Style·p0.9999: 7792.053 ns/op
+                 javautilLog_nolog___Style·p1.00:   16048.000 ns/op
+
+Iteration  20: 127.749 ±(99.9%) 1.020 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   123.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   131.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   140.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   373.180 ns/op
+                 javautilLog_nolog___Style·p0.999:  605.418 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3031.884 ns/op
+                 javautilLog_nolog___Style·p1.00:   12832.000 ns/op
+
+Iteration  21: 128.374 ±(99.9%) 1.249 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   123.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   132.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   143.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   373.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  611.636 ns/op
+                 javautilLog_nolog___Style·p0.9999: 4222.246 ns/op
+                 javautilLog_nolog___Style·p1.00:   17920.000 ns/op
+
+Iteration  22: 129.441 ±(99.9%) 2.250 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   123.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   131.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   143.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   370.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  622.329 ns/op
+                 javautilLog_nolog___Style·p0.9999: 9808.000 ns/op
+                 javautilLog_nolog___Style·p1.00:   38592.000 ns/op
+
+Iteration  23: 130.136 ±(99.9%) 1.920 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   123.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   131.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   141.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   396.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  663.089 ns/op
+                 javautilLog_nolog___Style·p0.9999: 9824.000 ns/op
+                 javautilLog_nolog___Style·p1.00:   19808.000 ns/op
+
+Iteration  24: 128.524 ±(99.9%) 1.401 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   123.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   131.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   142.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   376.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  619.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 6298.701 ns/op
+                 javautilLog_nolog___Style·p1.00:   20128.000 ns/op
+
+Iteration  25: 127.798 ±(99.9%) 0.840 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   123.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   131.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   142.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   375.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  607.301 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3648.722 ns/op
+                 javautilLog_nolog___Style·p1.00:   10256.000 ns/op
+
+
+# Run progress: 20.00% complete, ETA 00:03:43
+# Fork: 2 of 5
+# Warmup Iteration   1: 187.390 ±(99.9%) 88.473 ns/op
+# Warmup Iteration   2: 212.151 ±(99.9%) 107.469 ns/op
+# Warmup Iteration   3: 124.278 ±(99.9%) 1.475 ns/op
+# Warmup Iteration   4: 129.291 ±(99.9%) 1.760 ns/op
+# Warmup Iteration   5: 130.315 ±(99.9%) 2.105 ns/op
+# Warmup Iteration   6: 131.544 ±(99.9%) 1.721 ns/op
+# Warmup Iteration   7: 127.844 ±(99.9%) 1.213 ns/op
+# Warmup Iteration   8: 102.591 ±(99.9%) 1.704 ns/op
+# Warmup Iteration   9: 89.230 ±(99.9%) 9.174 ns/op
+# Warmup Iteration  10: 72.052 ±(99.9%) 1.296 ns/op
+# Warmup Iteration  11: 71.154 ±(99.9%) 1.224 ns/op
+# Warmup Iteration  12: 70.819 ±(99.9%) 0.976 ns/op
+# Warmup Iteration  13: 70.229 ±(99.9%) 0.984 ns/op
+# Warmup Iteration  14: 69.801 ±(99.9%) 0.517 ns/op
+# Warmup Iteration  15: 69.964 ±(99.9%) 0.749 ns/op
+# Warmup Iteration  16: 70.078 ±(99.9%) 0.855 ns/op
+# Warmup Iteration  17: 70.593 ±(99.9%) 0.784 ns/op
+# Warmup Iteration  18: 69.693 ±(99.9%) 0.442 ns/op
+# Warmup Iteration  19: 69.658 ±(99.9%) 0.439 ns/op
+# Warmup Iteration  20: 70.237 ±(99.9%) 0.771 ns/op
+# Warmup Iteration  21: 70.091 ±(99.9%) 0.576 ns/op
+# Warmup Iteration  22: 70.364 ±(99.9%) 0.578 ns/op
+# Warmup Iteration  23: 118.746 ±(99.9%) 2.513 ns/op
+# Warmup Iteration  24: 359.154 ±(99.9%) 4.404 ns/op
+# Warmup Iteration  25: 366.963 ±(99.9%) 5.008 ns/op
+# Warmup Iteration  26: 368.812 ±(99.9%) 4.850 ns/op
+# Warmup Iteration  27: 380.563 ±(99.9%) 21.909 ns/op
+# Warmup Iteration  28: 384.873 ±(99.9%) 21.113 ns/op
+# Warmup Iteration  29: 365.120 ±(99.9%) 4.108 ns/op
+# Warmup Iteration  30: 362.113 ±(99.9%) 3.073 ns/op
+Iteration   1: 361.926 ±(99.9%) 3.717 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   338.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   381.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   422.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   1013.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  1685.716 ns/op
+                 javautilLog_nolog___Style·p0.9999: 12817.515 ns/op
+                 javautilLog_nolog___Style·p1.00:   68864.000 ns/op
+
+Iteration   2: 365.401 ±(99.9%) 3.459 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   338.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   385.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   438.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   1070.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  1838.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 15133.680 ns/op
+                 javautilLog_nolog___Style·p1.00:   39872.000 ns/op
+
+Iteration   3: 339.202 ±(99.9%) 3.317 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   320.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   374.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   417.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   1006.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  1690.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 20776.323 ns/op
+                 javautilLog_nolog___Style·p1.00:   42240.000 ns/op
+
+Iteration   4: 316.560 ±(99.9%) 2.123 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   298.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   336.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   370.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   885.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  1427.438 ns/op
+                 javautilLog_nolog___Style·p0.9999: 9705.414 ns/op
+                 javautilLog_nolog___Style·p1.00:   28768.000 ns/op
+
+Iteration   5: 286.165 ±(99.9%) 4.597 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   266.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   305.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   335.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   849.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  1426.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 19871.270 ns/op
+                 javautilLog_nolog___Style·p1.00:   138496.000 ns/op
+
+Iteration   6: 251.293 ±(99.9%) 4.727 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   225.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   262.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   291.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   863.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  2182.128 ns/op
+                 javautilLog_nolog___Style·p0.9999: 23141.792 ns/op
+                 javautilLog_nolog___Style·p1.00:   46784.000 ns/op
+
+Iteration   7: 220.161 ±(99.9%) 5.263 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   200.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   228.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   247.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   706.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  1826.320 ns/op
+                 javautilLog_nolog___Style·p0.9999: 17784.960 ns/op
+                 javautilLog_nolog___Style·p1.00:   125696.000 ns/op
+
+Iteration   8: 190.739 ±(99.9%) 1.875 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   179.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   200.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   212.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   539.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  890.617 ns/op
+                 javautilLog_nolog___Style·p0.9999: 11128.542 ns/op
+                 javautilLog_nolog___Style·p1.00:   31520.000 ns/op
+
+Iteration   9: 174.693 ±(99.9%) 1.498 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   166.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   186.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   193.050 ns/op
+                 javautilLog_nolog___Style·p0.99:   454.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  795.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 9027.859 ns/op
+                 javautilLog_nolog___Style·p1.00:   21760.000 ns/op
+
+Iteration  10: 162.623 ±(99.9%) 1.464 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   156.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   174.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   182.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   384.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  735.072 ns/op
+                 javautilLog_nolog___Style·p0.9999: 5442.330 ns/op
+                 javautilLog_nolog___Style·p1.00:   27424.000 ns/op
+
+Iteration  11: 155.701 ±(99.9%) 0.875 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   149.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   165.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   171.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   327.910 ns/op
+                 javautilLog_nolog___Style·p0.999:  668.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3159.615 ns/op
+                 javautilLog_nolog___Style·p1.00:   13152.000 ns/op
+
+Iteration  12: 155.359 ±(99.9%) 0.732 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   149.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   165.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   172.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   314.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  661.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 2796.838 ns/op
+                 javautilLog_nolog___Style·p1.00:   17312.000 ns/op
+
+Iteration  13: 156.153 ±(99.9%) 14.705 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   142.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   157.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   165.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   305.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  669.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 5279.792 ns/op
+                 javautilLog_nolog___Style·p1.00:   570368.000 ns/op
+
+Iteration  14: 146.732 ±(99.9%) 0.721 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   141.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   156.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   162.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   272.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  632.039 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3142.743 ns/op
+                 javautilLog_nolog___Style·p1.00:   12144.000 ns/op
+
+Iteration  15: 144.715 ±(99.9%) 9.655 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   135.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   150.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   157.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   275.960 ns/op
+                 javautilLog_nolog___Style·p0.999:  677.392 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3154.227 ns/op
+                 javautilLog_nolog___Style·p1.00:   464896.000 ns/op
+
+Iteration  16: 147.957 ±(99.9%) 16.542 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   135.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   150.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   155.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   271.030 ns/op
+                 javautilLog_nolog___Style·p0.999:  602.203 ns/op
+                 javautilLog_nolog___Style·p0.9999: 2727.410 ns/op
+                 javautilLog_nolog___Style·p1.00:   646144.000 ns/op
+
+Iteration  17: 140.808 ±(99.9%) 0.848 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   135.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   150.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   154.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   282.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  613.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3083.496 ns/op
+                 javautilLog_nolog___Style·p1.00:   19264.000 ns/op
+
+Iteration  18: 142.864 ±(99.9%) 1.243 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   135.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   150.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   156.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   349.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  659.598 ns/op
+                 javautilLog_nolog___Style·p0.9999: 8178.509 ns/op
+                 javautilLog_nolog___Style·p1.00:   15504.000 ns/op
+
+Iteration  19: 143.881 ±(99.9%) 1.373 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   135.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   150.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   157.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   433.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  676.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 2982.845 ns/op
+                 javautilLog_nolog___Style·p1.00:   19616.000 ns/op
+
+Iteration  20: 139.772 ±(99.9%) 0.474 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   135.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   150.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   155.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   246.620 ns/op
+                 javautilLog_nolog___Style·p0.999:  623.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 2040.233 ns/op
+                 javautilLog_nolog___Style·p1.00:   11328.000 ns/op
+
+Iteration  21: 136.145 ±(99.9%) 0.852 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   128.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   142.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   150.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   421.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  672.703 ns/op
+                 javautilLog_nolog___Style·p0.9999: 2887.961 ns/op
+                 javautilLog_nolog___Style·p1.00:   10736.000 ns/op
+
+Iteration  22: 139.163 ±(99.9%) 9.708 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   128.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   142.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   149.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   371.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  723.735 ns/op
+                 javautilLog_nolog___Style·p0.9999: 5295.866 ns/op
+                 javautilLog_nolog___Style·p1.00:   249344.000 ns/op
+
+Iteration  23: 135.919 ±(99.9%) 0.985 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   129.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   143.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   149.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   394.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  631.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 2784.180 ns/op
+                 javautilLog_nolog___Style·p1.00:   11536.000 ns/op
+
+Iteration  24: 140.196 ±(99.9%) 6.582 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   128.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   143.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   149.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   399.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  637.460 ns/op
+                 javautilLog_nolog___Style·p0.9999: 11901.536 ns/op
+                 javautilLog_nolog___Style·p1.00:   124288.000 ns/op
+
+Iteration  25: 135.909 ±(99.9%) 1.018 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   129.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   142.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   148.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   395.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  628.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3373.389 ns/op
+                 javautilLog_nolog___Style·p1.00:   10464.000 ns/op
+
+
+# Run progress: 40.00% complete, ETA 00:02:48
+# Fork: 3 of 5
+# Warmup Iteration   1: 182.703 ±(99.9%) 6.677 ns/op
+# Warmup Iteration   2: 180.172 ±(99.9%) 6.048 ns/op
+# Warmup Iteration   3: 136.822 ±(99.9%) 1.099 ns/op
+# Warmup Iteration   4: 141.369 ±(99.9%) 1.779 ns/op
+# Warmup Iteration   5: 142.807 ±(99.9%) 1.298 ns/op
+# Warmup Iteration   6: 122.463 ±(99.9%) 2.337 ns/op
+# Warmup Iteration   7: 162.739 ±(99.9%) 18.581 ns/op
+# Warmup Iteration   8: 220.487 ±(99.9%) 87.552 ns/op
+# Warmup Iteration   9: 73.022 ±(99.9%) 1.982 ns/op
+# Warmup Iteration  10: 72.000 ±(99.9%) 1.131 ns/op
+# Warmup Iteration  11: 72.739 ±(99.9%) 1.962 ns/op
+# Warmup Iteration  12: 70.875 ±(99.9%) 0.614 ns/op
+# Warmup Iteration  13: 71.121 ±(99.9%) 0.561 ns/op
+# Warmup Iteration  14: 71.571 ±(99.9%) 0.774 ns/op
+# Warmup Iteration  15: 71.317 ±(99.9%) 0.724 ns/op
+# Warmup Iteration  16: 71.720 ±(99.9%) 0.768 ns/op
+# Warmup Iteration  17: 73.659 ±(99.9%) 1.471 ns/op
+# Warmup Iteration  18: 71.152 ±(99.9%) 0.596 ns/op
+# Warmup Iteration  19: 71.145 ±(99.9%) 0.638 ns/op
+# Warmup Iteration  20: 71.228 ±(99.9%) 0.419 ns/op
+# Warmup Iteration  21: 125.264 ±(99.9%) 1.294 ns/op
+# Warmup Iteration  22: 377.666 ±(99.9%) 27.755 ns/op
+# Warmup Iteration  23: 367.497 ±(99.9%) 4.223 ns/op
+# Warmup Iteration  24: 371.664 ±(99.9%) 7.944 ns/op
+# Warmup Iteration  25: 374.772 ±(99.9%) 15.280 ns/op
+# Warmup Iteration  26: 366.845 ±(99.9%) 3.611 ns/op
+# Warmup Iteration  27: 368.815 ±(99.9%) 4.092 ns/op
+# Warmup Iteration  28: 331.000 ±(99.9%) 4.697 ns/op
+# Warmup Iteration  29: 295.916 ±(99.9%) 3.514 ns/op
+# Warmup Iteration  30: 252.275 ±(99.9%) 5.388 ns/op
+Iteration   1: 211.034 ±(99.9%) 2.025 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   201.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   225.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   241.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   600.030 ns/op
+                 javautilLog_nolog___Style·p0.999:  983.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 13068.421 ns/op
+                 javautilLog_nolog___Style·p1.00:   17056.000 ns/op
+
+Iteration   2: 186.975 ±(99.9%) 1.894 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   180.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   199.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   215.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   502.160 ns/op
+                 javautilLog_nolog___Style·p0.999:  797.432 ns/op
+                 javautilLog_nolog___Style·p0.9999: 10493.658 ns/op
+                 javautilLog_nolog___Style·p1.00:   21792.000 ns/op
+
+Iteration   3: 172.766 ±(99.9%) 2.488 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   167.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   181.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   193.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   425.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  754.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 11783.475 ns/op
+                 javautilLog_nolog___Style·p1.00:   74240.000 ns/op
+
+Iteration   4: 158.641 ±(99.9%) 1.140 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   156.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   166.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   175.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   318.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  654.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 4392.362 ns/op
+                 javautilLog_nolog___Style·p1.00:   21728.000 ns/op
+
+Iteration   5: 157.560 ±(99.9%) 0.817 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   156.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   167.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   175.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   274.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  610.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3247.190 ns/op
+                 javautilLog_nolog___Style·p1.00:   14928.000 ns/op
+
+Iteration   6: 149.160 ±(99.9%) 0.620 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   149.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   158.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   165.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   232.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  568.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 2685.005 ns/op
+                 javautilLog_nolog___Style·p1.00:   13328.000 ns/op
+
+Iteration   7: 143.562 ±(99.9%) 1.983 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   141.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   149.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   156.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   226.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  596.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 8598.488 ns/op
+                 javautilLog_nolog___Style·p1.00:   64000.000 ns/op
+
+Iteration   8: 140.436 ±(99.9%) 1.416 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   136.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   147.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   155.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   379.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  607.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 4404.352 ns/op
+                 javautilLog_nolog___Style·p1.00:   17152.000 ns/op
+
+Iteration   9: 137.466 ±(99.9%) 1.211 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   134.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   143.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   150.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   346.270 ns/op
+                 javautilLog_nolog___Style·p0.999:  568.054 ns/op
+                 javautilLog_nolog___Style·p0.9999: 4681.293 ns/op
+                 javautilLog_nolog___Style·p1.00:   14944.000 ns/op
+
+Iteration  10: 134.648 ±(99.9%) 1.981 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   130.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   141.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   148.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   338.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  575.360 ns/op
+                 javautilLog_nolog___Style·p0.9999: 8781.056 ns/op
+                 javautilLog_nolog___Style·p1.00:   24768.000 ns/op
+
+Iteration  11: 130.154 ±(99.9%) 0.832 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   128.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   136.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   142.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   302.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  522.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 2791.686 ns/op
+                 javautilLog_nolog___Style·p1.00:   10928.000 ns/op
+
+Iteration  12: 130.577 ±(99.9%) 1.421 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   128.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   136.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   142.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   302.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  521.027 ns/op
+                 javautilLog_nolog___Style·p0.9999: 4256.238 ns/op
+                 javautilLog_nolog___Style·p1.00:   25632.000 ns/op
+
+Iteration  13: 130.824 ±(99.9%) 1.325 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   128.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   136.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   142.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   304.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  524.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 4141.451 ns/op
+                 javautilLog_nolog___Style·p1.00:   20192.000 ns/op
+
+Iteration  14: 130.144 ±(99.9%) 0.693 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   128.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   136.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   141.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   308.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  539.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 2727.724 ns/op
+                 javautilLog_nolog___Style·p1.00:   9680.000 ns/op
+
+Iteration  15: 130.630 ±(99.9%) 0.851 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   128.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   136.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   143.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   308.420 ns/op
+                 javautilLog_nolog___Style·p0.999:  543.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3035.190 ns/op
+                 javautilLog_nolog___Style·p1.00:   12992.000 ns/op
+
+Iteration  16: 129.554 ±(99.9%) 0.583 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   128.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   137.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   144.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   202.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  508.923 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3275.107 ns/op
+                 javautilLog_nolog___Style·p1.00:   9456.000 ns/op
+
+Iteration  17: 130.835 ±(99.9%) 2.144 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   128.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   136.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   142.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   301.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  523.130 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3260.424 ns/op
+                 javautilLog_nolog___Style·p1.00:   53184.000 ns/op
+
+Iteration  18: 131.053 ±(99.9%) 2.201 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   128.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   136.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   142.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   309.420 ns/op
+                 javautilLog_nolog___Style·p0.999:  537.542 ns/op
+                 javautilLog_nolog___Style·p0.9999: 2686.840 ns/op
+                 javautilLog_nolog___Style·p1.00:   56256.000 ns/op
+
+Iteration  19: 130.714 ±(99.9%) 0.933 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   128.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   137.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   143.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   316.850 ns/op
+                 javautilLog_nolog___Style·p0.999:  536.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3019.516 ns/op
+                 javautilLog_nolog___Style·p1.00:   10112.000 ns/op
+
+Iteration  20: 134.044 ±(99.9%) 5.204 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   128.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   136.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   144.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   349.240 ns/op
+                 javautilLog_nolog___Style·p0.999:  710.648 ns/op
+                 javautilLog_nolog___Style·p0.9999: 7201.517 ns/op
+                 javautilLog_nolog___Style·p1.00:   127360.000 ns/op
+
+Iteration  21: 130.726 ±(99.9%) 1.507 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   128.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   136.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   142.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   305.470 ns/op
+                 javautilLog_nolog___Style·p0.999:  518.947 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3457.154 ns/op
+                 javautilLog_nolog___Style·p1.00:   29696.000 ns/op
+
+Iteration  22: 129.757 ±(99.9%) 0.739 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   128.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   136.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   143.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   298.810 ns/op
+                 javautilLog_nolog___Style·p0.999:  517.381 ns/op
+                 javautilLog_nolog___Style·p0.9999: 2633.372 ns/op
+                 javautilLog_nolog___Style·p1.00:   10512.000 ns/op
+
+Iteration  23: 130.538 ±(99.9%) 1.151 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   128.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   136.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   142.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   304.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  523.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 2705.635 ns/op
+                 javautilLog_nolog___Style·p1.00:   21856.000 ns/op
+
+Iteration  24: 130.863 ±(99.9%) 1.242 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   128.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   136.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   142.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   307.380 ns/op
+                 javautilLog_nolog___Style·p0.999:  531.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 4353.272 ns/op
+                 javautilLog_nolog___Style·p1.00:   16992.000 ns/op
+
+Iteration  25: 131.236 ±(99.9%) 2.306 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   128.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   136.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   142.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   304.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  524.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 5335.242 ns/op
+                 javautilLog_nolog___Style·p1.00:   51840.000 ns/op
+
+
+# Run progress: 60.00% complete, ETA 00:01:52
+# Fork: 4 of 5
+# Warmup Iteration   1: 161.131 ±(99.9%) 3.873 ns/op
+# Warmup Iteration   2: 144.498 ±(99.9%) 7.881 ns/op
+# Warmup Iteration   3: 153.785 ±(99.9%) 9.070 ns/op
+# Warmup Iteration   4: 127.410 ±(99.9%) 1.444 ns/op
+# Warmup Iteration   5: 83.521 ±(99.9%) 3.847 ns/op
+# Warmup Iteration   6: 70.690 ±(99.9%) 1.248 ns/op
+# Warmup Iteration   7: 69.483 ±(99.9%) 0.584 ns/op
+# Warmup Iteration   8: 70.104 ±(99.9%) 1.380 ns/op
+# Warmup Iteration   9: 69.578 ±(99.9%) 0.833 ns/op
+# Warmup Iteration  10: 69.904 ±(99.9%) 0.964 ns/op
+# Warmup Iteration  11: 69.379 ±(99.9%) 0.545 ns/op
+# Warmup Iteration  12: 69.457 ±(99.9%) 0.590 ns/op
+# Warmup Iteration  13: 69.529 ±(99.9%) 0.652 ns/op
+# Warmup Iteration  14: 69.213 ±(99.9%) 0.473 ns/op
+# Warmup Iteration  15: 70.066 ±(99.9%) 0.984 ns/op
+# Warmup Iteration  16: 69.429 ±(99.9%) 0.642 ns/op
+# Warmup Iteration  17: 69.181 ±(99.9%) 0.423 ns/op
+# Warmup Iteration  18: 69.473 ±(99.9%) 0.587 ns/op
+# Warmup Iteration  19: 100.133 ±(99.9%) 1.054 ns/op
+# Warmup Iteration  20: 362.899 ±(99.9%) 5.560 ns/op
+# Warmup Iteration  21: 361.443 ±(99.9%) 4.221 ns/op
+# Warmup Iteration  22: 360.080 ±(99.9%) 4.049 ns/op
+# Warmup Iteration  23: 366.790 ±(99.9%) 4.338 ns/op
+# Warmup Iteration  24: 375.258 ±(99.9%) 39.378 ns/op
+# Warmup Iteration  25: 374.688 ±(99.9%) 27.074 ns/op
+# Warmup Iteration  26: 369.316 ±(99.9%) 11.060 ns/op
+# Warmup Iteration  27: 362.974 ±(99.9%) 6.586 ns/op
+# Warmup Iteration  28: 364.000 ±(99.9%) 4.953 ns/op
+# Warmup Iteration  29: 367.420 ±(99.9%) 8.233 ns/op
+# Warmup Iteration  30: 321.952 ±(99.9%) 4.763 ns/op
+Iteration   1: 304.569 ±(99.9%) 3.345 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   285.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   322.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   362.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   957.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  1603.604 ns/op
+                 javautilLog_nolog___Style·p0.9999: 19784.998 ns/op
+                 javautilLog_nolog___Style·p1.00:   38144.000 ns/op
+
+Iteration   2: 254.818 ±(99.9%) 3.848 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   235.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   261.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   288.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   792.710 ns/op
+                 javautilLog_nolog___Style·p0.999:  1322.226 ns/op
+                 javautilLog_nolog___Style·p0.9999: 21841.549 ns/op
+                 javautilLog_nolog___Style·p1.00:   58944.000 ns/op
+
+Iteration   3: 224.487 ±(99.9%) 3.357 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   206.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   228.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   250.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   808.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  1203.730 ns/op
+                 javautilLog_nolog___Style·p0.9999: 17026.192 ns/op
+                 javautilLog_nolog___Style·p1.00:   53888.000 ns/op
+
+Iteration   4: 197.314 ±(99.9%) 3.040 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   185.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   205.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   222.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   628.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  900.165 ns/op
+                 javautilLog_nolog___Style·p0.9999: 14825.277 ns/op
+                 javautilLog_nolog___Style·p1.00:   55616.000 ns/op
+
+Iteration   5: 181.892 ±(99.9%) 2.213 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   171.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   186.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   202.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   571.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  891.446 ns/op
+                 javautilLog_nolog___Style·p0.9999: 8903.827 ns/op
+                 javautilLog_nolog___Style·p1.00:   51392.000 ns/op
+
+Iteration   6: 168.606 ±(99.9%) 3.905 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   160.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   173.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   184.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   515.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  815.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 11516.659 ns/op
+                 javautilLog_nolog___Style·p1.00:   115968.000 ns/op
+
+Iteration   7: 156.401 ±(99.9%) 1.951 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   150.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   162.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   172.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   384.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  669.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 10405.728 ns/op
+                 javautilLog_nolog___Style·p1.00:   47744.000 ns/op
+
+Iteration   8: 163.349 ±(99.9%) 11.746 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   150.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   158.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   167.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   359.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  705.498 ns/op
+                 javautilLog_nolog___Style·p0.9999: 11181.565 ns/op
+                 javautilLog_nolog___Style·p1.00:   329216.000 ns/op
+
+Iteration   9: 155.504 ±(99.9%) 1.749 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   149.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   158.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   167.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   387.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  750.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 10170.824 ns/op
+                 javautilLog_nolog___Style·p1.00:   50880.000 ns/op
+
+Iteration  10: 146.863 ±(99.9%) 1.115 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   142.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   149.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   155.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   341.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  717.631 ns/op
+                 javautilLog_nolog___Style·p0.9999: 7843.631 ns/op
+                 javautilLog_nolog___Style·p1.00:   18592.000 ns/op
+
+Iteration  11: 145.493 ±(99.9%) 1.025 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   141.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   149.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   154.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   320.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  687.942 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3522.777 ns/op
+                 javautilLog_nolog___Style·p1.00:   18944.000 ns/op
+
+Iteration  12: 138.852 ±(99.9%) 1.187 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   135.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   142.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   145.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   260.230 ns/op
+                 javautilLog_nolog___Style·p0.999:  630.246 ns/op
+                 javautilLog_nolog___Style·p0.9999: 4542.841 ns/op
+                 javautilLog_nolog___Style·p1.00:   31328.000 ns/op
+
+Iteration  13: 138.772 ±(99.9%) 0.935 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   135.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   141.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   146.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   274.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  657.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3753.661 ns/op
+                 javautilLog_nolog___Style·p1.00:   22336.000 ns/op
+
+Iteration  14: 138.902 ±(99.9%) 0.936 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   135.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   142.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   149.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   278.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  649.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3190.460 ns/op
+                 javautilLog_nolog___Style·p1.00:   23488.000 ns/op
+
+Iteration  15: 139.505 ±(99.9%) 1.362 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   135.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   142.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   145.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   289.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  665.620 ns/op
+                 javautilLog_nolog___Style·p0.9999: 6470.320 ns/op
+                 javautilLog_nolog___Style·p1.00:   41024.000 ns/op
+
+Iteration  16: 139.135 ±(99.9%) 2.946 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   135.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   142.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   146.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   266.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  649.362 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3115.151 ns/op
+                 javautilLog_nolog___Style·p1.00:   137728.000 ns/op
+
+Iteration  17: 137.988 ±(99.9%) 0.601 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   135.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   142.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   146.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   268.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  646.846 ns/op
+                 javautilLog_nolog___Style·p0.9999: 2802.090 ns/op
+                 javautilLog_nolog___Style·p1.00:   13984.000 ns/op
+
+Iteration  18: 135.373 ±(99.9%) 1.133 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   129.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   135.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   142.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   449.100 ns/op
+                 javautilLog_nolog___Style·p0.999:  699.410 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3671.024 ns/op
+                 javautilLog_nolog___Style·p1.00:   12656.000 ns/op
+
+Iteration  19: 134.536 ±(99.9%) 1.116 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   128.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   136.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   144.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   424.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  665.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 2992.328 ns/op
+                 javautilLog_nolog___Style·p1.00:   16768.000 ns/op
+
+Iteration  20: 135.411 ±(99.9%) 1.775 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   128.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   135.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   145.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   415.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  674.612 ns/op
+                 javautilLog_nolog___Style·p0.9999: 7895.613 ns/op
+                 javautilLog_nolog___Style·p1.00:   21792.000 ns/op
+
+Iteration  21: 134.921 ±(99.9%) 1.542 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   128.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   136.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   146.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   416.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  646.121 ns/op
+                 javautilLog_nolog___Style·p0.9999: 7500.402 ns/op
+                 javautilLog_nolog___Style·p1.00:   23360.000 ns/op
+
+Iteration  22: 140.511 ±(99.9%) 4.005 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   128.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   135.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   143.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   444.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  1412.600 ns/op
+                 javautilLog_nolog___Style·p0.9999: 15716.880 ns/op
+                 javautilLog_nolog___Style·p1.00:   56320.000 ns/op
+
+Iteration  23: 134.838 ±(99.9%) 1.233 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   129.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   135.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   145.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   412.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  646.702 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3259.266 ns/op
+                 javautilLog_nolog___Style·p1.00:   19776.000 ns/op
+
+Iteration  24: 134.903 ±(99.9%) 1.496 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   128.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   136.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   144.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   410.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  644.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3453.672 ns/op
+                 javautilLog_nolog___Style·p1.00:   15504.000 ns/op
+
+Iteration  25: 134.824 ±(99.9%) 1.369 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   128.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   136.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   145.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   419.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  650.304 ns/op
+                 javautilLog_nolog___Style·p0.9999: 6967.296 ns/op
+                 javautilLog_nolog___Style·p1.00:   16800.000 ns/op
+
+
+# Run progress: 80.00% complete, ETA 00:00:56
+# Fork: 5 of 5
+# Warmup Iteration   1: 161.090 ±(99.9%) 4.196 ns/op
+# Warmup Iteration   2: 147.896 ±(99.9%) 3.755 ns/op
+# Warmup Iteration   3: 117.403 ±(99.9%) 52.408 ns/op
+# Warmup Iteration   4: 228.033 ±(99.9%) 154.652 ns/op
+# Warmup Iteration   5: 136.954 ±(99.9%) 12.956 ns/op
+# Warmup Iteration   6: 75.362 ±(99.9%) 4.141 ns/op
+# Warmup Iteration   7: 69.649 ±(99.9%) 0.788 ns/op
+# Warmup Iteration   8: 69.249 ±(99.9%) 0.552 ns/op
+# Warmup Iteration   9: 69.441 ±(99.9%) 0.538 ns/op
+# Warmup Iteration  10: 69.346 ±(99.9%) 0.395 ns/op
+# Warmup Iteration  11: 69.313 ±(99.9%) 0.449 ns/op
+# Warmup Iteration  12: 69.183 ±(99.9%) 0.457 ns/op
+# Warmup Iteration  13: 68.933 ±(99.9%) 0.407 ns/op
+# Warmup Iteration  14: 69.144 ±(99.9%) 0.674 ns/op
+# Warmup Iteration  15: 68.722 ±(99.9%) 0.318 ns/op
+# Warmup Iteration  16: 68.643 ±(99.9%) 0.424 ns/op
+# Warmup Iteration  17: 68.988 ±(99.9%) 0.456 ns/op
+# Warmup Iteration  18: 234.762 ±(99.9%) 1.337 ns/op
+# Warmup Iteration  19: 372.986 ±(99.9%) 7.501 ns/op
+# Warmup Iteration  20: 371.061 ±(99.9%) 7.544 ns/op
+# Warmup Iteration  21: 360.854 ±(99.9%) 4.331 ns/op
+# Warmup Iteration  22: 376.104 ±(99.9%) 33.059 ns/op
+# Warmup Iteration  23: 363.648 ±(99.9%) 4.295 ns/op
+# Warmup Iteration  24: 372.111 ±(99.9%) 11.918 ns/op
+# Warmup Iteration  25: 419.610 ±(99.9%) 153.879 ns/op
+# Warmup Iteration  26: 225.108 ±(99.9%) 2.830 ns/op
+# Warmup Iteration  27: 199.883 ±(99.9%) 2.306 ns/op
+# Warmup Iteration  28: 177.226 ±(99.9%) 1.424 ns/op
+# Warmup Iteration  29: 165.070 ±(99.9%) 2.278 ns/op
+# Warmup Iteration  30: 190.592 ±(99.9%) 44.005 ns/op
+Iteration   1: 170.195 ±(99.9%) 5.096 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   149.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   162.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   175.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   521.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  3570.012 ns/op
+                 javautilLog_nolog___Style·p0.9999: 24028.138 ns/op
+                 javautilLog_nolog___Style·p1.00:   65664.000 ns/op
+
+Iteration   2: 149.545 ±(99.9%) 1.630 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   143.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   151.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   159.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   374.930 ns/op
+                 javautilLog_nolog___Style·p0.999:  695.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 10185.123 ns/op
+                 javautilLog_nolog___Style·p1.00:   23040.000 ns/op
+
+Iteration   3: 141.611 ±(99.9%) 4.595 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   136.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   143.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   147.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   326.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  644.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3682.424 ns/op
+                 javautilLog_nolog___Style·p1.00:   169216.000 ns/op
+
+Iteration   4: 134.189 ±(99.9%) 0.814 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   130.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   139.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   146.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   302.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  639.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3740.003 ns/op
+                 javautilLog_nolog___Style·p1.00:   13584.000 ns/op
+
+Iteration   5: 133.453 ±(99.9%) 1.494 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   129.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   136.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   142.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   286.150 ns/op
+                 javautilLog_nolog___Style·p0.999:  623.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 8226.980 ns/op
+                 javautilLog_nolog___Style·p1.00:   34368.000 ns/op
+
+Iteration   6: 153.263 ±(99.9%) 37.453 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   124.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   132.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   138.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   263.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  652.427 ns/op
+                 javautilLog_nolog___Style·p0.9999: 22757.142 ns/op
+                 javautilLog_nolog___Style·p1.00:   1574912.000 ns/op
+
+Iteration   7: 135.178 ±(99.9%) 26.783 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   123.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   130.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   137.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   245.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  600.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 5160.129 ns/op
+                 javautilLog_nolog___Style·p1.00:   1187840.000 ns/op
+
+Iteration   8: 132.233 ±(99.9%) 12.535 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   123.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   130.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   136.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   255.350 ns/op
+                 javautilLog_nolog___Style·p0.999:  616.905 ns/op
+                 javautilLog_nolog___Style·p0.9999: 8339.408 ns/op
+                 javautilLog_nolog___Style·p1.00:   535552.000 ns/op
+
+Iteration   9: 126.762 ±(99.9%) 1.627 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   123.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   130.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   135.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   219.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  579.262 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3312.524 ns/op
+                 javautilLog_nolog___Style·p1.00:   54144.000 ns/op
+
+Iteration  10: 126.223 ±(99.9%) 0.902 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   123.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   130.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   135.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   244.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  593.367 ns/op
+                 javautilLog_nolog___Style·p0.9999: 2688.374 ns/op
+                 javautilLog_nolog___Style·p1.00:   26528.000 ns/op
+
+Iteration  11: 126.270 ±(99.9%) 0.786 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   123.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   130.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   135.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   230.030 ns/op
+                 javautilLog_nolog___Style·p0.999:  585.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3071.406 ns/op
+                 javautilLog_nolog___Style·p1.00:   12688.000 ns/op
+
+Iteration  12: 127.771 ±(99.9%) 2.177 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   122.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   130.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   136.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   223.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  609.695 ns/op
+                 javautilLog_nolog___Style·p0.9999: 8498.768 ns/op
+                 javautilLog_nolog___Style·p1.00:   75648.000 ns/op
+
+Iteration  13: 120.250 ±(99.9%) 0.697 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   118.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   124.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   127.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   189.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  546.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 2104.290 ns/op
+                 javautilLog_nolog___Style·p1.00:   21312.000 ns/op
+
+Iteration  14: 121.020 ±(99.9%) 1.209 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   118.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   124.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   127.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   178.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  528.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 4932.230 ns/op
+                 javautilLog_nolog___Style·p1.00:   33408.000 ns/op
+
+Iteration  15: 121.136 ±(99.9%) 1.485 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   118.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   124.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   127.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   192.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  554.675 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3500.830 ns/op
+                 javautilLog_nolog___Style·p1.00:   62528.000 ns/op
+
+Iteration  16: 119.928 ±(99.9%) 0.721 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   118.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   124.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   126.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   167.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  490.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 2524.365 ns/op
+                 javautilLog_nolog___Style·p1.00:   14384.000 ns/op
+
+Iteration  17: 120.385 ±(99.9%) 0.550 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   118.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   124.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   127.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   193.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  552.111 ns/op
+                 javautilLog_nolog___Style·p0.9999: 2099.822 ns/op
+                 javautilLog_nolog___Style·p1.00:   10032.000 ns/op
+
+Iteration  18: 120.511 ±(99.9%) 0.700 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   118.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   124.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   128.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   190.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  548.559 ns/op
+                 javautilLog_nolog___Style·p0.9999: 2113.496 ns/op
+                 javautilLog_nolog___Style·p1.00:   21920.000 ns/op
+
+Iteration  19: 121.218 ±(99.9%) 0.754 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   118.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   124.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   127.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   201.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  564.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 2900.298 ns/op
+                 javautilLog_nolog___Style·p1.00:   13456.000 ns/op
+
+Iteration  20: 121.192 ±(99.9%) 1.479 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   118.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   124.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   127.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   186.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  535.156 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3661.560 ns/op
+                 javautilLog_nolog___Style·p1.00:   59392.000 ns/op
+
+Iteration  21: 120.380 ±(99.9%) 0.570 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   118.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   124.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   127.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   195.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  561.601 ns/op
+                 javautilLog_nolog___Style·p0.9999: 2432.414 ns/op
+                 javautilLog_nolog___Style·p1.00:   12640.000 ns/op
+
+Iteration  22: 124.814 ±(99.9%) 1.850 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   121.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   129.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   131.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   190.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  508.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 4442.150 ns/op
+                 javautilLog_nolog___Style·p1.00:   49984.000 ns/op
+
+Iteration  23: 126.699 ±(99.9%) 1.055 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   124.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   130.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   133.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   230.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  585.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 3046.351 ns/op
+                 javautilLog_nolog___Style·p1.00:   38080.000 ns/op
+
+Iteration  24: 126.004 ±(99.9%) 0.679 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   124.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   130.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   133.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   221.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  568.000 ns/op
+                 javautilLog_nolog___Style·p0.9999: 2138.686 ns/op
+                 javautilLog_nolog___Style·p1.00:   14944.000 ns/op
+
+Iteration  25: 129.462 ±(99.9%) 2.440 ns/op
+                 javautilLog_nolog___Style·p0.00:   1.000 ns/op
+                 javautilLog_nolog___Style·p0.50:   124.000 ns/op
+                 javautilLog_nolog___Style·p0.90:   130.000 ns/op
+                 javautilLog_nolog___Style·p0.95:   136.000 ns/op
+                 javautilLog_nolog___Style·p0.99:   276.000 ns/op
+                 javautilLog_nolog___Style·p0.999:  610.619 ns/op
+                 javautilLog_nolog___Style·p0.9999: 9845.789 ns/op
+                 javautilLog_nolog___Style·p1.00:   54272.000 ns/op
+
+
+
+Result "me.justpitch.loggingbenchmarks.LoggingBenchmark.javautilLog_nolog___Style":
+  N = 14973478
+  mean =    158.051 ±(99.9%) 0.762 ns/op
+
+  Histogram, ns/op:
+    [      0.000,  125000.000) = 14973446 
+    [ 125000.000,  250000.000) = 15 
+    [ 250000.000,  375000.000) = 6 
+    [ 375000.000,  500000.000) = 2 
+    [ 500000.000,  625000.000) = 4 
+    [ 625000.000,  750000.000) = 1 
+    [ 750000.000,  875000.000) = 0 
+    [ 875000.000, 1000000.000) = 0 
+    [1000000.000, 1125000.000) = 1 
+    [1125000.000, 1250000.000) = 1 
+    [1250000.000, 1375000.000) = 0 
+    [1375000.000, 1500000.000) = 0 
+    [1500000.000, 1625000.000) = 1 
+    [1625000.000, 1750000.000) = 0 
+    [1750000.000, 1875000.000) = 1 
+
+  Percentiles, ns/op:
+      p(0.0000) =      1.000 ns/op
+     p(50.0000) =    134.000 ns/op
+     p(90.0000) =    220.000 ns/op
+     p(95.0000) =    298.000 ns/op
+     p(99.0000) =    421.000 ns/op
+     p(99.9000) =   1040.000 ns/op
+     p(99.9900) =   7698.434 ns/op
+     p(99.9990) =  29561.460 ns/op
+     p(99.9999) = 268708.941 ns/op
+    p(100.0000) = 1816576.000 ns/op
+
+
+# Run complete. Total time: 00:04:40
+
+Benchmark                                                                       Mode       Cnt        Score   Error  Units
+LoggingBenchmark.javautilLog_nolog___Style                                    sample  14973478      158.051 ± 0.762  ns/op
+LoggingBenchmark.javautilLog_nolog___Style:javautilLog_nolog___Style·p0.00    sample                  1.000          ns/op
+LoggingBenchmark.javautilLog_nolog___Style:javautilLog_nolog___Style·p0.50    sample                134.000          ns/op
+LoggingBenchmark.javautilLog_nolog___Style:javautilLog_nolog___Style·p0.90    sample                220.000          ns/op
+LoggingBenchmark.javautilLog_nolog___Style:javautilLog_nolog___Style·p0.95    sample                298.000          ns/op
+LoggingBenchmark.javautilLog_nolog___Style:javautilLog_nolog___Style·p0.99    sample                421.000          ns/op
+LoggingBenchmark.javautilLog_nolog___Style:javautilLog_nolog___Style·p0.999   sample               1040.000          ns/op
+LoggingBenchmark.javautilLog_nolog___Style:javautilLog_nolog___Style·p0.9999  sample               7698.434          ns/op
+LoggingBenchmark.javautilLog_nolog___Style:javautilLog_nolog___Style·p1.00    sample            1816576.000          ns/op
+
+Benchmark result is saved to results/jul_nolog.csv

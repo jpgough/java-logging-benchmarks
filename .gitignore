@@ -16,8 +16,5 @@ build/
 
 java*.log
 java*.log.*
-*.txt
-results/
-work/
 threads/
 threads.tar.gz

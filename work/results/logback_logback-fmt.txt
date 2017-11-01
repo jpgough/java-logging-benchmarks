@@ -1,0 +1,1469 @@
+# JMH 1.17.5 (released 242 days ago, please consider updating!)
+# VM version: JDK 1.8.0_101, VM 25.101-b13
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/bin/java
+# VM options: <none>
+# Warmup: 30 iterations, 1 s each
+# Measurement: 25 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: me.justpitch.loggingbenchmarks.LoggingBenchmark.logback_Log_logback_Style
+
+# Run progress: 0.00% complete, ETA 00:04:35
+# Fork: 1 of 5
+# Warmup Iteration   1: 6132.207 ±(99.9%) 836.689 ns/op
+# Warmup Iteration   2: 4668.011 ±(99.9%) 758.586 ns/op
+# Warmup Iteration   3: 3647.950 ±(99.9%) 509.024 ns/op
+# Warmup Iteration   4: 13408.714 ±(99.9%) 834.478 ns/op
+# Warmup Iteration   5: 13111.776 ±(99.9%) 955.004 ns/op
+# Warmup Iteration   6: 9484.990 ±(99.9%) 668.680 ns/op
+# Warmup Iteration   7: 6808.391 ±(99.9%) 717.256 ns/op
+# Warmup Iteration   8: 5379.023 ±(99.9%) 525.138 ns/op
+# Warmup Iteration   9: 5233.740 ±(99.9%) 487.573 ns/op
+# Warmup Iteration  10: 4988.147 ±(99.9%) 464.003 ns/op
+# Warmup Iteration  11: 4958.592 ±(99.9%) 501.383 ns/op
+# Warmup Iteration  12: 4898.641 ±(99.9%) 438.909 ns/op
+# Warmup Iteration  13: 4958.138 ±(99.9%) 499.620 ns/op
+# Warmup Iteration  14: 5027.243 ±(99.9%) 516.079 ns/op
+# Warmup Iteration  15: 4673.110 ±(99.9%) 421.041 ns/op
+# Warmup Iteration  16: 4968.589 ±(99.9%) 472.451 ns/op
+# Warmup Iteration  17: 4833.637 ±(99.9%) 475.209 ns/op
+# Warmup Iteration  18: 4626.296 ±(99.9%) 409.272 ns/op
+# Warmup Iteration  19: 4990.049 ±(99.9%) 411.165 ns/op
+# Warmup Iteration  20: 4743.709 ±(99.9%) 450.509 ns/op
+# Warmup Iteration  21: 4728.252 ±(99.9%) 423.598 ns/op
+# Warmup Iteration  22: 4808.221 ±(99.9%) 507.050 ns/op
+# Warmup Iteration  23: 4873.195 ±(99.9%) 489.704 ns/op
+# Warmup Iteration  24: 4851.675 ±(99.9%) 480.674 ns/op
+# Warmup Iteration  25: 4657.232 ±(99.9%) 430.203 ns/op
+# Warmup Iteration  26: 4645.801 ±(99.9%) 644.938 ns/op
+# Warmup Iteration  27: 4660.883 ±(99.9%) 442.982 ns/op
+# Warmup Iteration  28: 5146.904 ±(99.9%) 478.268 ns/op
+# Warmup Iteration  29: 5016.269 ±(99.9%) 444.355 ns/op
+# Warmup Iteration  30: 4806.982 ±(99.9%) 458.725 ns/op
+Iteration   1: 4576.025 ±(99.9%) 446.672 ns/op
+                 logback_Log_logback_Style·p0.00:   1216.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1740.000 ns/op
+                 logback_Log_logback_Style·p0.90:   4200.000 ns/op
+                 logback_Log_logback_Style·p0.95:   15664.000 ns/op
+                 logback_Log_logback_Style·p0.99:   36800.000 ns/op
+                 logback_Log_logback_Style·p0.999:  161519.360 ns/op
+                 logback_Log_logback_Style·p0.9999: 3818674.176 ns/op
+                 logback_Log_logback_Style·p1.00:   4931584.000 ns/op
+
+Iteration   2: 4576.933 ±(99.9%) 423.877 ns/op
+                 logback_Log_logback_Style·p0.00:   1194.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1748.000 ns/op
+                 logback_Log_logback_Style·p0.90:   4288.000 ns/op
+                 logback_Log_logback_Style·p0.95:   15920.000 ns/op
+                 logback_Log_logback_Style·p0.99:   38127.360 ns/op
+                 logback_Log_logback_Style·p0.999:  161280.000 ns/op
+                 logback_Log_logback_Style·p0.9999: 3705126.093 ns/op
+                 logback_Log_logback_Style·p1.00:   4956160.000 ns/op
+
+Iteration   3: 4599.951 ±(99.9%) 426.351 ns/op
+                 logback_Log_logback_Style·p0.00:   1200.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1740.000 ns/op
+                 logback_Log_logback_Style·p0.90:   3961.600 ns/op
+                 logback_Log_logback_Style·p0.95:   15083.200 ns/op
+                 logback_Log_logback_Style·p0.99:   40448.000 ns/op
+                 logback_Log_logback_Style·p0.999:  171395.584 ns/op
+                 logback_Log_logback_Style·p0.9999: 3710776.934 ns/op
+                 logback_Log_logback_Style·p1.00:   3932160.000 ns/op
+
+Iteration   4: 4892.467 ±(99.9%) 527.897 ns/op
+                 logback_Log_logback_Style·p0.00:   1208.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1752.000 ns/op
+                 logback_Log_logback_Style·p0.90:   4416.000 ns/op
+                 logback_Log_logback_Style·p0.95:   16352.000 ns/op
+                 logback_Log_logback_Style·p0.99:   43646.080 ns/op
+                 logback_Log_logback_Style·p0.999:  166578.432 ns/op
+                 logback_Log_logback_Style·p0.9999: 3772416.000 ns/op
+                 logback_Log_logback_Style·p1.00:   6578176.000 ns/op
+
+Iteration   5: 4553.682 ±(99.9%) 362.476 ns/op
+                 logback_Log_logback_Style·p0.00:   1208.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1752.000 ns/op
+                 logback_Log_logback_Style·p0.90:   4208.000 ns/op
+                 logback_Log_logback_Style·p0.95:   16128.000 ns/op
+                 logback_Log_logback_Style·p0.99:   43968.000 ns/op
+                 logback_Log_logback_Style·p0.999:  172964.352 ns/op
+                 logback_Log_logback_Style·p0.9999: 2825040.691 ns/op
+                 logback_Log_logback_Style·p1.00:   3973120.000 ns/op
+
+Iteration   6: 4546.591 ±(99.9%) 401.607 ns/op
+                 logback_Log_logback_Style·p0.00:   1216.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1748.000 ns/op
+                 logback_Log_logback_Style·p0.90:   4328.000 ns/op
+                 logback_Log_logback_Style·p0.95:   16112.000 ns/op
+                 logback_Log_logback_Style·p0.99:   40390.400 ns/op
+                 logback_Log_logback_Style·p0.999:  159134.720 ns/op
+                 logback_Log_logback_Style·p0.9999: 3585560.576 ns/op
+                 logback_Log_logback_Style·p1.00:   4718592.000 ns/op
+
+Iteration   7: 4663.460 ±(99.9%) 452.551 ns/op
+                 logback_Log_logback_Style·p0.00:   1124.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1744.000 ns/op
+                 logback_Log_logback_Style·p0.90:   4168.000 ns/op
+                 logback_Log_logback_Style·p0.95:   15440.000 ns/op
+                 logback_Log_logback_Style·p0.99:   39040.000 ns/op
+                 logback_Log_logback_Style·p0.999:  162050.560 ns/op
+                 logback_Log_logback_Style·p0.9999: 3658141.696 ns/op
+                 logback_Log_logback_Style·p1.00:   4210688.000 ns/op
+
+Iteration   8: 4751.935 ±(99.9%) 423.097 ns/op
+                 logback_Log_logback_Style·p0.00:   1192.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1738.000 ns/op
+                 logback_Log_logback_Style·p0.90:   4256.000 ns/op
+                 logback_Log_logback_Style·p0.95:   16080.000 ns/op
+                 logback_Log_logback_Style·p0.99:   46592.000 ns/op
+                 logback_Log_logback_Style·p0.999:  178432.000 ns/op
+                 logback_Log_logback_Style·p0.9999: 3649450.803 ns/op
+                 logback_Log_logback_Style·p1.00:   4194304.000 ns/op
+
+Iteration   9: 5094.690 ±(99.9%) 475.506 ns/op
+                 logback_Log_logback_Style·p0.00:   1192.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1756.000 ns/op
+                 logback_Log_logback_Style·p0.90:   4368.000 ns/op
+                 logback_Log_logback_Style·p0.95:   16320.000 ns/op
+                 logback_Log_logback_Style·p0.99:   44608.000 ns/op
+                 logback_Log_logback_Style·p0.999:  219870.208 ns/op
+                 logback_Log_logback_Style·p0.9999: 3597035.110 ns/op
+                 logback_Log_logback_Style·p1.00:   5595136.000 ns/op
+
+Iteration  10: 4626.767 ±(99.9%) 397.942 ns/op
+                 logback_Log_logback_Style·p0.00:   1186.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1748.000 ns/op
+                 logback_Log_logback_Style·p0.90:   4256.000 ns/op
+                 logback_Log_logback_Style·p0.95:   16112.000 ns/op
+                 logback_Log_logback_Style·p0.99:   42688.000 ns/op
+                 logback_Log_logback_Style·p0.999:  163072.000 ns/op
+                 logback_Log_logback_Style·p0.9999: 3630374.093 ns/op
+                 logback_Log_logback_Style·p1.00:   4059136.000 ns/op
+
+Iteration  11: 10552.607 ±(99.9%) 18060.312 ns/op
+                 logback_Log_logback_Style·p0.00:   1224.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1762.000 ns/op
+                 logback_Log_logback_Style·p0.90:   4664.000 ns/op
+                 logback_Log_logback_Style·p0.95:   16512.000 ns/op
+                 logback_Log_logback_Style·p0.99:   44416.000 ns/op
+                 logback_Log_logback_Style·p0.999:  173094.912 ns/op
+                 logback_Log_logback_Style·p0.9999: 3711287.296 ns/op
+                 logback_Log_logback_Style·p1.00:   657457152.000 ns/op
+
+Iteration  12: 3808.617 ±(99.9%) 722.780 ns/op
+                 logback_Log_logback_Style·p0.00:   670.000 ns/op
+                 logback_Log_logback_Style·p0.50:   975.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2252.000 ns/op
+                 logback_Log_logback_Style·p0.95:   8432.000 ns/op
+                 logback_Log_logback_Style·p0.99:   31328.000 ns/op
+                 logback_Log_logback_Style·p0.999:  156789.248 ns/op
+                 logback_Log_logback_Style·p0.9999: 3747840.000 ns/op
+                 logback_Log_logback_Style·p1.00:   9994240.000 ns/op
+
+Iteration  13: 3002.994 ±(99.9%) 406.944 ns/op
+                 logback_Log_logback_Style·p0.00:   671.000 ns/op
+                 logback_Log_logback_Style·p0.50:   971.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2256.000 ns/op
+                 logback_Log_logback_Style·p0.95:   8144.000 ns/op
+                 logback_Log_logback_Style·p0.99:   24832.000 ns/op
+                 logback_Log_logback_Style·p0.999:  127549.312 ns/op
+                 logback_Log_logback_Style·p0.9999: 3412573.798 ns/op
+                 logback_Log_logback_Style·p1.00:   3575808.000 ns/op
+
+Iteration  14: 3124.634 ±(99.9%) 484.769 ns/op
+                 logback_Log_logback_Style·p0.00:   659.000 ns/op
+                 logback_Log_logback_Style·p0.50:   969.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2140.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7928.000 ns/op
+                 logback_Log_logback_Style·p0.99:   23840.000 ns/op
+                 logback_Log_logback_Style·p0.999:  124086.016 ns/op
+                 logback_Log_logback_Style·p0.9999: 3454857.626 ns/op
+                 logback_Log_logback_Style·p1.00:   4841472.000 ns/op
+
+Iteration  15: 3180.665 ±(99.9%) 475.386 ns/op
+                 logback_Log_logback_Style·p0.00:   678.000 ns/op
+                 logback_Log_logback_Style·p0.50:   971.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2272.000 ns/op
+                 logback_Log_logback_Style·p0.95:   8384.000 ns/op
+                 logback_Log_logback_Style·p0.99:   26913.600 ns/op
+                 logback_Log_logback_Style·p0.999:  138602.240 ns/op
+                 logback_Log_logback_Style·p0.9999: 3491930.112 ns/op
+                 logback_Log_logback_Style·p1.00:   4358144.000 ns/op
+
+Iteration  16: 3069.171 ±(99.9%) 447.504 ns/op
+                 logback_Log_logback_Style·p0.00:   679.000 ns/op
+                 logback_Log_logback_Style·p0.50:   965.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2184.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7888.000 ns/op
+                 logback_Log_logback_Style·p0.99:   24029.760 ns/op
+                 logback_Log_logback_Style·p0.999:  140032.000 ns/op
+                 logback_Log_logback_Style·p0.9999: 3435107.533 ns/op
+                 logback_Log_logback_Style·p1.00:   3928064.000 ns/op
+
+Iteration  17: 3061.989 ±(99.9%) 476.745 ns/op
+                 logback_Log_logback_Style·p0.00:   676.000 ns/op
+                 logback_Log_logback_Style·p0.50:   968.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2188.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7896.000 ns/op
+                 logback_Log_logback_Style·p0.99:   22886.400 ns/op
+                 logback_Log_logback_Style·p0.999:  128322.560 ns/op
+                 logback_Log_logback_Style·p0.9999: 3517857.792 ns/op
+                 logback_Log_logback_Style·p1.00:   3887104.000 ns/op
+
+Iteration  18: 3032.680 ±(99.9%) 485.868 ns/op
+                 logback_Log_logback_Style·p0.00:   667.000 ns/op
+                 logback_Log_logback_Style·p0.50:   967.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2180.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7800.000 ns/op
+                 logback_Log_logback_Style·p0.99:   23635.520 ns/op
+                 logback_Log_logback_Style·p0.999:  128911.616 ns/op
+                 logback_Log_logback_Style·p0.9999: 3520172.442 ns/op
+                 logback_Log_logback_Style·p1.00:   6168576.000 ns/op
+
+Iteration  19: 3136.376 ±(99.9%) 487.326 ns/op
+                 logback_Log_logback_Style·p0.00:   678.000 ns/op
+                 logback_Log_logback_Style·p0.50:   969.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2212.000 ns/op
+                 logback_Log_logback_Style·p0.95:   8044.800 ns/op
+                 logback_Log_logback_Style·p0.99:   23072.000 ns/op
+                 logback_Log_logback_Style·p0.999:  130989.056 ns/op
+                 logback_Log_logback_Style·p0.9999: 3477238.579 ns/op
+                 logback_Log_logback_Style·p1.00:   4915200.000 ns/op
+
+Iteration  20: 3070.526 ±(99.9%) 498.745 ns/op
+                 logback_Log_logback_Style·p0.00:   668.000 ns/op
+                 logback_Log_logback_Style·p0.50:   967.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2159.600 ns/op
+                 logback_Log_logback_Style·p0.95:   7755.600 ns/op
+                 logback_Log_logback_Style·p0.99:   22848.000 ns/op
+                 logback_Log_logback_Style·p0.999:  123587.456 ns/op
+                 logback_Log_logback_Style·p0.9999: 3540999.373 ns/op
+                 logback_Log_logback_Style·p1.00:   5079040.000 ns/op
+
+Iteration  21: 3074.207 ±(99.9%) 475.048 ns/op
+                 logback_Log_logback_Style·p0.00:   661.000 ns/op
+                 logback_Log_logback_Style·p0.50:   963.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2127.600 ns/op
+                 logback_Log_logback_Style·p0.95:   7672.000 ns/op
+                 logback_Log_logback_Style·p0.99:   23360.000 ns/op
+                 logback_Log_logback_Style·p0.999:  123989.632 ns/op
+                 logback_Log_logback_Style·p0.9999: 3459346.022 ns/op
+                 logback_Log_logback_Style·p1.00:   3883008.000 ns/op
+
+Iteration  22: 2954.440 ±(99.9%) 450.553 ns/op
+                 logback_Log_logback_Style·p0.00:   665.000 ns/op
+                 logback_Log_logback_Style·p0.50:   964.500 ns/op
+                 logback_Log_logback_Style·p0.90:   2164.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7808.000 ns/op
+                 logback_Log_logback_Style·p0.99:   22784.000 ns/op
+                 logback_Log_logback_Style·p0.999:  124248.448 ns/op
+                 logback_Log_logback_Style·p0.9999: 3477504.000 ns/op
+                 logback_Log_logback_Style·p1.00:   4816896.000 ns/op
+
+Iteration  23: 3170.641 ±(99.9%) 507.783 ns/op
+                 logback_Log_logback_Style·p0.00:   679.000 ns/op
+                 logback_Log_logback_Style·p0.50:   966.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2152.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7688.000 ns/op
+                 logback_Log_logback_Style·p0.99:   22170.880 ns/op
+                 logback_Log_logback_Style·p0.999:  131584.000 ns/op
+                 logback_Log_logback_Style·p0.9999: 3532459.213 ns/op
+                 logback_Log_logback_Style·p1.00:   4112384.000 ns/op
+
+Iteration  24: 3218.105 ±(99.9%) 517.865 ns/op
+                 logback_Log_logback_Style·p0.00:   675.000 ns/op
+                 logback_Log_logback_Style·p0.50:   968.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2220.000 ns/op
+                 logback_Log_logback_Style·p0.95:   8152.000 ns/op
+                 logback_Log_logback_Style·p0.99:   23168.000 ns/op
+                 logback_Log_logback_Style·p0.999:  132238.336 ns/op
+                 logback_Log_logback_Style·p0.9999: 3550504.550 ns/op
+                 logback_Log_logback_Style·p1.00:   4997120.000 ns/op
+
+Iteration  25: 3026.736 ±(99.9%) 461.897 ns/op
+                 logback_Log_logback_Style·p0.00:   667.000 ns/op
+                 logback_Log_logback_Style·p0.50:   967.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2128.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7968.000 ns/op
+                 logback_Log_logback_Style·p0.99:   24414.080 ns/op
+                 logback_Log_logback_Style·p0.999:  136241.664 ns/op
+                 logback_Log_logback_Style·p0.9999: 3746519.450 ns/op
+                 logback_Log_logback_Style·p1.00:   4521984.000 ns/op
+
+
+# Run progress: 20.00% complete, ETA 00:03:48
+# Fork: 2 of 5
+# Warmup Iteration   1: 58467.224 ±(99.9%) 5291.848 ns/op
+# Warmup Iteration   2: 20726.087 ±(99.9%) 2440.179 ns/op
+# Warmup Iteration   3: 15397.824 ±(99.9%) 1263.624 ns/op
+# Warmup Iteration   4: 14903.580 ±(99.9%) 826.119 ns/op
+# Warmup Iteration   5: 15280.605 ±(99.9%) 1583.994 ns/op
+# Warmup Iteration   6: 14191.756 ±(99.9%) 1229.480 ns/op
+# Warmup Iteration   7: 15577.816 ±(99.9%) 1051.278 ns/op
+# Warmup Iteration   8: 18318.695 ±(99.9%) 1703.010 ns/op
+# Warmup Iteration   9: 11906.786 ±(99.9%) 826.866 ns/op
+# Warmup Iteration  10: 11455.595 ±(99.9%) 951.192 ns/op
+# Warmup Iteration  11: 9177.665 ±(99.9%) 541.204 ns/op
+# Warmup Iteration  12: 10123.784 ±(99.9%) 571.333 ns/op
+# Warmup Iteration  13: 10622.563 ±(99.9%) 1571.802 ns/op
+# Warmup Iteration  14: 8726.755 ±(99.9%) 1077.453 ns/op
+# Warmup Iteration  15: 6421.187 ±(99.9%) 584.748 ns/op
+# Warmup Iteration  16: 5988.617 ±(99.9%) 674.369 ns/op
+# Warmup Iteration  17: 5385.631 ±(99.9%) 485.726 ns/op
+# Warmup Iteration  18: 5421.741 ±(99.9%) 497.447 ns/op
+# Warmup Iteration  19: 5449.509 ±(99.9%) 670.517 ns/op
+# Warmup Iteration  20: 5328.279 ±(99.9%) 544.074 ns/op
+# Warmup Iteration  21: 4983.331 ±(99.9%) 435.842 ns/op
+# Warmup Iteration  22: 4994.947 ±(99.9%) 477.949 ns/op
+# Warmup Iteration  23: 5057.622 ±(99.9%) 496.332 ns/op
+# Warmup Iteration  24: 4961.478 ±(99.9%) 470.492 ns/op
+# Warmup Iteration  25: 4828.794 ±(99.9%) 457.114 ns/op
+# Warmup Iteration  26: 4458.879 ±(99.9%) 396.023 ns/op
+# Warmup Iteration  27: 4685.183 ±(99.9%) 422.292 ns/op
+# Warmup Iteration  28: 4720.331 ±(99.9%) 423.696 ns/op
+# Warmup Iteration  29: 5009.190 ±(99.9%) 506.822 ns/op
+# Warmup Iteration  30: 4814.922 ±(99.9%) 465.380 ns/op
+Iteration   1: 4645.032 ±(99.9%) 423.079 ns/op
+                 logback_Log_logback_Style·p0.00:   1260.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1836.000 ns/op
+                 logback_Log_logback_Style·p0.90:   4020.000 ns/op
+                 logback_Log_logback_Style·p0.95:   15216.000 ns/op
+                 logback_Log_logback_Style·p0.99:   40674.560 ns/op
+                 logback_Log_logback_Style·p0.999:  172544.000 ns/op
+                 logback_Log_logback_Style·p0.9999: 3791711.437 ns/op
+                 logback_Log_logback_Style·p1.00:   4009984.000 ns/op
+
+Iteration   2: 4989.278 ±(99.9%) 479.661 ns/op
+                 logback_Log_logback_Style·p0.00:   1254.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1844.000 ns/op
+                 logback_Log_logback_Style·p0.90:   4144.000 ns/op
+                 logback_Log_logback_Style·p0.95:   15543.200 ns/op
+                 logback_Log_logback_Style·p0.99:   44818.560 ns/op
+                 logback_Log_logback_Style·p0.999:  199131.648 ns/op
+                 logback_Log_logback_Style·p0.9999: 3844476.518 ns/op
+                 logback_Log_logback_Style·p1.00:   4521984.000 ns/op
+
+Iteration   3: 4953.027 ±(99.9%) 395.928 ns/op
+                 logback_Log_logback_Style·p0.00:   1264.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1848.000 ns/op
+                 logback_Log_logback_Style·p0.90:   4424.000 ns/op
+                 logback_Log_logback_Style·p0.95:   17024.000 ns/op
+                 logback_Log_logback_Style·p0.99:   50011.520 ns/op
+                 logback_Log_logback_Style·p0.999:  196619.008 ns/op
+                 logback_Log_logback_Style·p0.9999: 3421047.603 ns/op
+                 logback_Log_logback_Style·p1.00:   4415488.000 ns/op
+
+Iteration   4: 5322.998 ±(99.9%) 607.804 ns/op
+                 logback_Log_logback_Style·p0.00:   1286.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1842.000 ns/op
+                 logback_Log_logback_Style·p0.90:   4196.800 ns/op
+                 logback_Log_logback_Style·p0.95:   17193.600 ns/op
+                 logback_Log_logback_Style·p0.99:   49280.000 ns/op
+                 logback_Log_logback_Style·p0.999:  196215.296 ns/op
+                 logback_Log_logback_Style·p0.9999: 3870720.000 ns/op
+                 logback_Log_logback_Style·p1.00:   7356416.000 ns/op
+
+Iteration   5: 4853.253 ±(99.9%) 462.570 ns/op
+                 logback_Log_logback_Style·p0.00:   1278.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1840.000 ns/op
+                 logback_Log_logback_Style·p0.90:   4248.000 ns/op
+                 logback_Log_logback_Style·p0.95:   15776.000 ns/op
+                 logback_Log_logback_Style·p0.99:   42944.000 ns/op
+                 logback_Log_logback_Style·p0.999:  179260.672 ns/op
+                 logback_Log_logback_Style·p0.9999: 3840097.075 ns/op
+                 logback_Log_logback_Style·p1.00:   3956736.000 ns/op
+
+Iteration   6: 5640.902 ±(99.9%) 655.807 ns/op
+                 logback_Log_logback_Style·p0.00:   1278.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1840.000 ns/op
+                 logback_Log_logback_Style·p0.90:   4272.000 ns/op
+                 logback_Log_logback_Style·p0.95:   16416.000 ns/op
+                 logback_Log_logback_Style·p0.99:   48640.000 ns/op
+                 logback_Log_logback_Style·p0.999:  223627.264 ns/op
+                 logback_Log_logback_Style·p0.9999: 3903488.000 ns/op
+                 logback_Log_logback_Style·p1.00:   7806976.000 ns/op
+
+Iteration   7: 4823.107 ±(99.9%) 424.576 ns/op
+                 logback_Log_logback_Style·p0.00:   1286.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1842.000 ns/op
+                 logback_Log_logback_Style·p0.90:   4264.000 ns/op
+                 logback_Log_logback_Style·p0.95:   16384.000 ns/op
+                 logback_Log_logback_Style·p0.99:   44965.760 ns/op
+                 logback_Log_logback_Style·p0.999:  182639.616 ns/op
+                 logback_Log_logback_Style·p0.9999: 3802610.893 ns/op
+                 logback_Log_logback_Style·p1.00:   4083712.000 ns/op
+
+Iteration   8: 4348.069 ±(99.9%) 334.992 ns/op
+                 logback_Log_logback_Style·p0.00:   1276.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1842.000 ns/op
+                 logback_Log_logback_Style·p0.90:   4296.000 ns/op
+                 logback_Log_logback_Style·p0.95:   15504.000 ns/op
+                 logback_Log_logback_Style·p0.99:   37824.000 ns/op
+                 logback_Log_logback_Style·p0.999:  173272.576 ns/op
+                 logback_Log_logback_Style·p0.9999: 1898098.842 ns/op
+                 logback_Log_logback_Style·p1.00:   3891200.000 ns/op
+
+Iteration   9: 3417.471 ±(99.9%) 442.119 ns/op
+                 logback_Log_logback_Style·p0.00:   661.000 ns/op
+                 logback_Log_logback_Style·p0.50:   963.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2204.000 ns/op
+                 logback_Log_logback_Style·p0.95:   8336.000 ns/op
+                 logback_Log_logback_Style·p0.99:   31936.000 ns/op
+                 logback_Log_logback_Style·p0.999:  158444.544 ns/op
+                 logback_Log_logback_Style·p0.9999: 3393079.706 ns/op
+                 logback_Log_logback_Style·p1.00:   3567616.000 ns/op
+
+Iteration  10: 3274.458 ±(99.9%) 461.434 ns/op
+                 logback_Log_logback_Style·p0.00:   675.000 ns/op
+                 logback_Log_logback_Style·p0.50:   968.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2224.000 ns/op
+                 logback_Log_logback_Style·p0.95:   8352.000 ns/op
+                 logback_Log_logback_Style·p0.99:   29480.640 ns/op
+                 logback_Log_logback_Style·p0.999:  146319.872 ns/op
+                 logback_Log_logback_Style·p0.9999: 3332496.589 ns/op
+                 logback_Log_logback_Style·p1.00:   3637248.000 ns/op
+
+Iteration  11: 3512.402 ±(99.9%) 500.616 ns/op
+                 logback_Log_logback_Style·p0.00:   668.000 ns/op
+                 logback_Log_logback_Style·p0.50:   980.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2244.000 ns/op
+                 logback_Log_logback_Style·p0.95:   9056.000 ns/op
+                 logback_Log_logback_Style·p0.99:   35279.360 ns/op
+                 logback_Log_logback_Style·p0.999:  153913.344 ns/op
+                 logback_Log_logback_Style·p0.9999: 3400138.752 ns/op
+                 logback_Log_logback_Style·p1.00:   5611520.000 ns/op
+
+Iteration  12: 3494.828 ±(99.9%) 493.487 ns/op
+                 logback_Log_logback_Style·p0.00:   659.000 ns/op
+                 logback_Log_logback_Style·p0.50:   970.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2160.000 ns/op
+                 logback_Log_logback_Style·p0.95:   8816.000 ns/op
+                 logback_Log_logback_Style·p0.99:   34568.960 ns/op
+                 logback_Log_logback_Style·p0.999:  157885.952 ns/op
+                 logback_Log_logback_Style·p0.9999: 3372364.595 ns/op
+                 logback_Log_logback_Style·p1.00:   3997696.000 ns/op
+
+Iteration  13: 3067.388 ±(99.9%) 518.305 ns/op
+                 logback_Log_logback_Style·p0.00:   650.000 ns/op
+                 logback_Log_logback_Style·p0.50:   952.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2096.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7712.000 ns/op
+                 logback_Log_logback_Style·p0.99:   23776.000 ns/op
+                 logback_Log_logback_Style·p0.999:  131492.864 ns/op
+                 logback_Log_logback_Style·p0.9999: 3414240.461 ns/op
+                 logback_Log_logback_Style·p1.00:   11370496.000 ns/op
+
+Iteration  14: 2812.603 ±(99.9%) 400.019 ns/op
+                 logback_Log_logback_Style·p0.00:   669.000 ns/op
+                 logback_Log_logback_Style·p0.50:   954.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2060.800 ns/op
+                 logback_Log_logback_Style·p0.95:   7344.000 ns/op
+                 logback_Log_logback_Style·p0.99:   22602.240 ns/op
+                 logback_Log_logback_Style·p0.999:  124672.000 ns/op
+                 logback_Log_logback_Style·p0.9999: 3368440.627 ns/op
+                 logback_Log_logback_Style·p1.00:   5423104.000 ns/op
+
+Iteration  15: 3019.060 ±(99.9%) 450.827 ns/op
+                 logback_Log_logback_Style·p0.00:   668.000 ns/op
+                 logback_Log_logback_Style·p0.50:   957.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2194.400 ns/op
+                 logback_Log_logback_Style·p0.95:   7744.000 ns/op
+                 logback_Log_logback_Style·p0.99:   23872.000 ns/op
+                 logback_Log_logback_Style·p0.999:  125782.016 ns/op
+                 logback_Log_logback_Style·p0.9999: 3434838.426 ns/op
+                 logback_Log_logback_Style·p1.00:   3555328.000 ns/op
+
+Iteration  16: 2722.122 ±(99.9%) 356.443 ns/op
+                 logback_Log_logback_Style·p0.00:   665.000 ns/op
+                 logback_Log_logback_Style·p0.50:   954.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2020.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7232.000 ns/op
+                 logback_Log_logback_Style·p0.99:   22595.840 ns/op
+                 logback_Log_logback_Style·p0.999:  122267.136 ns/op
+                 logback_Log_logback_Style·p0.9999: 3369394.176 ns/op
+                 logback_Log_logback_Style·p1.00:   3469312.000 ns/op
+
+Iteration  17: 3009.017 ±(99.9%) 452.250 ns/op
+                 logback_Log_logback_Style·p0.00:   658.000 ns/op
+                 logback_Log_logback_Style·p0.50:   953.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2096.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7472.000 ns/op
+                 logback_Log_logback_Style·p0.99:   23264.000 ns/op
+                 logback_Log_logback_Style·p0.999:  118965.760 ns/op
+                 logback_Log_logback_Style·p0.9999: 3401259.008 ns/op
+                 logback_Log_logback_Style·p1.00:   3555328.000 ns/op
+
+Iteration  18: 2852.166 ±(99.9%) 403.230 ns/op
+                 logback_Log_logback_Style·p0.00:   672.000 ns/op
+                 logback_Log_logback_Style·p0.50:   955.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2100.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7296.000 ns/op
+                 logback_Log_logback_Style·p0.99:   22080.000 ns/op
+                 logback_Log_logback_Style·p0.999:  121211.392 ns/op
+                 logback_Log_logback_Style·p0.9999: 3424108.544 ns/op
+                 logback_Log_logback_Style·p1.00:   3772416.000 ns/op
+
+Iteration  19: 2963.751 ±(99.9%) 434.729 ns/op
+                 logback_Log_logback_Style·p0.00:   661.000 ns/op
+                 logback_Log_logback_Style·p0.50:   952.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2100.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7360.000 ns/op
+                 logback_Log_logback_Style·p0.99:   23360.000 ns/op
+                 logback_Log_logback_Style·p0.999:  129140.224 ns/op
+                 logback_Log_logback_Style·p0.9999: 3424256.000 ns/op
+                 logback_Log_logback_Style·p1.00:   3551232.000 ns/op
+
+Iteration  20: 2898.782 ±(99.9%) 420.362 ns/op
+                 logback_Log_logback_Style·p0.00:   675.000 ns/op
+                 logback_Log_logback_Style·p0.50:   955.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2104.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7480.000 ns/op
+                 logback_Log_logback_Style·p0.99:   22336.000 ns/op
+                 logback_Log_logback_Style·p0.999:  127279.104 ns/op
+                 logback_Log_logback_Style·p0.9999: 3381225.062 ns/op
+                 logback_Log_logback_Style·p1.00:   3661824.000 ns/op
+
+Iteration  21: 2772.987 ±(99.9%) 414.469 ns/op
+                 logback_Log_logback_Style·p0.00:   665.000 ns/op
+                 logback_Log_logback_Style·p0.50:   951.000 ns/op
+                 logback_Log_logback_Style·p0.90:   1938.000 ns/op
+                 logback_Log_logback_Style·p0.95:   6928.000 ns/op
+                 logback_Log_logback_Style·p0.99:   20608.000 ns/op
+                 logback_Log_logback_Style·p0.999:  121797.376 ns/op
+                 logback_Log_logback_Style·p0.9999: 3432448.000 ns/op
+                 logback_Log_logback_Style·p1.00:   3579904.000 ns/op
+
+Iteration  22: 3059.835 ±(99.9%) 455.365 ns/op
+                 logback_Log_logback_Style·p0.00:   666.000 ns/op
+                 logback_Log_logback_Style·p0.50:   955.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2128.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7560.000 ns/op
+                 logback_Log_logback_Style·p0.99:   25024.000 ns/op
+                 logback_Log_logback_Style·p0.999:  131584.000 ns/op
+                 logback_Log_logback_Style·p0.9999: 3383296.000 ns/op
+                 logback_Log_logback_Style·p1.00:   4014080.000 ns/op
+
+Iteration  23: 5205.992 ±(99.9%) 467.192 ns/op
+                 logback_Log_logback_Style·p0.00:   659.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1046.000 ns/op
+                 logback_Log_logback_Style·p0.90:   6272.000 ns/op
+                 logback_Log_logback_Style·p0.95:   10608.000 ns/op
+                 logback_Log_logback_Style·p0.99:   73984.000 ns/op
+                 logback_Log_logback_Style·p0.999:  198721.024 ns/op
+                 logback_Log_logback_Style·p0.9999: 3391592.038 ns/op
+                 logback_Log_logback_Style·p1.00:   5603328.000 ns/op
+
+Iteration  24: 13342.846 ±(99.9%) 900.304 ns/op
+                 logback_Log_logback_Style·p0.00:   3328.000 ns/op
+                 logback_Log_logback_Style·p0.50:   4712.000 ns/op
+                 logback_Log_logback_Style·p0.90:   11232.000 ns/op
+                 logback_Log_logback_Style·p0.95:   54080.000 ns/op
+                 logback_Log_logback_Style·p0.99:   151472.640 ns/op
+                 logback_Log_logback_Style·p0.999:  480054.784 ns/op
+                 logback_Log_logback_Style·p0.9999: 5559803.085 ns/op
+                 logback_Log_logback_Style·p1.00:   6365184.000 ns/op
+
+Iteration  25: 13518.257 ±(99.9%) 1008.815 ns/op
+                 logback_Log_logback_Style·p0.00:   3320.000 ns/op
+                 logback_Log_logback_Style·p0.50:   4688.000 ns/op
+                 logback_Log_logback_Style·p0.90:   11624.000 ns/op
+                 logback_Log_logback_Style·p0.95:   54704.000 ns/op
+                 logback_Log_logback_Style·p0.99:   158963.200 ns/op
+                 logback_Log_logback_Style·p0.999:  485985.280 ns/op
+                 logback_Log_logback_Style·p0.9999: 5641478.144 ns/op
+                 logback_Log_logback_Style·p1.00:   10911744.000 ns/op
+
+
+# Run progress: 40.00% complete, ETA 00:02:51
+# Fork: 3 of 5
+# Warmup Iteration   1: 56463.789 ±(99.9%) 4461.012 ns/op
+# Warmup Iteration   2: 22559.316 ±(99.9%) 6021.047 ns/op
+# Warmup Iteration   3: 12601.160 ±(99.9%) 1191.839 ns/op
+# Warmup Iteration   4: 11133.629 ±(99.9%) 637.052 ns/op
+# Warmup Iteration   5: 8778.622 ±(99.9%) 653.070 ns/op
+# Warmup Iteration   6: 8663.198 ±(99.9%) 514.338 ns/op
+# Warmup Iteration   7: 9117.067 ±(99.9%) 1358.717 ns/op
+# Warmup Iteration   8: 7459.889 ±(99.9%) 605.094 ns/op
+# Warmup Iteration   9: 9874.165 ±(99.9%) 1353.815 ns/op
+# Warmup Iteration  10: 5484.525 ±(99.9%) 488.013 ns/op
+# Warmup Iteration  11: 5165.784 ±(99.9%) 456.796 ns/op
+# Warmup Iteration  12: 5069.035 ±(99.9%) 508.399 ns/op
+# Warmup Iteration  13: 4708.475 ±(99.9%) 433.187 ns/op
+# Warmup Iteration  14: 4818.820 ±(99.9%) 512.471 ns/op
+# Warmup Iteration  15: 4819.971 ±(99.9%) 472.276 ns/op
+# Warmup Iteration  16: 4444.108 ±(99.9%) 414.881 ns/op
+# Warmup Iteration  17: 4426.764 ±(99.9%) 398.367 ns/op
+# Warmup Iteration  18: 4461.844 ±(99.9%) 433.814 ns/op
+# Warmup Iteration  19: 4286.364 ±(99.9%) 370.721 ns/op
+# Warmup Iteration  20: 4289.868 ±(99.9%) 364.250 ns/op
+# Warmup Iteration  21: 4664.416 ±(99.9%) 464.802 ns/op
+# Warmup Iteration  22: 4392.608 ±(99.9%) 424.716 ns/op
+# Warmup Iteration  23: 4396.975 ±(99.9%) 395.988 ns/op
+# Warmup Iteration  24: 4324.708 ±(99.9%) 383.279 ns/op
+# Warmup Iteration  25: 4535.969 ±(99.9%) 430.338 ns/op
+# Warmup Iteration  26: 4578.767 ±(99.9%) 399.570 ns/op
+# Warmup Iteration  27: 4564.584 ±(99.9%) 427.837 ns/op
+# Warmup Iteration  28: 4645.567 ±(99.9%) 417.497 ns/op
+# Warmup Iteration  29: 4789.126 ±(99.9%) 427.561 ns/op
+# Warmup Iteration  30: 4628.312 ±(99.9%) 457.078 ns/op
+Iteration   1: 5661.422 ±(99.9%) 748.093 ns/op
+                 logback_Log_logback_Style·p0.00:   1210.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1738.000 ns/op
+                 logback_Log_logback_Style·p0.90:   4320.000 ns/op
+                 logback_Log_logback_Style·p0.95:   19200.000 ns/op
+                 logback_Log_logback_Style·p0.99:   59328.000 ns/op
+                 logback_Log_logback_Style·p0.999:  213760.000 ns/op
+                 logback_Log_logback_Style·p0.9999: 3844994.662 ns/op
+                 logback_Log_logback_Style·p1.00:   18907136.000 ns/op
+
+Iteration   2: 4480.944 ±(99.9%) 433.431 ns/op
+                 logback_Log_logback_Style·p0.00:   1208.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1730.000 ns/op
+                 logback_Log_logback_Style·p0.90:   3872.000 ns/op
+                 logback_Log_logback_Style·p0.95:   14560.000 ns/op
+                 logback_Log_logback_Style·p0.99:   36864.000 ns/op
+                 logback_Log_logback_Style·p0.999:  168184.320 ns/op
+                 logback_Log_logback_Style·p0.9999: 3805184.000 ns/op
+                 logback_Log_logback_Style·p1.00:   4431872.000 ns/op
+
+Iteration   3: 4691.060 ±(99.9%) 387.457 ns/op
+                 logback_Log_logback_Style·p0.00:   1224.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1750.000 ns/op
+                 logback_Log_logback_Style·p0.90:   4136.000 ns/op
+                 logback_Log_logback_Style·p0.95:   16448.000 ns/op
+                 logback_Log_logback_Style·p0.99:   43008.000 ns/op
+                 logback_Log_logback_Style·p0.999:  179547.136 ns/op
+                 logback_Log_logback_Style·p0.9999: 2057573.581 ns/op
+                 logback_Log_logback_Style·p1.00:   4489216.000 ns/op
+
+Iteration   4: 14162.508 ±(99.9%) 27375.884 ns/op
+                 logback_Log_logback_Style·p0.00:   1174.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1692.000 ns/op
+                 logback_Log_logback_Style·p0.90:   4024.000 ns/op
+                 logback_Log_logback_Style·p0.95:   15552.000 ns/op
+                 logback_Log_logback_Style·p0.99:   53946.240 ns/op
+                 logback_Log_logback_Style·p0.999:  316155.904 ns/op
+                 logback_Log_logback_Style·p0.9999: 3896845.517 ns/op
+                 logback_Log_logback_Style·p1.00:   912261120.000 ns/op
+
+Iteration   5: 3407.246 ±(99.9%) 465.090 ns/op
+                 logback_Log_logback_Style·p0.00:   640.000 ns/op
+                 logback_Log_logback_Style·p0.50:   930.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2376.000 ns/op
+                 logback_Log_logback_Style·p0.95:   9056.000 ns/op
+                 logback_Log_logback_Style·p0.99:   34112.000 ns/op
+                 logback_Log_logback_Style·p0.999:  150704.384 ns/op
+                 logback_Log_logback_Style·p0.9999: 3456896.614 ns/op
+                 logback_Log_logback_Style·p1.00:   4251648.000 ns/op
+
+Iteration   6: 2927.475 ±(99.9%) 396.943 ns/op
+                 logback_Log_logback_Style·p0.00:   642.000 ns/op
+                 logback_Log_logback_Style·p0.50:   925.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2272.000 ns/op
+                 logback_Log_logback_Style·p0.95:   8384.000 ns/op
+                 logback_Log_logback_Style·p0.99:   26784.000 ns/op
+                 logback_Log_logback_Style·p0.999:  128834.944 ns/op
+                 logback_Log_logback_Style·p0.9999: 3432831.795 ns/op
+                 logback_Log_logback_Style·p1.00:   3977216.000 ns/op
+
+Iteration   7: 3113.851 ±(99.9%) 493.184 ns/op
+                 logback_Log_logback_Style·p0.00:   642.000 ns/op
+                 logback_Log_logback_Style·p0.50:   917.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2136.800 ns/op
+                 logback_Log_logback_Style·p0.95:   7704.000 ns/op
+                 logback_Log_logback_Style·p0.99:   23424.000 ns/op
+                 logback_Log_logback_Style·p0.999:  129789.696 ns/op
+                 logback_Log_logback_Style·p0.9999: 3528696.627 ns/op
+                 logback_Log_logback_Style·p1.00:   3964928.000 ns/op
+
+Iteration   8: 2963.504 ±(99.9%) 459.027 ns/op
+                 logback_Log_logback_Style·p0.00:   636.000 ns/op
+                 logback_Log_logback_Style·p0.50:   920.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2136.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7558.800 ns/op
+                 logback_Log_logback_Style·p0.99:   21568.000 ns/op
+                 logback_Log_logback_Style·p0.999:  124983.936 ns/op
+                 logback_Log_logback_Style·p0.9999: 3537074.995 ns/op
+                 logback_Log_logback_Style·p1.00:   3633152.000 ns/op
+
+Iteration   9: 2888.038 ±(99.9%) 424.279 ns/op
+                 logback_Log_logback_Style·p0.00:   634.000 ns/op
+                 logback_Log_logback_Style·p0.50:   921.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2160.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7819.600 ns/op
+                 logback_Log_logback_Style·p0.99:   22304.000 ns/op
+                 logback_Log_logback_Style·p0.999:  127062.528 ns/op
+                 logback_Log_logback_Style·p0.9999: 3495255.245 ns/op
+                 logback_Log_logback_Style·p1.00:   3715072.000 ns/op
+
+Iteration  10: 2962.041 ±(99.9%) 431.811 ns/op
+                 logback_Log_logback_Style·p0.00:   644.000 ns/op
+                 logback_Log_logback_Style·p0.50:   924.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2196.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7904.000 ns/op
+                 logback_Log_logback_Style·p0.99:   22560.000 ns/op
+                 logback_Log_logback_Style·p0.999:  131840.000 ns/op
+                 logback_Log_logback_Style·p0.9999: 3492703.437 ns/op
+                 logback_Log_logback_Style·p1.00:   3719168.000 ns/op
+
+Iteration  11: 3053.493 ±(99.9%) 468.614 ns/op
+                 logback_Log_logback_Style·p0.00:   649.000 ns/op
+                 logback_Log_logback_Style·p0.50:   924.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2152.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7560.000 ns/op
+                 logback_Log_logback_Style·p0.99:   22461.760 ns/op
+                 logback_Log_logback_Style·p0.999:  128690.304 ns/op
+                 logback_Log_logback_Style·p0.9999: 3588096.000 ns/op
+                 logback_Log_logback_Style·p1.00:   3690496.000 ns/op
+
+Iteration  12: 3010.480 ±(99.9%) 467.755 ns/op
+                 logback_Log_logback_Style·p0.00:   636.000 ns/op
+                 logback_Log_logback_Style·p0.50:   920.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2104.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7376.000 ns/op
+                 logback_Log_logback_Style·p0.99:   21344.000 ns/op
+                 logback_Log_logback_Style·p0.999:  127873.792 ns/op
+                 logback_Log_logback_Style·p0.9999: 3569027.482 ns/op
+                 logback_Log_logback_Style·p1.00:   3674112.000 ns/op
+
+Iteration  13: 2960.638 ±(99.9%) 431.020 ns/op
+                 logback_Log_logback_Style·p0.00:   646.000 ns/op
+                 logback_Log_logback_Style·p0.50:   919.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2172.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7680.000 ns/op
+                 logback_Log_logback_Style·p0.99:   24000.000 ns/op
+                 logback_Log_logback_Style·p0.999:  131235.584 ns/op
+                 logback_Log_logback_Style·p0.9999: 3512172.134 ns/op
+                 logback_Log_logback_Style·p1.00:   3661824.000 ns/op
+
+Iteration  14: 2927.882 ±(99.9%) 434.175 ns/op
+                 logback_Log_logback_Style·p0.00:   647.000 ns/op
+                 logback_Log_logback_Style·p0.50:   921.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2152.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7552.000 ns/op
+                 logback_Log_logback_Style·p0.99:   21536.000 ns/op
+                 logback_Log_logback_Style·p0.999:  124339.072 ns/op
+                 logback_Log_logback_Style·p0.9999: 3471113.830 ns/op
+                 logback_Log_logback_Style·p1.00:   3616768.000 ns/op
+
+Iteration  15: 3049.666 ±(99.9%) 475.359 ns/op
+                 logback_Log_logback_Style·p0.00:   645.000 ns/op
+                 logback_Log_logback_Style·p0.50:   923.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2184.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7760.000 ns/op
+                 logback_Log_logback_Style·p0.99:   23013.760 ns/op
+                 logback_Log_logback_Style·p0.999:  127016.704 ns/op
+                 logback_Log_logback_Style·p0.9999: 3530193.306 ns/op
+                 logback_Log_logback_Style·p1.00:   3665920.000 ns/op
+
+Iteration  16: 3059.870 ±(99.9%) 479.430 ns/op
+                 logback_Log_logback_Style·p0.00:   647.000 ns/op
+                 logback_Log_logback_Style·p0.50:   922.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2154.400 ns/op
+                 logback_Log_logback_Style·p0.95:   7894.400 ns/op
+                 logback_Log_logback_Style·p0.99:   23072.000 ns/op
+                 logback_Log_logback_Style·p0.999:  127616.000 ns/op
+                 logback_Log_logback_Style·p0.9999: 3524178.739 ns/op
+                 logback_Log_logback_Style·p1.00:   4001792.000 ns/op
+
+Iteration  17: 3001.342 ±(99.9%) 478.133 ns/op
+                 logback_Log_logback_Style·p0.00:   630.000 ns/op
+                 logback_Log_logback_Style·p0.50:   922.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2108.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7389.200 ns/op
+                 logback_Log_logback_Style·p0.99:   21632.000 ns/op
+                 logback_Log_logback_Style·p0.999:  124437.120 ns/op
+                 logback_Log_logback_Style·p0.9999: 3550439.834 ns/op
+                 logback_Log_logback_Style·p1.00:   5120000.000 ns/op
+
+Iteration  18: 2887.813 ±(99.9%) 442.466 ns/op
+                 logback_Log_logback_Style·p0.00:   642.000 ns/op
+                 logback_Log_logback_Style·p0.50:   923.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2124.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7536.800 ns/op
+                 logback_Log_logback_Style·p0.99:   21575.040 ns/op
+                 logback_Log_logback_Style·p0.999:  120704.000 ns/op
+                 logback_Log_logback_Style·p0.9999: 3574301.491 ns/op
+                 logback_Log_logback_Style·p1.00:   4046848.000 ns/op
+
+Iteration  19: 5169.731 ±(99.9%) 510.635 ns/op
+                 logback_Log_logback_Style·p0.00:   649.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1003.000 ns/op
+                 logback_Log_logback_Style·p0.90:   5976.000 ns/op
+                 logback_Log_logback_Style·p0.95:   10112.000 ns/op
+                 logback_Log_logback_Style·p0.99:   76288.000 ns/op
+                 logback_Log_logback_Style·p0.999:  207872.000 ns/op
+                 logback_Log_logback_Style·p0.9999: 3538944.000 ns/op
+                 logback_Log_logback_Style·p1.00:   5619712.000 ns/op
+
+Iteration  20: 14050.268 ±(99.9%) 1029.418 ns/op
+                 logback_Log_logback_Style·p0.00:   3236.000 ns/op
+                 logback_Log_logback_Style·p0.50:   4544.000 ns/op
+                 logback_Log_logback_Style·p0.90:   13321.600 ns/op
+                 logback_Log_logback_Style·p0.95:   58816.000 ns/op
+                 logback_Log_logback_Style·p0.99:   164352.000 ns/op
+                 logback_Log_logback_Style·p0.999:  485554.176 ns/op
+                 logback_Log_logback_Style·p0.9999: 5783742.054 ns/op
+                 logback_Log_logback_Style·p1.00:   6815744.000 ns/op
+
+Iteration  21: 12957.265 ±(99.9%) 793.276 ns/op
+                 logback_Log_logback_Style·p0.00:   3228.000 ns/op
+                 logback_Log_logback_Style·p0.50:   4536.000 ns/op
+                 logback_Log_logback_Style·p0.90:   11766.400 ns/op
+                 logback_Log_logback_Style·p0.95:   55488.000 ns/op
+                 logback_Log_logback_Style·p0.99:   156416.000 ns/op
+                 logback_Log_logback_Style·p0.999:  458697.728 ns/op
+                 logback_Log_logback_Style·p0.9999: 5581681.459 ns/op
+                 logback_Log_logback_Style·p1.00:   6758400.000 ns/op
+
+Iteration  22: 13077.340 ±(99.9%) 883.250 ns/op
+                 logback_Log_logback_Style·p0.00:   3240.000 ns/op
+                 logback_Log_logback_Style·p0.50:   4520.000 ns/op
+                 logback_Log_logback_Style·p0.90:   11536.000 ns/op
+                 logback_Log_logback_Style·p0.95:   54336.000 ns/op
+                 logback_Log_logback_Style·p0.99:   154112.000 ns/op
+                 logback_Log_logback_Style·p0.999:  459013.120 ns/op
+                 logback_Log_logback_Style·p0.9999: 5759393.792 ns/op
+                 logback_Log_logback_Style·p1.00:   7020544.000 ns/op
+
+Iteration  23: 13117.380 ±(99.9%) 843.259 ns/op
+                 logback_Log_logback_Style·p0.00:   3120.000 ns/op
+                 logback_Log_logback_Style·p0.50:   4544.000 ns/op
+                 logback_Log_logback_Style·p0.90:   12480.000 ns/op
+                 logback_Log_logback_Style·p0.95:   54592.000 ns/op
+                 logback_Log_logback_Style·p0.99:   153856.000 ns/op
+                 logback_Log_logback_Style·p0.999:  473813.504 ns/op
+                 logback_Log_logback_Style·p0.9999: 5632341.606 ns/op
+                 logback_Log_logback_Style·p1.00:   6823936.000 ns/op
+
+Iteration  24: 13538.269 ±(99.9%) 1150.723 ns/op
+                 logback_Log_logback_Style·p0.00:   3236.000 ns/op
+                 logback_Log_logback_Style·p0.50:   4504.000 ns/op
+                 logback_Log_logback_Style·p0.90:   12161.600 ns/op
+                 logback_Log_logback_Style·p0.95:   56448.000 ns/op
+                 logback_Log_logback_Style·p0.99:   160768.000 ns/op
+                 logback_Log_logback_Style·p0.999:  469847.552 ns/op
+                 logback_Log_logback_Style·p0.9999: 5573297.766 ns/op
+                 logback_Log_logback_Style·p1.00:   14237696.000 ns/op
+
+Iteration  25: 13838.730 ±(99.9%) 1256.236 ns/op
+                 logback_Log_logback_Style·p0.00:   3244.000 ns/op
+                 logback_Log_logback_Style·p0.50:   4552.000 ns/op
+                 logback_Log_logback_Style·p0.90:   12579.200 ns/op
+                 logback_Log_logback_Style·p0.95:   57728.000 ns/op
+                 logback_Log_logback_Style·p0.99:   168192.000 ns/op
+                 logback_Log_logback_Style·p0.999:  482594.816 ns/op
+                 logback_Log_logback_Style·p0.9999: 5574800.179 ns/op
+                 logback_Log_logback_Style·p1.00:   16416768.000 ns/op
+
+
+# Run progress: 60.00% complete, ETA 00:01:55
+# Fork: 4 of 5
+# Warmup Iteration   1: 40925.119 ±(99.9%) 3307.507 ns/op
+# Warmup Iteration   2: 15148.881 ±(99.9%) 1524.293 ns/op
+# Warmup Iteration   3: 12105.834 ±(99.9%) 873.613 ns/op
+# Warmup Iteration   4: 10572.215 ±(99.9%) 667.638 ns/op
+# Warmup Iteration   5: 9123.729 ±(99.9%) 791.362 ns/op
+# Warmup Iteration   6: 8921.195 ±(99.9%) 867.474 ns/op
+# Warmup Iteration   7: 6521.707 ±(99.9%) 654.929 ns/op
+# Warmup Iteration   8: 7725.460 ±(99.9%) 602.748 ns/op
+# Warmup Iteration   9: 5415.253 ±(99.9%) 493.366 ns/op
+# Warmup Iteration  10: 5292.434 ±(99.9%) 486.558 ns/op
+# Warmup Iteration  11: 5512.533 ±(99.9%) 557.508 ns/op
+# Warmup Iteration  12: 5069.651 ±(99.9%) 475.521 ns/op
+# Warmup Iteration  13: 5251.892 ±(99.9%) 496.781 ns/op
+# Warmup Iteration  14: 4784.958 ±(99.9%) 398.574 ns/op
+# Warmup Iteration  15: 4893.351 ±(99.9%) 473.417 ns/op
+# Warmup Iteration  16: 4428.172 ±(99.9%) 368.642 ns/op
+# Warmup Iteration  17: 4735.831 ±(99.9%) 460.507 ns/op
+# Warmup Iteration  18: 4791.716 ±(99.9%) 462.917 ns/op
+# Warmup Iteration  19: 4733.760 ±(99.9%) 425.523 ns/op
+# Warmup Iteration  20: 4543.942 ±(99.9%) 424.564 ns/op
+# Warmup Iteration  21: 4626.514 ±(99.9%) 424.075 ns/op
+# Warmup Iteration  22: 4814.502 ±(99.9%) 411.362 ns/op
+# Warmup Iteration  23: 4644.831 ±(99.9%) 428.094 ns/op
+# Warmup Iteration  24: 5041.218 ±(99.9%) 475.961 ns/op
+# Warmup Iteration  25: 4763.116 ±(99.9%) 474.054 ns/op
+# Warmup Iteration  26: 4599.774 ±(99.9%) 419.417 ns/op
+# Warmup Iteration  27: 4625.222 ±(99.9%) 402.511 ns/op
+# Warmup Iteration  28: 5004.026 ±(99.9%) 487.828 ns/op
+# Warmup Iteration  29: 5032.662 ±(99.9%) 454.928 ns/op
+# Warmup Iteration  30: 13975.597 ±(99.9%) 20398.768 ns/op
+Iteration   1: 3477.980 ±(99.9%) 439.849 ns/op
+                 logback_Log_logback_Style·p0.00:   677.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1017.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2196.000 ns/op
+                 logback_Log_logback_Style·p0.95:   8304.000 ns/op
+                 logback_Log_logback_Style·p0.99:   31376.640 ns/op
+                 logback_Log_logback_Style·p0.999:  174635.008 ns/op
+                 logback_Log_logback_Style·p0.9999: 3351923.917 ns/op
+                 logback_Log_logback_Style·p1.00:   3514368.000 ns/op
+
+Iteration   2: 3341.089 ±(99.9%) 456.521 ns/op
+                 logback_Log_logback_Style·p0.00:   673.000 ns/op
+                 logback_Log_logback_Style·p0.50:   990.000 ns/op
+                 logback_Log_logback_Style·p0.90:   1958.000 ns/op
+                 logback_Log_logback_Style·p0.95:   8136.000 ns/op
+                 logback_Log_logback_Style·p0.99:   33840.640 ns/op
+                 logback_Log_logback_Style·p0.999:  149594.112 ns/op
+                 logback_Log_logback_Style·p0.9999: 3399680.000 ns/op
+                 logback_Log_logback_Style·p1.00:   3477504.000 ns/op
+
+Iteration   3: 3957.116 ±(99.9%) 921.028 ns/op
+                 logback_Log_logback_Style·p0.00:   675.000 ns/op
+                 logback_Log_logback_Style·p0.50:   991.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2060.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7776.000 ns/op
+                 logback_Log_logback_Style·p0.99:   29974.720 ns/op
+                 logback_Log_logback_Style·p0.999:  174426.880 ns/op
+                 logback_Log_logback_Style·p0.9999: 3549070.541 ns/op
+                 logback_Log_logback_Style·p1.00:   14729216.000 ns/op
+
+Iteration   4: 4007.835 ±(99.9%) 575.364 ns/op
+                 logback_Log_logback_Style·p0.00:   664.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1019.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2256.000 ns/op
+                 logback_Log_logback_Style·p0.95:   9664.000 ns/op
+                 logback_Log_logback_Style·p0.99:   50432.000 ns/op
+                 logback_Log_logback_Style·p0.999:  183605.248 ns/op
+                 logback_Log_logback_Style·p0.9999: 3575018.291 ns/op
+                 logback_Log_logback_Style·p1.00:   4308992.000 ns/op
+
+Iteration   5: 2966.708 ±(99.9%) 408.701 ns/op
+                 logback_Log_logback_Style·p0.00:   677.000 ns/op
+                 logback_Log_logback_Style·p0.50:   984.000 ns/op
+                 logback_Log_logback_Style·p0.90:   1822.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7304.000 ns/op
+                 logback_Log_logback_Style·p0.99:   26169.280 ns/op
+                 logback_Log_logback_Style·p0.999:  132608.000 ns/op
+                 logback_Log_logback_Style·p0.9999: 3486342.758 ns/op
+                 logback_Log_logback_Style·p1.00:   3649536.000 ns/op
+
+Iteration   6: 3043.396 ±(99.9%) 441.911 ns/op
+                 logback_Log_logback_Style·p0.00:   673.000 ns/op
+                 logback_Log_logback_Style·p0.50:   982.000 ns/op
+                 logback_Log_logback_Style·p0.90:   1802.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7152.000 ns/op
+                 logback_Log_logback_Style·p0.99:   24208.000 ns/op
+                 logback_Log_logback_Style·p0.999:  134144.000 ns/op
+                 logback_Log_logback_Style·p0.9999: 3559424.000 ns/op
+                 logback_Log_logback_Style·p1.00:   3874816.000 ns/op
+
+Iteration   7: 2880.378 ±(99.9%) 392.465 ns/op
+                 logback_Log_logback_Style·p0.00:   656.000 ns/op
+                 logback_Log_logback_Style·p0.50:   987.000 ns/op
+                 logback_Log_logback_Style·p0.90:   1772.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7040.000 ns/op
+                 logback_Log_logback_Style·p0.99:   23757.120 ns/op
+                 logback_Log_logback_Style·p0.999:  136192.000 ns/op
+                 logback_Log_logback_Style·p0.9999: 3522822.554 ns/op
+                 logback_Log_logback_Style·p1.00:   4059136.000 ns/op
+
+Iteration   8: 3064.773 ±(99.9%) 467.225 ns/op
+                 logback_Log_logback_Style·p0.00:   673.000 ns/op
+                 logback_Log_logback_Style·p0.50:   990.500 ns/op
+                 logback_Log_logback_Style·p0.90:   1732.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7032.000 ns/op
+                 logback_Log_logback_Style·p0.99:   22784.000 ns/op
+                 logback_Log_logback_Style·p0.999:  139616.512 ns/op
+                 logback_Log_logback_Style·p0.9999: 3564084.019 ns/op
+                 logback_Log_logback_Style·p1.00:   4079616.000 ns/op
+
+Iteration   9: 3047.384 ±(99.9%) 431.929 ns/op
+                 logback_Log_logback_Style·p0.00:   677.000 ns/op
+                 logback_Log_logback_Style·p0.50:   990.000 ns/op
+                 logback_Log_logback_Style·p0.90:   1762.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7176.000 ns/op
+                 logback_Log_logback_Style·p0.99:   25821.120 ns/op
+                 logback_Log_logback_Style·p0.999:  137413.888 ns/op
+                 logback_Log_logback_Style·p0.9999: 3497984.000 ns/op
+                 logback_Log_logback_Style·p1.00:   3768320.000 ns/op
+
+Iteration  10: 2999.896 ±(99.9%) 447.558 ns/op
+                 logback_Log_logback_Style·p0.00:   666.000 ns/op
+                 logback_Log_logback_Style·p0.50:   991.000 ns/op
+                 logback_Log_logback_Style·p0.90:   1728.000 ns/op
+                 logback_Log_logback_Style·p0.95:   7032.000 ns/op
+                 logback_Log_logback_Style·p0.99:   23899.840 ns/op
+                 logback_Log_logback_Style·p0.999:  135849.216 ns/op
+                 logback_Log_logback_Style·p0.9999: 3575808.000 ns/op
+                 logback_Log_logback_Style·p1.00:   4063232.000 ns/op
+
+Iteration  11: 2864.123 ±(99.9%) 404.854 ns/op
+                 logback_Log_logback_Style·p0.00:   688.000 ns/op
+                 logback_Log_logback_Style·p0.50:   992.000 ns/op
+                 logback_Log_logback_Style·p0.90:   1712.000 ns/op
+                 logback_Log_logback_Style·p0.95:   6928.000 ns/op
+                 logback_Log_logback_Style·p0.99:   22714.240 ns/op
+                 logback_Log_logback_Style·p0.999:  131220.992 ns/op
+                 logback_Log_logback_Style·p0.9999: 3473408.000 ns/op
+                 logback_Log_logback_Style·p1.00:   3596288.000 ns/op
+
+Iteration  12: 2800.118 ±(99.9%) 412.021 ns/op
+                 logback_Log_logback_Style·p0.00:   677.000 ns/op
+                 logback_Log_logback_Style·p0.50:   987.000 ns/op
+                 logback_Log_logback_Style·p0.90:   1652.000 ns/op
+                 logback_Log_logback_Style·p0.95:   6483.200 ns/op
+                 logback_Log_logback_Style·p0.99:   20924.160 ns/op
+                 logback_Log_logback_Style·p0.999:  130571.264 ns/op
+                 logback_Log_logback_Style·p0.9999: 3546015.334 ns/op
+                 logback_Log_logback_Style·p1.00:   3997696.000 ns/op
+
+Iteration  13: 2878.967 ±(99.9%) 412.335 ns/op
+                 logback_Log_logback_Style·p0.00:   679.000 ns/op
+                 logback_Log_logback_Style·p0.50:   993.000 ns/op
+                 logback_Log_logback_Style·p0.90:   1742.000 ns/op
+                 logback_Log_logback_Style·p0.95:   6944.000 ns/op
+                 logback_Log_logback_Style·p0.99:   22016.000 ns/op
+                 logback_Log_logback_Style·p0.999:  130485.504 ns/op
+                 logback_Log_logback_Style·p0.9999: 3482709.606 ns/op
+                 logback_Log_logback_Style·p1.00:   3645440.000 ns/op
+
+Iteration  14: 3276.158 ±(99.9%) 518.306 ns/op
+                 logback_Log_logback_Style·p0.00:   686.000 ns/op
+                 logback_Log_logback_Style·p0.50:   991.000 ns/op
+                 logback_Log_logback_Style·p0.90:   1748.000 ns/op
+                 logback_Log_logback_Style·p0.95:   6984.000 ns/op
+                 logback_Log_logback_Style·p0.99:   23968.000 ns/op
+                 logback_Log_logback_Style·p0.999:  138240.000 ns/op
+                 logback_Log_logback_Style·p0.9999: 3526595.379 ns/op
+                 logback_Log_logback_Style·p1.00:   3850240.000 ns/op
+
+Iteration  15: 5509.199 ±(99.9%) 510.225 ns/op
+                 logback_Log_logback_Style·p0.00:   678.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1084.000 ns/op
+                 logback_Log_logback_Style·p0.90:   6328.000 ns/op
+                 logback_Log_logback_Style·p0.95:   10400.000 ns/op
+                 logback_Log_logback_Style·p0.99:   78848.000 ns/op
+                 logback_Log_logback_Style·p0.999:  236127.232 ns/op
+                 logback_Log_logback_Style·p0.9999: 3464447.590 ns/op
+                 logback_Log_logback_Style·p1.00:   5775360.000 ns/op
+
+Iteration  16: 13036.458 ±(99.9%) 944.723 ns/op
+                 logback_Log_logback_Style·p0.00:   3420.000 ns/op
+                 logback_Log_logback_Style·p0.50:   4880.000 ns/op
+                 logback_Log_logback_Style·p0.90:   9595.200 ns/op
+                 logback_Log_logback_Style·p0.95:   46016.000 ns/op
+                 logback_Log_logback_Style·p0.99:   158464.000 ns/op
+                 logback_Log_logback_Style·p0.999:  490626.048 ns/op
+                 logback_Log_logback_Style·p0.9999: 5892102.554 ns/op
+                 logback_Log_logback_Style·p1.00:   6594560.000 ns/op
+
+Iteration  17: 13045.461 ±(99.9%) 885.801 ns/op
+                 logback_Log_logback_Style·p0.00:   3416.000 ns/op
+                 logback_Log_logback_Style·p0.50:   4920.000 ns/op
+                 logback_Log_logback_Style·p0.90:   10608.000 ns/op
+                 logback_Log_logback_Style·p0.95:   48128.000 ns/op
+                 logback_Log_logback_Style·p0.99:   148992.000 ns/op
+                 logback_Log_logback_Style·p0.999:  493644.288 ns/op
+                 logback_Log_logback_Style·p0.9999: 5749320.090 ns/op
+                 logback_Log_logback_Style·p1.00:   6389760.000 ns/op
+
+Iteration  18: 13358.707 ±(99.9%) 897.652 ns/op
+                 logback_Log_logback_Style·p0.00:   3424.000 ns/op
+                 logback_Log_logback_Style·p0.50:   4912.000 ns/op
+                 logback_Log_logback_Style·p0.90:   11136.000 ns/op
+                 logback_Log_logback_Style·p0.95:   51334.400 ns/op
+                 logback_Log_logback_Style·p0.99:   160005.120 ns/op
+                 logback_Log_logback_Style·p0.999:  493160.448 ns/op
+                 logback_Log_logback_Style·p0.9999: 5788550.758 ns/op
+                 logback_Log_logback_Style·p1.00:   6004736.000 ns/op
+
+Iteration  19: 12874.405 ±(99.9%) 1018.170 ns/op
+                 logback_Log_logback_Style·p0.00:   3412.000 ns/op
+                 logback_Log_logback_Style·p0.50:   4888.000 ns/op
+                 logback_Log_logback_Style·p0.90:   9552.000 ns/op
+                 logback_Log_logback_Style·p0.95:   45440.000 ns/op
+                 logback_Log_logback_Style·p0.99:   151808.000 ns/op
+                 logback_Log_logback_Style·p0.999:  492172.288 ns/op
+                 logback_Log_logback_Style·p0.9999: 5906813.747 ns/op
+                 logback_Log_logback_Style·p1.00:   9289728.000 ns/op
+
+Iteration  20: 13361.891 ±(99.9%) 838.316 ns/op
+                 logback_Log_logback_Style·p0.00:   3432.000 ns/op
+                 logback_Log_logback_Style·p0.50:   5024.000 ns/op
+                 logback_Log_logback_Style·p0.90:   11088.000 ns/op
+                 logback_Log_logback_Style·p0.95:   51904.000 ns/op
+                 logback_Log_logback_Style·p0.99:   142592.000 ns/op
+                 logback_Log_logback_Style·p0.999:  485432.320 ns/op
+                 logback_Log_logback_Style·p0.9999: 5680603.136 ns/op
+                 logback_Log_logback_Style·p1.00:   5881856.000 ns/op
+
+Iteration  21: 12964.244 ±(99.9%) 930.695 ns/op
+                 logback_Log_logback_Style·p0.00:   3060.000 ns/op
+                 logback_Log_logback_Style·p0.50:   4848.000 ns/op
+                 logback_Log_logback_Style·p0.90:   9920.000 ns/op
+                 logback_Log_logback_Style·p0.95:   48512.000 ns/op
+                 logback_Log_logback_Style·p0.99:   150443.520 ns/op
+                 logback_Log_logback_Style·p0.999:  496111.104 ns/op
+                 logback_Log_logback_Style·p0.9999: 5711381.299 ns/op
+                 logback_Log_logback_Style·p1.00:   9584640.000 ns/op
+
+Iteration  22: 11116.010 ±(99.9%) 1039.348 ns/op
+                 logback_Log_logback_Style·p0.00:   2504.000 ns/op
+                 logback_Log_logback_Style·p0.50:   4168.000 ns/op
+                 logback_Log_logback_Style·p0.90:   8448.000 ns/op
+                 logback_Log_logback_Style·p0.95:   41344.000 ns/op
+                 logback_Log_logback_Style·p0.99:   111900.160 ns/op
+                 logback_Log_logback_Style·p0.999:  397835.264 ns/op
+                 logback_Log_logback_Style·p0.9999: 5126589.645 ns/op
+                 logback_Log_logback_Style·p1.00:   14008320.000 ns/op
+
+Iteration  23: 10037.150 ±(99.9%) 910.481 ns/op
+                 logback_Log_logback_Style·p0.00:   2136.000 ns/op
+                 logback_Log_logback_Style·p0.50:   3276.000 ns/op
+                 logback_Log_logback_Style·p0.90:   8096.800 ns/op
+                 logback_Log_logback_Style·p0.95:   34560.000 ns/op
+                 logback_Log_logback_Style·p0.99:   114778.880 ns/op
+                 logback_Log_logback_Style·p0.999:  361917.952 ns/op
+                 logback_Log_logback_Style·p0.9999: 4803683.123 ns/op
+                 logback_Log_logback_Style·p1.00:   4915200.000 ns/op
+
+Iteration  24: 8377.443 ±(99.9%) 784.874 ns/op
+                 logback_Log_logback_Style·p0.00:   1866.000 ns/op
+                 logback_Log_logback_Style·p0.50:   2900.000 ns/op
+                 logback_Log_logback_Style·p0.90:   6368.000 ns/op
+                 logback_Log_logback_Style·p0.95:   27808.000 ns/op
+                 logback_Log_logback_Style·p0.99:   98667.520 ns/op
+                 logback_Log_logback_Style·p0.999:  310743.040 ns/op
+                 logback_Log_logback_Style·p0.9999: 4623433.728 ns/op
+                 logback_Log_logback_Style·p1.00:   5857280.000 ns/op
+
+Iteration  25: 7399.680 ±(99.9%) 704.379 ns/op
+                 logback_Log_logback_Style·p0.00:   1740.000 ns/op
+                 logback_Log_logback_Style·p0.50:   2584.000 ns/op
+                 logback_Log_logback_Style·p0.90:   5688.000 ns/op
+                 logback_Log_logback_Style·p0.95:   24329.600 ns/op
+                 logback_Log_logback_Style·p0.99:   82772.480 ns/op
+                 logback_Log_logback_Style·p0.999:  285883.392 ns/op
+                 logback_Log_logback_Style·p0.9999: 4680169.882 ns/op
+                 logback_Log_logback_Style·p1.00:   5341184.000 ns/op
+
+
+# Run progress: 80.00% complete, ETA 00:00:57
+# Fork: 5 of 5
+# Warmup Iteration   1: 15681.053 ±(99.9%) 1365.303 ns/op
+# Warmup Iteration   2: 7365.337 ±(99.9%) 883.453 ns/op
+# Warmup Iteration   3: 6237.407 ±(99.9%) 658.726 ns/op
+# Warmup Iteration   4: 6631.564 ±(99.9%) 611.069 ns/op
+# Warmup Iteration   5: 5520.030 ±(99.9%) 615.717 ns/op
+# Warmup Iteration   6: 5530.110 ±(99.9%) 850.967 ns/op
+# Warmup Iteration   7: 5369.517 ±(99.9%) 522.453 ns/op
+# Warmup Iteration   8: 4639.571 ±(99.9%) 433.091 ns/op
+# Warmup Iteration   9: 5001.399 ±(99.9%) 535.049 ns/op
+# Warmup Iteration  10: 4504.509 ±(99.9%) 321.867 ns/op
+# Warmup Iteration  11: 4558.419 ±(99.9%) 364.650 ns/op
+# Warmup Iteration  12: 4616.069 ±(99.9%) 416.811 ns/op
+# Warmup Iteration  13: 4397.681 ±(99.9%) 411.266 ns/op
+# Warmup Iteration  14: 4538.054 ±(99.9%) 441.969 ns/op
+# Warmup Iteration  15: 4407.039 ±(99.9%) 358.143 ns/op
+# Warmup Iteration  16: 4860.584 ±(99.9%) 501.097 ns/op
+# Warmup Iteration  17: 4745.812 ±(99.9%) 472.111 ns/op
+# Warmup Iteration  18: 4898.478 ±(99.9%) 533.595 ns/op
+# Warmup Iteration  19: 4636.775 ±(99.9%) 407.326 ns/op
+# Warmup Iteration  20: 4521.957 ±(99.9%) 437.227 ns/op
+# Warmup Iteration  21: 4568.271 ±(99.9%) 408.166 ns/op
+# Warmup Iteration  22: 4472.471 ±(99.9%) 392.591 ns/op
+# Warmup Iteration  23: 4471.755 ±(99.9%) 392.803 ns/op
+# Warmup Iteration  24: 4548.450 ±(99.9%) 423.474 ns/op
+# Warmup Iteration  25: 4663.118 ±(99.9%) 461.434 ns/op
+# Warmup Iteration  26: 5303.814 ±(99.9%) 482.897 ns/op
+# Warmup Iteration  27: 22518.078 ±(99.9%) 40705.619 ns/op
+# Warmup Iteration  28: 3685.236 ±(99.9%) 505.251 ns/op
+# Warmup Iteration  29: 3258.376 ±(99.9%) 481.313 ns/op
+# Warmup Iteration  30: 3217.790 ±(99.9%) 483.905 ns/op
+Iteration   1: 3249.862 ±(99.9%) 504.762 ns/op
+                 logback_Log_logback_Style·p0.00:   657.000 ns/op
+                 logback_Log_logback_Style·p0.50:   992.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2572.000 ns/op
+                 logback_Log_logback_Style·p0.95:   8576.000 ns/op
+                 logback_Log_logback_Style·p0.99:   22336.000 ns/op
+                 logback_Log_logback_Style·p0.999:  130783.744 ns/op
+                 logback_Log_logback_Style·p0.9999: 3480471.142 ns/op
+                 logback_Log_logback_Style·p1.00:   3657728.000 ns/op
+
+Iteration   2: 4134.146 ±(99.9%) 910.281 ns/op
+                 logback_Log_logback_Style·p0.00:   651.000 ns/op
+                 logback_Log_logback_Style·p0.50:   994.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2776.000 ns/op
+                 logback_Log_logback_Style·p0.95:   9040.000 ns/op
+                 logback_Log_logback_Style·p0.99:   39988.480 ns/op
+                 logback_Log_logback_Style·p0.999:  192011.776 ns/op
+                 logback_Log_logback_Style·p0.9999: 3616994.099 ns/op
+                 logback_Log_logback_Style·p1.00:   14843904.000 ns/op
+
+Iteration   3: 3361.814 ±(99.9%) 485.270 ns/op
+                 logback_Log_logback_Style·p0.00:   666.000 ns/op
+                 logback_Log_logback_Style·p0.50:   994.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2763.200 ns/op
+                 logback_Log_logback_Style·p0.95:   8880.000 ns/op
+                 logback_Log_logback_Style·p0.99:   27362.560 ns/op
+                 logback_Log_logback_Style·p0.999:  140110.848 ns/op
+                 logback_Log_logback_Style·p0.9999: 3483995.341 ns/op
+                 logback_Log_logback_Style·p1.00:   3895296.000 ns/op
+
+Iteration   4: 3389.510 ±(99.9%) 487.866 ns/op
+                 logback_Log_logback_Style·p0.00:   673.000 ns/op
+                 logback_Log_logback_Style·p0.50:   991.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2716.000 ns/op
+                 logback_Log_logback_Style·p0.95:   9632.000 ns/op
+                 logback_Log_logback_Style·p0.99:   28023.040 ns/op
+                 logback_Log_logback_Style·p0.999:  144779.264 ns/op
+                 logback_Log_logback_Style·p0.9999: 3461398.528 ns/op
+                 logback_Log_logback_Style·p1.00:   3604480.000 ns/op
+
+Iteration   5: 3337.453 ±(99.9%) 467.022 ns/op
+                 logback_Log_logback_Style·p0.00:   668.000 ns/op
+                 logback_Log_logback_Style·p0.50:   995.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2896.000 ns/op
+                 logback_Log_logback_Style·p0.95:   9280.000 ns/op
+                 logback_Log_logback_Style·p0.99:   29696.000 ns/op
+                 logback_Log_logback_Style·p0.999:  147712.000 ns/op
+                 logback_Log_logback_Style·p0.9999: 3406510.080 ns/op
+                 logback_Log_logback_Style·p1.00:   4587520.000 ns/op
+
+Iteration   6: 3211.153 ±(99.9%) 470.570 ns/op
+                 logback_Log_logback_Style·p0.00:   675.000 ns/op
+                 logback_Log_logback_Style·p0.50:   998.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2688.400 ns/op
+                 logback_Log_logback_Style·p0.95:   9024.000 ns/op
+                 logback_Log_logback_Style·p0.99:   24352.000 ns/op
+                 logback_Log_logback_Style·p0.999:  127162.240 ns/op
+                 logback_Log_logback_Style·p0.9999: 3407872.000 ns/op
+                 logback_Log_logback_Style·p1.00:   3919872.000 ns/op
+
+Iteration   7: 3195.874 ±(99.9%) 463.358 ns/op
+                 logback_Log_logback_Style·p0.00:   673.000 ns/op
+                 logback_Log_logback_Style·p0.50:   998.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2664.000 ns/op
+                 logback_Log_logback_Style·p0.95:   8576.000 ns/op
+                 logback_Log_logback_Style·p0.99:   24136.000 ns/op
+                 logback_Log_logback_Style·p0.999:  127772.800 ns/op
+                 logback_Log_logback_Style·p0.9999: 3472609.280 ns/op
+                 logback_Log_logback_Style·p1.00:   3911680.000 ns/op
+
+Iteration   8: 3216.245 ±(99.9%) 489.974 ns/op
+                 logback_Log_logback_Style·p0.00:   677.000 ns/op
+                 logback_Log_logback_Style·p0.50:   997.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2496.000 ns/op
+                 logback_Log_logback_Style·p0.95:   8352.000 ns/op
+                 logback_Log_logback_Style·p0.99:   22560.000 ns/op
+                 logback_Log_logback_Style·p0.999:  128382.464 ns/op
+                 logback_Log_logback_Style·p0.9999: 3466844.570 ns/op
+                 logback_Log_logback_Style·p1.00:   3903488.000 ns/op
+
+Iteration   9: 3102.866 ±(99.9%) 467.997 ns/op
+                 logback_Log_logback_Style·p0.00:   659.000 ns/op
+                 logback_Log_logback_Style·p0.50:   998.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2532.000 ns/op
+                 logback_Log_logback_Style·p0.95:   8288.000 ns/op
+                 logback_Log_logback_Style·p0.99:   22272.000 ns/op
+                 logback_Log_logback_Style·p0.999:  119710.464 ns/op
+                 logback_Log_logback_Style·p0.9999: 3466132.685 ns/op
+                 logback_Log_logback_Style·p1.00:   3870720.000 ns/op
+
+Iteration  10: 2721.116 ±(99.9%) 268.793 ns/op
+                 logback_Log_logback_Style·p0.00:   680.000 ns/op
+                 logback_Log_logback_Style·p0.50:   994.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2592.000 ns/op
+                 logback_Log_logback_Style·p0.95:   8544.000 ns/op
+                 logback_Log_logback_Style·p0.99:   23136.000 ns/op
+                 logback_Log_logback_Style·p0.999:  124160.000 ns/op
+                 logback_Log_logback_Style·p0.9999: 971394.560 ns/op
+                 logback_Log_logback_Style·p1.00:   3506176.000 ns/op
+
+Iteration  11: 3297.335 ±(99.9%) 504.682 ns/op
+                 logback_Log_logback_Style·p0.00:   680.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1003.000 ns/op
+                 logback_Log_logback_Style·p0.90:   2492.000 ns/op
+                 logback_Log_logback_Style·p0.95:   8528.000 ns/op
+                 logback_Log_logback_Style·p0.99:   24307.840 ns/op
+                 logback_Log_logback_Style·p0.999:  130135.168 ns/op
+                 logback_Log_logback_Style·p0.9999: 3454584.013 ns/op
+                 logback_Log_logback_Style·p1.00:   3891200.000 ns/op
+
+Iteration  12: 5316.583 ±(99.9%) 501.600 ns/op
+                 logback_Log_logback_Style·p0.00:   656.000 ns/op
+                 logback_Log_logback_Style·p0.50:   1120.000 ns/op
+                 logback_Log_logback_Style·p0.90:   6544.000 ns/op
+                 logback_Log_logback_Style·p0.95:   11088.000 ns/op
+                 logback_Log_logback_Style·p0.99:   73856.000 ns/op
+                 logback_Log_logback_Style·p0.999:  182150.400 ns/op
+                 logback_Log_logback_Style·p0.9999: 3457259.520 ns/op
+                 logback_Log_logback_Style·p1.00:   5750784.000 ns/op
+
+Iteration  13: 14004.738 ±(99.9%) 900.842 ns/op
+                 logback_Log_logback_Style·p0.00:   3332.000 ns/op
+                 logback_Log_logback_Style·p0.50:   4872.000 ns/op
+                 logback_Log_logback_Style·p0.90:   14672.000 ns/op
+                 logback_Log_logback_Style·p0.95:   59264.000 ns/op
+                 logback_Log_logback_Style·p0.99:   160985.600 ns/op
+                 logback_Log_logback_Style·p0.999:  467893.760 ns/op
+                 logback_Log_logback_Style·p0.9999: 5613625.344 ns/op
+                 logback_Log_logback_Style·p1.00:   5832704.000 ns/op
+
+Iteration  14: 13813.492 ±(99.9%) 887.463 ns/op
+                 logback_Log_logback_Style·p0.00:   3328.000 ns/op
+                 logback_Log_logback_Style·p0.50:   4848.000 ns/op
+                 logback_Log_logback_Style·p0.90:   14432.000 ns/op
+                 logback_Log_logback_Style·p0.95:   58304.000 ns/op
+                 logback_Log_logback_Style·p0.99:   154839.040 ns/op
+                 logback_Log_logback_Style·p0.999:  470016.000 ns/op
+                 logback_Log_logback_Style·p0.9999: 5571257.958 ns/op
+                 logback_Log_logback_Style·p1.00:   6021120.000 ns/op
+
+Iteration  15: 14481.108 ±(99.9%) 1176.451 ns/op
+                 logback_Log_logback_Style·p0.00:   3308.000 ns/op
+                 logback_Log_logback_Style·p0.50:   4888.000 ns/op
+                 logback_Log_logback_Style·p0.90:   15008.000 ns/op
+                 logback_Log_logback_Style·p0.95:   59008.000 ns/op
+                 logback_Log_logback_Style·p0.99:   157696.000 ns/op
+                 logback_Log_logback_Style·p0.999:  493683.712 ns/op
+                 logback_Log_logback_Style·p0.9999: 6232711.987 ns/op
+                 logback_Log_logback_Style·p1.00:   9650176.000 ns/op
+
+Iteration  16: 13371.179 ±(99.9%) 861.131 ns/op
+                 logback_Log_logback_Style·p0.00:   3360.000 ns/op
+                 logback_Log_logback_Style·p0.50:   4864.000 ns/op
+                 logback_Log_logback_Style·p0.90:   14672.000 ns/op
+                 logback_Log_logback_Style·p0.95:   55488.000 ns/op
+                 logback_Log_logback_Style·p0.99:   144048.640 ns/op
+                 logback_Log_logback_Style·p0.999:  451363.328 ns/op
+                 logback_Log_logback_Style·p0.9999: 5537792.000 ns/op
+                 logback_Log_logback_Style·p1.00:   7421952.000 ns/op
+
+Iteration  17: 13196.460 ±(99.9%) 878.244 ns/op
+                 logback_Log_logback_Style·p0.00:   3372.000 ns/op
+                 logback_Log_logback_Style·p0.50:   4832.000 ns/op
+                 logback_Log_logback_Style·p0.90:   13808.000 ns/op
+                 logback_Log_logback_Style·p0.95:   55552.000 ns/op
+                 logback_Log_logback_Style·p0.99:   146357.760 ns/op
+                 logback_Log_logback_Style·p0.999:  462167.552 ns/op
+                 logback_Log_logback_Style·p0.9999: 5439218.483 ns/op
+                 logback_Log_logback_Style·p1.00:   14041088.000 ns/op
+
+Iteration  18: 13769.565 ±(99.9%) 949.564 ns/op
+                 logback_Log_logback_Style·p0.00:   3380.000 ns/op
+                 logback_Log_logback_Style·p0.50:   4856.000 ns/op
+                 logback_Log_logback_Style·p0.90:   14931.200 ns/op
+                 logback_Log_logback_Style·p0.95:   59136.000 ns/op
+                 logback_Log_logback_Style·p0.99:   162560.000 ns/op
+                 logback_Log_logback_Style·p0.999:  452548.608 ns/op
+                 logback_Log_logback_Style·p0.9999: 5626761.216 ns/op
+                 logback_Log_logback_Style·p1.00:   15368192.000 ns/op
+
+Iteration  19: 13395.109 ±(99.9%) 787.170 ns/op
+                 logback_Log_logback_Style·p0.00:   3348.000 ns/op
+                 logback_Log_logback_Style·p0.50:   4864.000 ns/op
+                 logback_Log_logback_Style·p0.90:   13024.000 ns/op
+                 logback_Log_logback_Style·p0.95:   56768.000 ns/op
+                 logback_Log_logback_Style·p0.99:   152128.000 ns/op
+                 logback_Log_logback_Style·p0.999:  460761.600 ns/op
+                 logback_Log_logback_Style·p0.9999: 5466091.520 ns/op
+                 logback_Log_logback_Style·p1.00:   5660672.000 ns/op
+
+Iteration  20: 14335.539 ±(99.9%) 1466.295 ns/op
+                 logback_Log_logback_Style·p0.00:   3380.000 ns/op
+                 logback_Log_logback_Style·p0.50:   4848.000 ns/op
+                 logback_Log_logback_Style·p0.90:   15040.000 ns/op
+                 logback_Log_logback_Style·p0.95:   59328.000 ns/op
+                 logback_Log_logback_Style·p0.99:   158720.000 ns/op
+                 logback_Log_logback_Style·p0.999:  462467.584 ns/op
+                 logback_Log_logback_Style·p0.9999: 5734024.806 ns/op
+                 logback_Log_logback_Style·p1.00:   22249472.000 ns/op
+
+Iteration  21: 12223.738 ±(99.9%) 735.421 ns/op
+                 logback_Log_logback_Style·p0.00:   3032.000 ns/op
+                 logback_Log_logback_Style·p0.50:   4512.000 ns/op
+                 logback_Log_logback_Style·p0.90:   12944.000 ns/op
+                 logback_Log_logback_Style·p0.95:   50944.000 ns/op
+                 logback_Log_logback_Style·p0.99:   129209.600 ns/op
+                 logback_Log_logback_Style·p0.999:  421888.000 ns/op
+                 logback_Log_logback_Style·p0.9999: 5160124.416 ns/op
+                 logback_Log_logback_Style·p1.00:   6488064.000 ns/op
+
+Iteration  22: 11100.617 ±(99.9%) 562.925 ns/op
+                 logback_Log_logback_Style·p0.00:   2988.000 ns/op
+                 logback_Log_logback_Style·p0.50:   4344.000 ns/op
+                 logback_Log_logback_Style·p0.90:   12112.000 ns/op
+                 logback_Log_logback_Style·p0.95:   45568.000 ns/op
+                 logback_Log_logback_Style·p0.99:   119552.000 ns/op
+                 logback_Log_logback_Style·p0.999:  399083.520 ns/op
+                 logback_Log_logback_Style·p0.9999: 595886.080 ns/op
+                 logback_Log_logback_Style·p1.00:   5300224.000 ns/op
+
+Iteration  23: 10247.134 ±(99.9%) 1103.224 ns/op
+                 logback_Log_logback_Style·p0.00:   2448.000 ns/op
+                 logback_Log_logback_Style·p0.50:   3860.000 ns/op
+                 logback_Log_logback_Style·p0.90:   10048.000 ns/op
+                 logback_Log_logback_Style·p0.95:   36544.000 ns/op
+                 logback_Log_logback_Style·p0.99:   102016.000 ns/op
+                 logback_Log_logback_Style·p0.999:  353173.504 ns/op
+                 logback_Log_logback_Style·p0.9999: 5048972.902 ns/op
+                 logback_Log_logback_Style·p1.00:   19070976.000 ns/op
+
+Iteration  24: 8400.114 ±(99.9%) 434.234 ns/op
+                 logback_Log_logback_Style·p0.00:   2084.000 ns/op
+                 logback_Log_logback_Style·p0.50:   3420.000 ns/op
+                 logback_Log_logback_Style·p0.90:   9728.000 ns/op
+                 logback_Log_logback_Style·p0.95:   27456.000 ns/op
+                 logback_Log_logback_Style·p0.99:   83566.080 ns/op
+                 logback_Log_logback_Style·p0.999:  314053.632 ns/op
+                 logback_Log_logback_Style·p0.9999: 477673.114 ns/op
+                 logback_Log_logback_Style·p1.00:   5423104.000 ns/op
+
+Iteration  25: 8502.089 ±(99.9%) 752.702 ns/op
+                 logback_Log_logback_Style·p0.00:   1956.000 ns/op
+                 logback_Log_logback_Style·p0.50:   2916.000 ns/op
+                 logback_Log_logback_Style·p0.90:   8848.000 ns/op
+                 logback_Log_logback_Style·p0.95:   30640.000 ns/op
+                 logback_Log_logback_Style·p0.99:   98048.000 ns/op
+                 logback_Log_logback_Style·p0.999:  298531.840 ns/op
+                 logback_Log_logback_Style·p0.9999: 4532043.776 ns/op
+                 logback_Log_logback_Style·p1.00:   5701632.000 ns/op
+
+
+
+Result "me.justpitch.loggingbenchmarks.LoggingBenchmark.logback_Log_logback_Style":
+  N = 14585933
+  mean =   5507.546 ±(99.9%) 258.971 ns/op
+
+  Histogram, ns/op:
+    [         0.000,  100000000.000) = 14585931 
+    [ 100000000.000,  200000000.000) = 0 
+    [ 200000000.000,  300000000.000) = 0 
+    [ 300000000.000,  400000000.000) = 0 
+    [ 400000000.000,  500000000.000) = 0 
+    [ 500000000.000,  600000000.000) = 0 
+    [ 600000000.000,  700000000.000) = 1 
+    [ 700000000.000,  800000000.000) = 0 
+    [ 800000000.000,  900000000.000) = 0 
+
+  Percentiles, ns/op:
+      p(0.0000) =    630.000 ns/op
+     p(50.0000) =   1380.000 ns/op
+     p(90.0000) =   6056.000 ns/op
+     p(95.0000) =  12256.000 ns/op
+     p(99.0000) =  76928.000 ns/op
+     p(99.9000) = 276480.000 ns/op
+     p(99.9900) = 3522560.000 ns/op
+     p(99.9990) = 5857280.000 ns/op
+     p(99.9999) = 14441217.720 ns/op
+    p(100.0000) = 912261120.000 ns/op
+
+
+# Run complete. Total time: 00:04:48
+
+Benchmark                                                                       Mode       Cnt          Score     Error  Units
+LoggingBenchmark.logback_Log_logback_Style                                    sample  14585933       5507.546 ± 258.971  ns/op
+LoggingBenchmark.logback_Log_logback_Style:logback_Log_logback_Style·p0.00    sample                  630.000            ns/op
+LoggingBenchmark.logback_Log_logback_Style:logback_Log_logback_Style·p0.50    sample                 1380.000            ns/op
+LoggingBenchmark.logback_Log_logback_Style:logback_Log_logback_Style·p0.90    sample                 6056.000            ns/op
+LoggingBenchmark.logback_Log_logback_Style:logback_Log_logback_Style·p0.95    sample                12256.000            ns/op
+LoggingBenchmark.logback_Log_logback_Style:logback_Log_logback_Style·p0.99    sample                76928.000            ns/op
+LoggingBenchmark.logback_Log_logback_Style:logback_Log_logback_Style·p0.999   sample               276480.000            ns/op
+LoggingBenchmark.logback_Log_logback_Style:logback_Log_logback_Style·p0.9999  sample              3522560.000            ns/op
+LoggingBenchmark.logback_Log_logback_Style:logback_Log_logback_Style·p1.00    sample            912261120.000            ns/op
+
+Benchmark result is saved to results/logback_logback-fmt.csv

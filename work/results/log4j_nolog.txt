@@ -1,0 +1,1469 @@
+# JMH 1.17.5 (released 242 days ago, please consider updating!)
+# VM version: JDK 1.8.0_101, VM 25.101-b13
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/bin/java
+# VM options: <none>
+# Warmup: 30 iterations, 1 s each
+# Measurement: 25 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: me.justpitch.loggingbenchmarks.LoggingBenchmark.log4j___Log_nolog___Style
+
+# Run progress: 0.00% complete, ETA 00:04:35
+# Fork: 1 of 5
+# Warmup Iteration   1: 84.958 ±(99.9%) 2.553 ns/op
+# Warmup Iteration   2: 87.784 ±(99.9%) 6.194 ns/op
+# Warmup Iteration   3: 71.766 ±(99.9%) 6.205 ns/op
+# Warmup Iteration   4: 69.632 ±(99.9%) 0.629 ns/op
+# Warmup Iteration   5: 69.389 ±(99.9%) 0.400 ns/op
+# Warmup Iteration   6: 69.970 ±(99.9%) 0.932 ns/op
+# Warmup Iteration   7: 69.622 ±(99.9%) 0.639 ns/op
+# Warmup Iteration   8: 69.558 ±(99.9%) 0.468 ns/op
+# Warmup Iteration   9: 106.549 ±(99.9%) 19.166 ns/op
+# Warmup Iteration  10: 368.571 ±(99.9%) 3.735 ns/op
+# Warmup Iteration  11: 366.167 ±(99.9%) 4.706 ns/op
+# Warmup Iteration  12: 369.118 ±(99.9%) 10.930 ns/op
+# Warmup Iteration  13: 359.041 ±(99.9%) 2.319 ns/op
+# Warmup Iteration  14: 367.173 ±(99.9%) 4.917 ns/op
+# Warmup Iteration  15: 356.506 ±(99.9%) 4.847 ns/op
+# Warmup Iteration  16: 317.163 ±(99.9%) 12.279 ns/op
+# Warmup Iteration  17: 266.099 ±(99.9%) 36.261 ns/op
+# Warmup Iteration  18: 209.846 ±(99.9%) 2.292 ns/op
+# Warmup Iteration  19: 194.748 ±(99.9%) 2.313 ns/op
+# Warmup Iteration  20: 182.996 ±(99.9%) 2.032 ns/op
+# Warmup Iteration  21: 171.388 ±(99.9%) 2.359 ns/op
+# Warmup Iteration  22: 195.475 ±(99.9%) 86.430 ns/op
+# Warmup Iteration  23: 159.394 ±(99.9%) 2.513 ns/op
+# Warmup Iteration  24: 153.713 ±(99.9%) 1.188 ns/op
+# Warmup Iteration  25: 149.982 ±(99.9%) 1.175 ns/op
+# Warmup Iteration  26: 142.537 ±(99.9%) 1.073 ns/op
+# Warmup Iteration  27: 141.946 ±(99.9%) 1.521 ns/op
+# Warmup Iteration  28: 137.292 ±(99.9%) 0.731 ns/op
+# Warmup Iteration  29: 133.698 ±(99.9%) 0.549 ns/op
+# Warmup Iteration  30: 133.904 ±(99.9%) 0.595 ns/op
+Iteration   1: 134.226 ±(99.9%) 0.791 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   136.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   148.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   311.250 ns/op
+                 log4j___Log_nolog___Style·p0.999:  623.125 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 3191.050 ns/op
+                 log4j___Log_nolog___Style·p1.00:   11520.000 ns/op
+
+Iteration   2: 134.283 ±(99.9%) 1.033 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   137.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   151.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   279.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  578.288 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 3141.178 ns/op
+                 log4j___Log_nolog___Style·p1.00:   18048.000 ns/op
+
+Iteration   3: 134.539 ±(99.9%) 0.803 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   137.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   150.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   330.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  643.677 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 3575.287 ns/op
+                 log4j___Log_nolog___Style·p1.00:   10336.000 ns/op
+
+Iteration   4: 134.560 ±(99.9%) 1.121 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   137.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   151.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   334.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  642.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 7681.032 ns/op
+                 log4j___Log_nolog___Style·p1.00:   13696.000 ns/op
+
+Iteration   5: 134.996 ±(99.9%) 1.367 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   137.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   150.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   310.380 ns/op
+                 log4j___Log_nolog___Style·p0.999:  614.838 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 6254.733 ns/op
+                 log4j___Log_nolog___Style·p1.00:   25760.000 ns/op
+
+Iteration   6: 134.027 ±(99.9%) 0.944 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   137.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   147.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   317.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  626.680 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 4269.760 ns/op
+                 log4j___Log_nolog___Style·p1.00:   15792.000 ns/op
+
+Iteration   7: 134.510 ±(99.9%) 1.151 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   136.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   149.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   293.360 ns/op
+                 log4j___Log_nolog___Style·p0.999:  613.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 8256.218 ns/op
+                 log4j___Log_nolog___Style·p1.00:   12896.000 ns/op
+
+Iteration   8: 134.631 ±(99.9%) 1.039 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   136.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   147.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   313.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  631.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 7360.580 ns/op
+                 log4j___Log_nolog___Style·p1.00:   14288.000 ns/op
+
+Iteration   9: 135.701 ±(99.9%) 1.800 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   136.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   148.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   325.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  651.961 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 8011.895 ns/op
+                 log4j___Log_nolog___Style·p1.00:   48896.000 ns/op
+
+Iteration  10: 135.508 ±(99.9%) 1.792 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   136.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   149.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   312.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  616.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 10411.920 ns/op
+                 log4j___Log_nolog___Style·p1.00:   23008.000 ns/op
+
+Iteration  11: 135.189 ±(99.9%) 1.332 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   137.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   150.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   337.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  636.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 7248.080 ns/op
+                 log4j___Log_nolog___Style·p1.00:   21792.000 ns/op
+
+Iteration  12: 134.403 ±(99.9%) 0.860 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   138.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   152.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   321.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  627.333 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2468.798 ns/op
+                 log4j___Log_nolog___Style·p1.00:   20736.000 ns/op
+
+Iteration  13: 134.736 ±(99.9%) 1.426 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   137.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   150.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   325.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  631.481 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2853.271 ns/op
+                 log4j___Log_nolog___Style·p1.00:   41600.000 ns/op
+
+Iteration  14: 133.803 ±(99.9%) 0.738 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   136.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   147.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   308.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  613.936 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2848.550 ns/op
+                 log4j___Log_nolog___Style·p1.00:   17248.000 ns/op
+
+Iteration  15: 137.284 ±(99.9%) 6.464 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   138.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   151.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   324.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  1099.380 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 3015.570 ns/op
+                 log4j___Log_nolog___Style·p1.00:   234240.000 ns/op
+
+Iteration  16: 134.369 ±(99.9%) 1.542 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   138.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   149.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   246.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  546.974 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 9279.584 ns/op
+                 log4j___Log_nolog___Style·p1.00:   20992.000 ns/op
+
+Iteration  17: 135.162 ±(99.9%) 2.074 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   137.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   145.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   311.090 ns/op
+                 log4j___Log_nolog___Style·p0.999:  625.209 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 10622.734 ns/op
+                 log4j___Log_nolog___Style·p1.00:   32320.000 ns/op
+
+Iteration  18: 90.557 ±(99.9%) 5.165 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   69.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   121.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   129.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   433.790 ns/op
+                 log4j___Log_nolog___Style·p0.999:  2626.152 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 15513.466 ns/op
+                 log4j___Log_nolog___Style·p1.00:   93056.000 ns/op
+
+Iteration  19: 144.088 ±(99.9%) 31.394 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   69.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   78.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   87.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   751.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  11310.128 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 69171.520 ns/op
+                 log4j___Log_nolog___Style·p1.00:   861184.000 ns/op
+
+Iteration  20: 77.980 ±(99.9%) 2.937 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   68.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   73.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   79.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   363.510 ns/op
+                 log4j___Log_nolog___Style·p0.999:  832.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 8499.039 ns/op
+                 log4j___Log_nolog___Style·p1.00:   70656.000 ns/op
+
+Iteration  21: 72.732 ±(99.9%) 1.986 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   68.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   72.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   104.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  394.888 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 6982.656 ns/op
+                 log4j___Log_nolog___Style·p1.00:   39296.000 ns/op
+
+Iteration  22: 81.799 ±(99.9%) 11.809 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   68.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   72.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   77.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   114.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  1028.720 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 13999.248 ns/op
+                 log4j___Log_nolog___Style·p1.00:   302080.000 ns/op
+
+Iteration  23: 77.998 ±(99.9%) 8.005 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   68.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   72.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   100.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  890.682 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 14460.259 ns/op
+                 log4j___Log_nolog___Style·p1.00:   273408.000 ns/op
+
+Iteration  24: 71.556 ±(99.9%) 1.453 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   68.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   71.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   74.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   95.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  352.794 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 6001.882 ns/op
+                 log4j___Log_nolog___Style·p1.00:   37440.000 ns/op
+
+Iteration  25: 69.828 ±(99.9%) 0.527 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   68.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   72.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   76.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   95.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  319.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2232.512 ns/op
+                 log4j___Log_nolog___Style·p1.00:   9104.000 ns/op
+
+
+# Run progress: 20.00% complete, ETA 00:03:56
+# Fork: 2 of 5
+# Warmup Iteration   1: 90.212 ±(99.9%) 2.432 ns/op
+# Warmup Iteration   2: 101.188 ±(99.9%) 28.733 ns/op
+# Warmup Iteration   3: 75.956 ±(99.9%) 5.758 ns/op
+# Warmup Iteration   4: 71.229 ±(99.9%) 1.846 ns/op
+# Warmup Iteration   5: 70.763 ±(99.9%) 0.486 ns/op
+# Warmup Iteration   6: 70.483 ±(99.9%) 0.333 ns/op
+# Warmup Iteration   7: 90.178 ±(99.9%) 0.872 ns/op
+# Warmup Iteration   8: 374.459 ±(99.9%) 7.376 ns/op
+# Warmup Iteration   9: 371.130 ±(99.9%) 4.352 ns/op
+# Warmup Iteration  10: 361.176 ±(99.9%) 4.898 ns/op
+# Warmup Iteration  11: 372.524 ±(99.9%) 11.877 ns/op
+# Warmup Iteration  12: 367.142 ±(99.9%) 3.647 ns/op
+# Warmup Iteration  13: 367.815 ±(99.9%) 5.125 ns/op
+# Warmup Iteration  14: 431.616 ±(99.9%) 144.845 ns/op
+# Warmup Iteration  15: 415.389 ±(99.9%) 38.232 ns/op
+# Warmup Iteration  16: 349.307 ±(99.9%) 13.876 ns/op
+# Warmup Iteration  17: 330.364 ±(99.9%) 4.449 ns/op
+# Warmup Iteration  18: 287.983 ±(99.9%) 10.459 ns/op
+# Warmup Iteration  19: 261.529 ±(99.9%) 14.494 ns/op
+# Warmup Iteration  20: 212.562 ±(99.9%) 3.786 ns/op
+# Warmup Iteration  21: 191.760 ±(99.9%) 4.719 ns/op
+# Warmup Iteration  22: 201.582 ±(99.9%) 69.829 ns/op
+# Warmup Iteration  23: 169.101 ±(99.9%) 3.947 ns/op
+# Warmup Iteration  24: 161.168 ±(99.9%) 1.987 ns/op
+# Warmup Iteration  25: 164.395 ±(99.9%) 9.654 ns/op
+# Warmup Iteration  26: 152.789 ±(99.9%) 2.046 ns/op
+# Warmup Iteration  27: 145.866 ±(99.9%) 2.217 ns/op
+# Warmup Iteration  28: 142.815 ±(99.9%) 0.779 ns/op
+# Warmup Iteration  29: 140.667 ±(99.9%) 0.850 ns/op
+# Warmup Iteration  30: 135.715 ±(99.9%) 0.629 ns/op
+Iteration   1: 135.424 ±(99.9%) 0.787 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   134.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   143.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   153.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   235.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  531.978 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2954.365 ns/op
+                 log4j___Log_nolog___Style·p1.00:   18976.000 ns/op
+
+Iteration   2: 135.903 ±(99.9%) 0.997 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   134.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   143.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   150.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   248.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  545.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 3296.578 ns/op
+                 log4j___Log_nolog___Style·p1.00:   22112.000 ns/op
+
+Iteration   3: 136.560 ±(99.9%) 1.833 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   134.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   143.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   151.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   242.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  541.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 3793.166 ns/op
+                 log4j___Log_nolog___Style·p1.00:   57024.000 ns/op
+
+Iteration   4: 135.487 ±(99.9%) 1.416 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   133.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   143.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   152.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   233.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  530.543 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 3929.763 ns/op
+                 log4j___Log_nolog___Style·p1.00:   29696.000 ns/op
+
+Iteration   5: 136.147 ±(99.9%) 0.911 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   134.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   143.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   149.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   243.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  539.772 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 3182.283 ns/op
+                 log4j___Log_nolog___Style·p1.00:   16160.000 ns/op
+
+Iteration   6: 134.336 ±(99.9%) 0.680 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   132.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   143.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   154.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   229.820 ns/op
+                 log4j___Log_nolog___Style·p0.999:  525.182 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2075.419 ns/op
+                 log4j___Log_nolog___Style·p1.00:   13856.000 ns/op
+
+Iteration   7: 135.957 ±(99.9%) 0.777 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   134.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   144.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   156.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   232.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  527.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2284.320 ns/op
+                 log4j___Log_nolog___Style·p1.00:   16080.000 ns/op
+
+Iteration   8: 136.070 ±(99.9%) 0.845 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   133.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   144.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   153.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   236.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  535.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2868.558 ns/op
+                 log4j___Log_nolog___Style·p1.00:   15408.000 ns/op
+
+Iteration   9: 135.621 ±(99.9%) 0.914 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   133.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   144.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   156.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   241.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  534.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2384.648 ns/op
+                 log4j___Log_nolog___Style·p1.00:   24448.000 ns/op
+
+Iteration  10: 136.798 ±(99.9%) 0.971 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   134.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   144.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   155.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   243.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  535.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2512.282 ns/op
+                 log4j___Log_nolog___Style·p1.00:   24576.000 ns/op
+
+Iteration  11: 135.843 ±(99.9%) 0.820 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   133.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   144.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   156.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   234.900 ns/op
+                 log4j___Log_nolog___Style·p0.999:  530.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 3403.768 ns/op
+                 log4j___Log_nolog___Style·p1.00:   16672.000 ns/op
+
+Iteration  12: 136.391 ±(99.9%) 0.631 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   134.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   145.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   156.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   235.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  525.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2579.009 ns/op
+                 log4j___Log_nolog___Style·p1.00:   14368.000 ns/op
+
+Iteration  13: 136.129 ±(99.9%) 0.516 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   134.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   144.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   156.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   245.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  539.149 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 1947.001 ns/op
+                 log4j___Log_nolog___Style·p1.00:   13232.000 ns/op
+
+Iteration  14: 136.592 ±(99.9%) 0.742 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   134.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   145.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   155.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   251.640 ns/op
+                 log4j___Log_nolog___Style·p0.999:  539.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 3254.082 ns/op
+                 log4j___Log_nolog___Style·p1.00:   12080.000 ns/op
+
+Iteration  15: 137.004 ±(99.9%) 1.062 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   134.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   144.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   152.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   252.790 ns/op
+                 log4j___Log_nolog___Style·p0.999:  541.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 6369.771 ns/op
+                 log4j___Log_nolog___Style·p1.00:   18816.000 ns/op
+
+Iteration  16: 90.695 ±(99.9%) 3.409 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   71.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   133.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   146.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   370.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  2477.452 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 15106.112 ns/op
+                 log4j___Log_nolog___Style·p1.00:   30912.000 ns/op
+
+Iteration  17: 74.388 ±(99.9%) 1.741 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   70.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   76.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   94.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  670.473 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 9058.357 ns/op
+                 log4j___Log_nolog___Style·p1.00:   23136.000 ns/op
+
+Iteration  18: 93.988 ±(99.9%) 48.207 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   70.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   77.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   139.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  1436.520 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 11156.800 ns/op
+                 log4j___Log_nolog___Style·p1.00:   1724416.000 ns/op
+
+Iteration  19: 74.337 ±(99.9%) 1.439 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   70.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   77.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   92.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  705.830 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 6036.608 ns/op
+                 log4j___Log_nolog___Style·p1.00:   26496.000 ns/op
+
+Iteration  20: 84.342 ±(99.9%) 27.724 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   70.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   76.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   91.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  348.688 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 5817.350 ns/op
+                 log4j___Log_nolog___Style·p1.00:   986112.000 ns/op
+
+Iteration  21: 72.844 ±(99.9%) 1.043 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   70.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   77.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   92.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  396.135 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 5247.996 ns/op
+                 log4j___Log_nolog___Style·p1.00:   14464.000 ns/op
+
+Iteration  22: 72.846 ±(99.9%) 0.986 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   70.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   77.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   92.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  344.884 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 5322.829 ns/op
+                 log4j___Log_nolog___Style·p1.00:   9392.000 ns/op
+
+Iteration  23: 71.006 ±(99.9%) 0.720 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   70.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   76.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   89.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  272.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2602.434 ns/op
+                 log4j___Log_nolog___Style·p1.00:   14304.000 ns/op
+
+Iteration  24: 71.519 ±(99.9%) 0.965 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   70.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   76.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   91.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  277.781 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 4352.747 ns/op
+                 log4j___Log_nolog___Style·p1.00:   27488.000 ns/op
+
+Iteration  25: 71.038 ±(99.9%) 0.563 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   70.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   77.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   91.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  280.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 3982.490 ns/op
+                 log4j___Log_nolog___Style·p1.00:   9520.000 ns/op
+
+
+# Run progress: 40.00% complete, ETA 00:02:52
+# Fork: 3 of 5
+# Warmup Iteration   1: 94.476 ±(99.9%) 3.140 ns/op
+# Warmup Iteration   2: 99.143 ±(99.9%) 5.961 ns/op
+# Warmup Iteration   3: 70.052 ±(99.9%) 0.363 ns/op
+# Warmup Iteration   4: 70.050 ±(99.9%) 0.613 ns/op
+# Warmup Iteration   5: 75.248 ±(99.9%) 1.295 ns/op
+# Warmup Iteration   6: 376.992 ±(99.9%) 6.739 ns/op
+# Warmup Iteration   7: 378.657 ±(99.9%) 6.681 ns/op
+# Warmup Iteration   8: 375.729 ±(99.9%) 9.195 ns/op
+# Warmup Iteration   9: 366.406 ±(99.9%) 3.060 ns/op
+# Warmup Iteration  10: 373.991 ±(99.9%) 8.168 ns/op
+# Warmup Iteration  11: 362.962 ±(99.9%) 2.317 ns/op
+# Warmup Iteration  12: 373.777 ±(99.9%) 6.067 ns/op
+# Warmup Iteration  13: 391.043 ±(99.9%) 13.012 ns/op
+# Warmup Iteration  14: 375.075 ±(99.9%) 5.240 ns/op
+# Warmup Iteration  15: 377.352 ±(99.9%) 12.198 ns/op
+# Warmup Iteration  16: 367.526 ±(99.9%) 6.778 ns/op
+# Warmup Iteration  17: 367.875 ±(99.9%) 5.142 ns/op
+# Warmup Iteration  18: 316.882 ±(99.9%) 5.548 ns/op
+# Warmup Iteration  19: 319.600 ±(99.9%) 6.343 ns/op
+# Warmup Iteration  20: 284.576 ±(99.9%) 11.372 ns/op
+# Warmup Iteration  21: 235.821 ±(99.9%) 2.051 ns/op
+# Warmup Iteration  22: 208.372 ±(99.9%) 1.448 ns/op
+# Warmup Iteration  23: 192.713 ±(99.9%) 2.050 ns/op
+# Warmup Iteration  24: 179.009 ±(99.9%) 1.891 ns/op
+# Warmup Iteration  25: 170.939 ±(99.9%) 2.659 ns/op
+# Warmup Iteration  26: 161.695 ±(99.9%) 1.812 ns/op
+# Warmup Iteration  27: 160.772 ±(99.9%) 2.318 ns/op
+# Warmup Iteration  28: 160.437 ±(99.9%) 1.661 ns/op
+# Warmup Iteration  29: 157.128 ±(99.9%) 1.475 ns/op
+# Warmup Iteration  30: 150.751 ±(99.9%) 1.185 ns/op
+Iteration   1: 151.244 ±(99.9%) 1.421 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   143.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   159.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   169.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   385.720 ns/op
+                 log4j___Log_nolog___Style·p0.999:  692.572 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 7999.110 ns/op
+                 log4j___Log_nolog___Style·p1.00:   23072.000 ns/op
+
+Iteration   2: 150.050 ±(99.9%) 0.933 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   143.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   159.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   169.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   369.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  658.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 3623.062 ns/op
+                 log4j___Log_nolog___Style·p1.00:   12736.000 ns/op
+
+Iteration   3: 150.949 ±(99.9%) 0.917 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   144.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   160.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   170.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   379.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  670.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 3538.112 ns/op
+                 log4j___Log_nolog___Style·p1.00:   14352.000 ns/op
+
+Iteration   4: 144.549 ±(99.9%) 1.130 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   137.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   152.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   161.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   364.280 ns/op
+                 log4j___Log_nolog___Style·p0.999:  673.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 8070.826 ns/op
+                 log4j___Log_nolog___Style·p1.00:   11024.000 ns/op
+
+Iteration   5: 142.900 ±(99.9%) 1.776 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   136.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   151.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   160.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   321.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  626.462 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 4428.293 ns/op
+                 log4j___Log_nolog___Style·p1.00:   43776.000 ns/op
+
+Iteration   6: 141.723 ±(99.9%) 1.141 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   136.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   151.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   159.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   307.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  600.970 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2430.356 ns/op
+                 log4j___Log_nolog___Style·p1.00:   23232.000 ns/op
+
+Iteration   7: 143.245 ±(99.9%) 1.506 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   136.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   151.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   160.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   325.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  628.583 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 8414.122 ns/op
+                 log4j___Log_nolog___Style·p1.00:   22848.000 ns/op
+
+Iteration   8: 144.533 ±(99.9%) 2.602 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   136.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   151.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   159.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   322.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  627.314 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 9225.414 ns/op
+                 log4j___Log_nolog___Style·p1.00:   55680.000 ns/op
+
+Iteration   9: 143.921 ±(99.9%) 2.235 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   136.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   151.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   158.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   304.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  612.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 8758.710 ns/op
+                 log4j___Log_nolog___Style·p1.00:   40192.000 ns/op
+
+Iteration  10: 141.736 ±(99.9%) 0.775 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   136.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   151.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   160.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   315.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  599.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2895.904 ns/op
+                 log4j___Log_nolog___Style·p1.00:   11168.000 ns/op
+
+Iteration  11: 142.089 ±(99.9%) 0.933 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   136.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   151.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   159.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   309.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  596.361 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 3947.740 ns/op
+                 log4j___Log_nolog___Style·p1.00:   15920.000 ns/op
+
+Iteration  12: 142.170 ±(99.9%) 0.846 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   137.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   152.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   160.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   334.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  608.264 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2823.674 ns/op
+                 log4j___Log_nolog___Style·p1.00:   14608.000 ns/op
+
+Iteration  13: 141.663 ±(99.9%) 0.739 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   136.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   151.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   158.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   320.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  607.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 3044.600 ns/op
+                 log4j___Log_nolog___Style·p1.00:   10688.000 ns/op
+
+Iteration  14: 98.578 ±(99.9%) 1.947 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   73.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   147.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   155.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   258.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  621.653 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 6326.612 ns/op
+                 log4j___Log_nolog___Style·p1.00:   49408.000 ns/op
+
+Iteration  15: 90.371 ±(99.9%) 10.855 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   70.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   78.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   82.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   119.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  1824.268 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 38804.698 ns/op
+                 log4j___Log_nolog___Style·p1.00:   228864.000 ns/op
+
+Iteration  16: 125.486 ±(99.9%) 8.071 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   68.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   76.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   83.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   969.600 ns/op
+                 log4j___Log_nolog___Style·p0.999:  9068.480 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 28432.640 ns/op
+                 log4j___Log_nolog___Style·p1.00:   113280.000 ns/op
+
+Iteration  17: 103.235 ±(99.9%) 76.691 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   69.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   76.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   79.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   120.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  992.569 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 29845.568 ns/op
+                 log4j___Log_nolog___Style·p1.00:   2400256.000 ns/op
+
+Iteration  18: 78.841 ±(99.9%) 10.397 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   69.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   76.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   80.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   118.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  700.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 9139.037 ns/op
+                 log4j___Log_nolog___Style·p1.00:   281088.000 ns/op
+
+Iteration  19: 72.151 ±(99.9%) 1.049 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   68.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   76.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   96.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  339.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 5590.752 ns/op
+                 log4j___Log_nolog___Style·p1.00:   12560.000 ns/op
+
+Iteration  20: 70.746 ±(99.9%) 0.605 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   68.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   76.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   93.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  305.448 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 3973.722 ns/op
+                 log4j___Log_nolog___Style·p1.00:   8672.000 ns/op
+
+Iteration  21: 71.094 ±(99.9%) 0.668 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   68.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   77.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   96.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  319.282 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 4236.430 ns/op
+                 log4j___Log_nolog___Style·p1.00:   11888.000 ns/op
+
+Iteration  22: 71.218 ±(99.9%) 0.692 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   68.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   77.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   96.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  320.011 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 4552.141 ns/op
+                 log4j___Log_nolog___Style·p1.00:   11536.000 ns/op
+
+Iteration  23: 70.253 ±(99.9%) 0.533 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   68.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   77.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   95.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  303.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 1138.969 ns/op
+                 log4j___Log_nolog___Style·p1.00:   16480.000 ns/op
+
+Iteration  24: 70.402 ±(99.9%) 0.512 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   68.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   77.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   94.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  289.707 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 1479.908 ns/op
+                 log4j___Log_nolog___Style·p1.00:   9248.000 ns/op
+
+Iteration  25: 72.490 ±(99.9%) 1.990 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   68.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   77.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   95.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  312.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 6257.789 ns/op
+                 log4j___Log_nolog___Style·p1.00:   48192.000 ns/op
+
+
+# Run progress: 60.00% complete, ETA 00:01:54
+# Fork: 4 of 5
+# Warmup Iteration   1: 88.632 ±(99.9%) 2.381 ns/op
+# Warmup Iteration   2: 84.652 ±(99.9%) 2.569 ns/op
+# Warmup Iteration   3: 78.674 ±(99.9%) 0.741 ns/op
+# Warmup Iteration   4: 372.286 ±(99.9%) 3.136 ns/op
+# Warmup Iteration   5: 376.904 ±(99.9%) 7.432 ns/op
+# Warmup Iteration   6: 377.939 ±(99.9%) 9.177 ns/op
+# Warmup Iteration   7: 368.122 ±(99.9%) 3.389 ns/op
+# Warmup Iteration   8: 383.126 ±(99.9%) 17.224 ns/op
+# Warmup Iteration   9: 364.094 ±(99.9%) 2.569 ns/op
+# Warmup Iteration  10: 369.390 ±(99.9%) 23.055 ns/op
+# Warmup Iteration  11: 360.142 ±(99.9%) 42.023 ns/op
+# Warmup Iteration  12: 281.409 ±(99.9%) 3.854 ns/op
+# Warmup Iteration  13: 231.744 ±(99.9%) 2.531 ns/op
+# Warmup Iteration  14: 201.907 ±(99.9%) 1.715 ns/op
+# Warmup Iteration  15: 194.677 ±(99.9%) 4.716 ns/op
+# Warmup Iteration  16: 176.392 ±(99.9%) 4.010 ns/op
+# Warmup Iteration  17: 170.666 ±(99.9%) 3.936 ns/op
+# Warmup Iteration  18: 159.605 ±(99.9%) 1.439 ns/op
+# Warmup Iteration  19: 152.533 ±(99.9%) 1.367 ns/op
+# Warmup Iteration  20: 145.188 ±(99.9%) 2.030 ns/op
+# Warmup Iteration  21: 139.419 ±(99.9%) 1.816 ns/op
+# Warmup Iteration  22: 136.649 ±(99.9%) 0.674 ns/op
+# Warmup Iteration  23: 135.746 ±(99.9%) 1.046 ns/op
+# Warmup Iteration  24: 130.536 ±(99.9%) 0.838 ns/op
+# Warmup Iteration  25: 130.510 ±(99.9%) 0.698 ns/op
+# Warmup Iteration  26: 130.729 ±(99.9%) 0.945 ns/op
+# Warmup Iteration  27: 131.217 ±(99.9%) 1.103 ns/op
+# Warmup Iteration  28: 131.252 ±(99.9%) 1.302 ns/op
+# Warmup Iteration  29: 132.701 ±(99.9%) 2.640 ns/op
+# Warmup Iteration  30: 131.111 ±(99.9%) 1.079 ns/op
+Iteration   1: 130.393 ±(99.9%) 0.799 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   129.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   138.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   146.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   205.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  508.495 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2281.964 ns/op
+                 log4j___Log_nolog___Style·p1.00:   24000.000 ns/op
+
+Iteration   2: 131.265 ±(99.9%) 0.771 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   139.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   147.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   227.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  501.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2635.637 ns/op
+                 log4j___Log_nolog___Style·p1.00:   14224.000 ns/op
+
+Iteration   3: 130.237 ±(99.9%) 0.657 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   138.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   146.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   199.870 ns/op
+                 log4j___Log_nolog___Style·p0.999:  500.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2102.233 ns/op
+                 log4j___Log_nolog___Style·p1.00:   13232.000 ns/op
+
+Iteration   4: 132.098 ±(99.9%) 1.116 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   139.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   146.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   285.260 ns/op
+                 log4j___Log_nolog___Style·p0.999:  552.326 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 4281.453 ns/op
+                 log4j___Log_nolog___Style·p1.00:   19680.000 ns/op
+
+Iteration   5: 130.469 ±(99.9%) 0.689 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   131.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   139.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   145.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   221.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  474.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 3215.424 ns/op
+                 log4j___Log_nolog___Style·p1.00:   9184.000 ns/op
+
+Iteration   6: 131.828 ±(99.9%) 0.986 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   131.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   139.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   145.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   263.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  515.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 4077.531 ns/op
+                 log4j___Log_nolog___Style·p1.00:   13872.000 ns/op
+
+Iteration   7: 131.182 ±(99.9%) 1.126 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   138.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   147.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   204.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  502.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 3485.654 ns/op
+                 log4j___Log_nolog___Style·p1.00:   30592.000 ns/op
+
+Iteration   8: 130.578 ±(99.9%) 0.644 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   138.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   147.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   202.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  509.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2549.490 ns/op
+                 log4j___Log_nolog___Style·p1.00:   13552.000 ns/op
+
+Iteration   9: 131.202 ±(99.9%) 1.139 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   138.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   148.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   210.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  512.094 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2785.032 ns/op
+                 log4j___Log_nolog___Style·p1.00:   27968.000 ns/op
+
+Iteration  10: 130.222 ±(99.9%) 0.827 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   138.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   148.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   213.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  516.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2376.536 ns/op
+                 log4j___Log_nolog___Style·p1.00:   22528.000 ns/op
+
+Iteration  11: 129.735 ±(99.9%) 0.493 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   129.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   138.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   145.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   218.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  521.691 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2082.953 ns/op
+                 log4j___Log_nolog___Style·p1.00:   9232.000 ns/op
+
+Iteration  12: 106.028 ±(99.9%) 1.869 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   90.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   138.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   154.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   315.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  549.956 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 3995.875 ns/op
+                 log4j___Log_nolog___Style·p1.00:   27520.000 ns/op
+
+Iteration  13: 123.719 ±(99.9%) 79.226 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   71.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   77.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   102.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  9714.464 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 27988.211 ns/op
+                 log4j___Log_nolog___Style·p1.00:   2048000.000 ns/op
+
+Iteration  14: 74.163 ±(99.9%) 1.307 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   71.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   77.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   146.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  475.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 10989.296 ns/op
+                 log4j___Log_nolog___Style·p1.00:   13840.000 ns/op
+
+Iteration  15: 71.625 ±(99.9%) 0.607 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   71.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   77.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   93.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  293.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 1500.240 ns/op
+                 log4j___Log_nolog___Style·p1.00:   17216.000 ns/op
+
+Iteration  16: 71.796 ±(99.9%) 0.756 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   71.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   77.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   94.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  297.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 1988.984 ns/op
+                 log4j___Log_nolog___Style·p1.00:   21216.000 ns/op
+
+Iteration  17: 71.355 ±(99.9%) 0.524 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   71.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   77.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   91.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  273.630 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 1854.410 ns/op
+                 log4j___Log_nolog___Style·p1.00:   9696.000 ns/op
+
+Iteration  18: 71.661 ±(99.9%) 0.510 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   71.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   76.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   77.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   93.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  297.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2110.400 ns/op
+                 log4j___Log_nolog___Style·p1.00:   8040.000 ns/op
+
+Iteration  19: 71.415 ±(99.9%) 0.529 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   71.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   77.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   91.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  271.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2062.057 ns/op
+                 log4j___Log_nolog___Style·p1.00:   14192.000 ns/op
+
+Iteration  20: 71.296 ±(99.9%) 0.351 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   71.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   77.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   90.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  270.130 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 1373.026 ns/op
+                 log4j___Log_nolog___Style·p1.00:   5536.000 ns/op
+
+Iteration  21: 71.527 ±(99.9%) 0.523 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   71.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   77.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   92.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  286.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2039.412 ns/op
+                 log4j___Log_nolog___Style·p1.00:   8832.000 ns/op
+
+Iteration  22: 71.447 ±(99.9%) 0.449 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   71.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   77.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   91.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  279.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 1495.819 ns/op
+                 log4j___Log_nolog___Style·p1.00:   9136.000 ns/op
+
+Iteration  23: 71.275 ±(99.9%) 0.521 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   71.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   77.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   93.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  283.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 1109.507 ns/op
+                 log4j___Log_nolog___Style·p1.00:   15088.000 ns/op
+
+Iteration  24: 71.176 ±(99.9%) 0.411 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   71.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   77.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   91.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  271.939 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 926.141 ns/op
+                 log4j___Log_nolog___Style·p1.00:   10528.000 ns/op
+
+Iteration  25: 71.029 ±(99.9%) 0.285 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   71.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   77.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   90.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  270.064 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 810.031 ns/op
+                 log4j___Log_nolog___Style·p1.00:   5368.000 ns/op
+
+
+# Run progress: 80.00% complete, ETA 00:00:56
+# Fork: 5 of 5
+# Warmup Iteration   1: 94.524 ±(99.9%) 5.446 ns/op
+# Warmup Iteration   2: 332.154 ±(99.9%) 2.993 ns/op
+# Warmup Iteration   3: 416.719 ±(99.9%) 30.852 ns/op
+# Warmup Iteration   4: 392.483 ±(99.9%) 11.634 ns/op
+# Warmup Iteration   5: 359.889 ±(99.9%) 2.770 ns/op
+# Warmup Iteration   6: 382.872 ±(99.9%) 16.042 ns/op
+# Warmup Iteration   7: 359.657 ±(99.9%) 2.428 ns/op
+# Warmup Iteration   8: 378.295 ±(99.9%) 23.581 ns/op
+# Warmup Iteration   9: 421.711 ±(99.9%) 113.570 ns/op
+# Warmup Iteration  10: 365.133 ±(99.9%) 7.854 ns/op
+# Warmup Iteration  11: 338.158 ±(99.9%) 10.116 ns/op
+# Warmup Iteration  12: 325.414 ±(99.9%) 4.779 ns/op
+# Warmup Iteration  13: 274.127 ±(99.9%) 2.648 ns/op
+# Warmup Iteration  14: 240.361 ±(99.9%) 7.989 ns/op
+# Warmup Iteration  15: 203.304 ±(99.9%) 1.287 ns/op
+# Warmup Iteration  16: 198.271 ±(99.9%) 12.209 ns/op
+# Warmup Iteration  17: 198.748 ±(99.9%) 66.578 ns/op
+# Warmup Iteration  18: 161.726 ±(99.9%) 1.541 ns/op
+# Warmup Iteration  19: 159.566 ±(99.9%) 1.068 ns/op
+# Warmup Iteration  20: 156.357 ±(99.9%) 2.085 ns/op
+# Warmup Iteration  21: 151.556 ±(99.9%) 1.837 ns/op
+# Warmup Iteration  22: 168.923 ±(99.9%) 32.345 ns/op
+# Warmup Iteration  23: 140.823 ±(99.9%) 0.866 ns/op
+# Warmup Iteration  24: 142.922 ±(99.9%) 2.231 ns/op
+# Warmup Iteration  25: 143.377 ±(99.9%) 1.862 ns/op
+# Warmup Iteration  26: 140.968 ±(99.9%) 0.880 ns/op
+# Warmup Iteration  27: 135.562 ±(99.9%) 1.110 ns/op
+# Warmup Iteration  28: 134.593 ±(99.9%) 0.986 ns/op
+# Warmup Iteration  29: 134.776 ±(99.9%) 0.919 ns/op
+# Warmup Iteration  30: 138.310 ±(99.9%) 1.906 ns/op
+Iteration   1: 134.297 ±(99.9%) 0.829 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   138.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   143.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   307.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  611.577 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2610.926 ns/op
+                 log4j___Log_nolog___Style·p1.00:   21248.000 ns/op
+
+Iteration   2: 134.871 ±(99.9%) 1.466 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   138.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   142.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   321.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  632.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2607.842 ns/op
+                 log4j___Log_nolog___Style·p1.00:   47040.000 ns/op
+
+Iteration   3: 134.532 ±(99.9%) 1.060 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   138.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   143.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   312.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  611.640 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 3513.184 ns/op
+                 log4j___Log_nolog___Style·p1.00:   27072.000 ns/op
+
+Iteration   4: 135.679 ±(99.9%) 1.934 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   138.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   143.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   278.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  586.082 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 9259.437 ns/op
+                 log4j___Log_nolog___Style·p1.00:   47296.000 ns/op
+
+Iteration   5: 135.113 ±(99.9%) 1.769 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   138.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   143.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   316.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  625.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 5454.014 ns/op
+                 log4j___Log_nolog___Style·p1.00:   54528.000 ns/op
+
+Iteration   6: 134.376 ±(99.9%) 0.974 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   138.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   143.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   303.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  604.404 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2600.451 ns/op
+                 log4j___Log_nolog___Style·p1.00:   19328.000 ns/op
+
+Iteration   7: 134.873 ±(99.9%) 1.036 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   130.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   138.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   142.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   324.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  624.721 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2669.377 ns/op
+                 log4j___Log_nolog___Style·p1.00:   25408.000 ns/op
+
+Iteration   8: 136.669 ±(99.9%) 1.991 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   131.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   142.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   145.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   318.130 ns/op
+                 log4j___Log_nolog___Style·p0.999:  606.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2917.727 ns/op
+                 log4j___Log_nolog___Style·p1.00:   69376.000 ns/op
+
+Iteration   9: 143.615 ±(99.9%) 1.940 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   137.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   146.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   152.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   373.620 ns/op
+                 log4j___Log_nolog___Style·p0.999:  684.662 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 8983.664 ns/op
+                 log4j___Log_nolog___Style·p1.00:   50624.000 ns/op
+
+Iteration  10: 3341.089 ±(99.9%) 10606.812 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   133.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   146.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   156.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   320.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  664.323 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 10640.042 ns/op
+                 log4j___Log_nolog___Style·p1.00:   434110464.000 ns/op
+
+Iteration  11: 133.534 ±(99.9%) 13.112 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   69.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   74.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   77.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   229.940 ns/op
+                 log4j___Log_nolog___Style·p0.999:  17711.808 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 34780.147 ns/op
+                 log4j___Log_nolog___Style·p1.00:   127360.000 ns/op
+
+Iteration  12: 76.770 ±(99.9%) 3.439 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   69.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   73.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   75.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   142.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  1036.052 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 12112.208 ns/op
+                 log4j___Log_nolog___Style·p1.00:   66944.000 ns/op
+
+Iteration  13: 71.670 ±(99.9%) 1.103 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   69.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   73.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   74.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   100.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  335.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 5786.643 ns/op
+                 log4j___Log_nolog___Style·p1.00:   13888.000 ns/op
+
+Iteration  14: 72.671 ±(99.9%) 2.018 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   68.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   74.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   78.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   118.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  655.533 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 7206.016 ns/op
+                 log4j___Log_nolog___Style·p1.00:   40000.000 ns/op
+
+Iteration  15: 71.614 ±(99.9%) 1.303 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   68.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   72.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   74.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   96.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  379.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 5418.471 ns/op
+                 log4j___Log_nolog___Style·p1.00:   38656.000 ns/op
+
+Iteration  16: 70.122 ±(99.9%) 0.635 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   68.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   72.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   73.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   86.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  286.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 3629.986 ns/op
+                 log4j___Log_nolog___Style·p1.00:   9888.000 ns/op
+
+Iteration  17: 69.975 ±(99.9%) 0.414 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   68.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   72.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   73.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   90.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  315.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 1488.860 ns/op
+                 log4j___Log_nolog___Style·p1.00:   6760.000 ns/op
+
+Iteration  18: 69.623 ±(99.9%) 0.672 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   68.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   71.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   73.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   87.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  313.679 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2861.283 ns/op
+                 log4j___Log_nolog___Style·p1.00:   15920.000 ns/op
+
+Iteration  19: 69.451 ±(99.9%) 0.634 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   68.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   72.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   73.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   91.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  310.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 1262.878 ns/op
+                 log4j___Log_nolog___Style·p1.00:   14048.000 ns/op
+
+Iteration  20: 69.926 ±(99.9%) 0.989 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   68.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   71.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   73.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   88.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  321.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 3135.136 ns/op
+                 log4j___Log_nolog___Style·p1.00:   27872.000 ns/op
+
+Iteration  21: 69.922 ±(99.9%) 0.353 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   68.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   72.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   73.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   90.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  317.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 1233.857 ns/op
+                 log4j___Log_nolog___Style·p1.00:   5800.000 ns/op
+
+Iteration  22: 69.721 ±(99.9%) 0.670 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   68.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   72.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   73.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   91.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  321.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 2428.051 ns/op
+                 log4j___Log_nolog___Style·p1.00:   17888.000 ns/op
+
+Iteration  23: 70.002 ±(99.9%) 0.364 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   68.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   72.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   73.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   92.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  322.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 1661.138 ns/op
+                 log4j___Log_nolog___Style·p1.00:   5336.000 ns/op
+
+Iteration  24: 70.196 ±(99.9%) 0.716 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   68.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   72.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   73.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   92.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  317.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 1149.017 ns/op
+                 log4j___Log_nolog___Style·p1.00:   17824.000 ns/op
+
+Iteration  25: 130.497 ±(99.9%) 1.205 ns/op
+                 log4j___Log_nolog___Style·p0.00:   1.000 ns/op
+                 log4j___Log_nolog___Style·p0.50:   70.000 ns/op
+                 log4j___Log_nolog___Style·p0.90:   342.000 ns/op
+                 log4j___Log_nolog___Style·p0.95:   351.000 ns/op
+                 log4j___Log_nolog___Style·p0.99:   365.000 ns/op
+                 log4j___Log_nolog___Style·p0.999:  400.000 ns/op
+                 log4j___Log_nolog___Style·p0.9999: 1664.918 ns/op
+                 log4j___Log_nolog___Style·p1.00:   14624.000 ns/op
+
+
+
+Result "me.justpitch.loggingbenchmarks.LoggingBenchmark.log4j___Log_nolog___Style":
+  N = 15118358
+  mean =    138.495 ±(99.9%) 94.490 ns/op
+
+  Histogram, ns/op:
+    [        0.000,  50000000.000) = 15118357 
+    [ 50000000.000, 100000000.000) = 0 
+    [100000000.000, 150000000.000) = 0 
+    [150000000.000, 200000000.000) = 0 
+    [200000000.000, 250000000.000) = 0 
+    [250000000.000, 300000000.000) = 0 
+    [300000000.000, 350000000.000) = 0 
+    [350000000.000, 400000000.000) = 0 
+    [400000000.000, 450000000.000) = 1 
+
+  Percentiles, ns/op:
+      p(0.0000) =      1.000 ns/op
+     p(50.0000) =    121.000 ns/op
+     p(90.0000) =    140.000 ns/op
+     p(95.0000) =    149.000 ns/op
+     p(99.0000) =    247.000 ns/op
+     p(99.9000) =    610.000 ns/op
+     p(99.9900) =   8528.000 ns/op
+     p(99.9990) =  31438.375 ns/op
+     p(99.9999) = 223803.916 ns/op
+    p(100.0000) = 434110464.000 ns/op
+
+
+# Run complete. Total time: 00:04:43
+
+Benchmark                                                                       Mode       Cnt          Score    Error  Units
+LoggingBenchmark.log4j___Log_nolog___Style                                    sample  15118358        138.495 ± 94.490  ns/op
+LoggingBenchmark.log4j___Log_nolog___Style:log4j___Log_nolog___Style·p0.00    sample                    1.000           ns/op
+LoggingBenchmark.log4j___Log_nolog___Style:log4j___Log_nolog___Style·p0.50    sample                  121.000           ns/op
+LoggingBenchmark.log4j___Log_nolog___Style:log4j___Log_nolog___Style·p0.90    sample                  140.000           ns/op
+LoggingBenchmark.log4j___Log_nolog___Style:log4j___Log_nolog___Style·p0.95    sample                  149.000           ns/op
+LoggingBenchmark.log4j___Log_nolog___Style:log4j___Log_nolog___Style·p0.99    sample                  247.000           ns/op
+LoggingBenchmark.log4j___Log_nolog___Style:log4j___Log_nolog___Style·p0.999   sample                  610.000           ns/op
+LoggingBenchmark.log4j___Log_nolog___Style:log4j___Log_nolog___Style·p0.9999  sample                 8528.000           ns/op
+LoggingBenchmark.log4j___Log_nolog___Style:log4j___Log_nolog___Style·p1.00    sample            434110464.000           ns/op
+
+Benchmark result is saved to results/log4j_nolog.csv

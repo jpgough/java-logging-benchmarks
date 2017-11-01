@@ -1,0 +1,1475 @@
+# JMH 1.17.5 (released 241 days ago, please consider updating!)
+# VM version: JDK 1.8.0_101, VM 25.101-b13
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/bin/java
+# VM options: <none>
+# Warmup: 30 iterations, 1 s each
+# Measurement: 25 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: me.justpitch.loggingbenchmarks.LoggingBenchmark.log4jsynLog_log4j___Style
+
+# Run progress: 0.00% complete, ETA 00:04:35
+# Fork: 1 of 5
+# Warmup Iteration   1: 7981.195 ±(99.9%) 1044.732 ns/op
+# Warmup Iteration   2: 8531.779 ±(99.9%) 1477.120 ns/op
+# Warmup Iteration   3: 5691.632 ±(99.9%) 758.329 ns/op
+# Warmup Iteration   4: 5036.843 ±(99.9%) 527.668 ns/op
+# Warmup Iteration   5: 5680.029 ±(99.9%) 749.389 ns/op
+# Warmup Iteration   6: 5497.449 ±(99.9%) 665.533 ns/op
+# Warmup Iteration   7: 5575.849 ±(99.9%) 773.635 ns/op
+# Warmup Iteration   8: 5686.310 ±(99.9%) 753.224 ns/op
+# Warmup Iteration   9: 5968.329 ±(99.9%) 855.350 ns/op
+# Warmup Iteration  10: 6617.616 ±(99.9%) 1022.663 ns/op
+# Warmup Iteration  11: 7434.408 ±(99.9%) 1095.283 ns/op
+# Warmup Iteration  12: 6151.859 ±(99.9%) 784.438 ns/op
+# Warmup Iteration  13: 5628.957 ±(99.9%) 694.128 ns/op
+# Warmup Iteration  14: 5367.653 ±(99.9%) 626.056 ns/op
+# Warmup Iteration  15: 5499.754 ±(99.9%) 778.634 ns/op
+# Warmup Iteration  16: 6051.024 ±(99.9%) 760.290 ns/op
+# Warmup Iteration  17: 6411.603 ±(99.9%) 913.269 ns/op
+# Warmup Iteration  18: 5741.660 ±(99.9%) 728.015 ns/op
+# Warmup Iteration  19: 5793.694 ±(99.9%) 876.198 ns/op
+# Warmup Iteration  20: 5596.899 ±(99.9%) 806.298 ns/op
+# Warmup Iteration  21: 4884.943 ±(99.9%) 535.683 ns/op
+# Warmup Iteration  22: 5875.904 ±(99.9%) 772.989 ns/op
+# Warmup Iteration  23: 6516.989 ±(99.9%) 1125.514 ns/op
+# Warmup Iteration  24: 5252.355 ±(99.9%) 635.425 ns/op
+# Warmup Iteration  25: 5818.266 ±(99.9%) 830.891 ns/op
+# Warmup Iteration  26: 5235.582 ±(99.9%) 650.944 ns/op
+# Warmup Iteration  27: 6088.311 ±(99.9%) 764.834 ns/op
+# Warmup Iteration  28: 5693.865 ±(99.9%) 690.900 ns/op
+# Warmup Iteration  29: 6072.099 ±(99.9%) 926.881 ns/op
+# Warmup Iteration  30: 5339.467 ±(99.9%) 666.434 ns/op
+Iteration   1: 6249.710 ±(99.9%) 947.278 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   532.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1198.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1554.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1762.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   25238.080 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  809984.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 5011006.259 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6422528.000 ns/op
+
+Iteration   2: 5419.873 ±(99.9%) 723.734 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   533.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1192.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1564.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1770.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   16401.600 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  782336.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 980028.314 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   7200768.000 ns/op
+
+Iteration   3: 5915.851 ±(99.9%) 862.181 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   533.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1190.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1562.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1786.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   21524.480 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  805040.128 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 4620717.261 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6193152.000 ns/op
+
+Iteration   4: 5648.237 ±(99.9%) 801.406 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   532.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1166.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1552.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1772.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   25155.200 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  783360.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 3461120.000 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6807552.000 ns/op
+
+Iteration   5: 5558.181 ±(99.9%) 734.829 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   535.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1166.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1554.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1768.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   25615.360 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  781312.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1256592.998 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6381568.000 ns/op
+
+Iteration   6: 5067.482 ±(99.9%) 582.003 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   534.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1164.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1550.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1752.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   13152.960 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  758223.872 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 845051.187 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   5201920.000 ns/op
+
+Iteration   7: 6141.691 ±(99.9%) 957.660 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   534.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1200.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1582.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1792.500 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   72384.000 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  780108.800 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 4797091.840 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   7446528.000 ns/op
+
+Iteration   8: 6540.506 ±(99.9%) 816.189 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   533.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1228.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1574.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1800.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   89560.320 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  904947.712 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 2444563.456 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6619136.000 ns/op
+
+Iteration   9: 6031.062 ±(99.9%) 778.738 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   530.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1196.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1590.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1844.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   84352.000 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  813120.512 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1630168.064 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6234112.000 ns/op
+
+Iteration  10: 5166.181 ±(99.9%) 622.654 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   534.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1180.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1574.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1788.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   13871.520 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  770761.728 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 870570.701 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6643712.000 ns/op
+
+Iteration  11: 5236.290 ±(99.9%) 646.565 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   524.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1212.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1580.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1794.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   14107.200 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  771072.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1005341.696 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6135808.000 ns/op
+
+Iteration  12: 6096.956 ±(99.9%) 719.439 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   533.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1224.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1588.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1864.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   74629.120 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  884942.848 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1199145.370 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6053888.000 ns/op
+
+Iteration  13: 5626.947 ±(99.9%) 709.039 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   533.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1216.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1588.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1808.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   34905.600 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  789512.192 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1005479.526 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6291456.000 ns/op
+
+Iteration  14: 5251.710 ±(99.9%) 629.997 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   533.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1174.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1564.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1782.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   19542.720 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  777694.208 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 909551.104 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6422528.000 ns/op
+
+Iteration  15: 5710.540 ±(99.9%) 693.254 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   536.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1178.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1560.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1774.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   77425.920 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  806593.536 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1510992.896 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6365184.000 ns/op
+
+Iteration  16: 5060.791 ±(99.9%) 639.105 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   537.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1164.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1554.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1756.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   11880.320 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  760563.712 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 835584.000 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6414336.000 ns/op
+
+Iteration  17: 5190.321 ±(99.9%) 554.821 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   533.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1172.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1550.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1752.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   19813.120 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  766106.624 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 848658.534 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   4210688.000 ns/op
+
+Iteration  18: 5306.229 ±(99.9%) 659.288 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   531.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1180.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1556.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1754.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   13443.200 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  774144.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 908334.694 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6332416.000 ns/op
+
+Iteration  19: 5915.581 ±(99.9%) 890.937 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   528.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1172.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1548.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1756.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   32439.680 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  794624.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 5167325.184 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   7151616.000 ns/op
+
+Iteration  20: 5331.713 ±(99.9%) 622.574 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   530.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1148.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1532.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1732.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   19488.000 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  773120.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 927129.600 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   5423104.000 ns/op
+
+Iteration  21: 5563.205 ±(99.9%) 802.186 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   534.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1156.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1528.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1724.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   16895.360 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  768935.936 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 4433299.046 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6414336.000 ns/op
+
+Iteration  22: 5382.126 ±(99.9%) 683.335 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   535.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1168.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1546.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1754.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   17246.720 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  778240.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1070487.962 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6422528.000 ns/op
+
+Iteration  23: 6565.376 ±(99.9%) 926.024 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   533.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1196.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1534.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1734.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   82432.000 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  888217.600 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 4958453.760 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6660096.000 ns/op
+
+Iteration  24: 5811.728 ±(99.9%) 818.403 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   535.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1188.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1558.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1770.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   35856.000 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  799744.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1137592.320 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   7503872.000 ns/op
+
+Iteration  25: 5120.337 ±(99.9%) 615.398 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   533.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1158.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1540.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1742.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   14180.160 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  776192.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 941365.862 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6397952.000 ns/op
+
+
+# Run progress: 20.00% complete, ETA 00:03:44
+# Fork: 2 of 5
+# Warmup Iteration   1: 7914.878 ±(99.9%) 1006.912 ns/op
+# Warmup Iteration   2: 5462.818 ±(99.9%) 605.125 ns/op
+# Warmup Iteration   3: 5544.335 ±(99.9%) 778.332 ns/op
+# Warmup Iteration   4: 6582.133 ±(99.9%) 757.298 ns/op
+# Warmup Iteration   5: 5470.486 ±(99.9%) 747.939 ns/op
+# Warmup Iteration   6: 5053.858 ±(99.9%) 602.070 ns/op
+# Warmup Iteration   7: 5314.470 ±(99.9%) 740.019 ns/op
+# Warmup Iteration   8: 4972.867 ±(99.9%) 538.585 ns/op
+# Warmup Iteration   9: 6180.288 ±(99.9%) 1035.265 ns/op
+# Warmup Iteration  10: 5230.292 ±(99.9%) 593.744 ns/op
+# Warmup Iteration  11: 5236.102 ±(99.9%) 612.686 ns/op
+# Warmup Iteration  12: 6079.810 ±(99.9%) 825.058 ns/op
+# Warmup Iteration  13: 5231.090 ±(99.9%) 705.830 ns/op
+# Warmup Iteration  14: 5397.018 ±(99.9%) 804.397 ns/op
+# Warmup Iteration  15: 5234.232 ±(99.9%) 657.120 ns/op
+# Warmup Iteration  16: 6516.904 ±(99.9%) 1348.675 ns/op
+# Warmup Iteration  17: 6328.666 ±(99.9%) 1295.257 ns/op
+# Warmup Iteration  18: 6039.171 ±(99.9%) 1100.131 ns/op
+# Warmup Iteration  19: 5430.977 ±(99.9%) 683.568 ns/op
+# Warmup Iteration  20: 5277.950 ±(99.9%) 630.106 ns/op
+# Warmup Iteration  21: 5147.944 ±(99.9%) 614.544 ns/op
+# Warmup Iteration  22: 5698.290 ±(99.9%) 765.103 ns/op
+# Warmup Iteration  23: 5215.757 ±(99.9%) 620.119 ns/op
+# Warmup Iteration  24: 5239.980 ±(99.9%) 657.658 ns/op
+# Warmup Iteration  25: 4947.875 ±(99.9%) 590.623 ns/op
+# Warmup Iteration  26: 5452.334 ±(99.9%) 751.350 ns/op
+# Warmup Iteration  27: 4972.252 ±(99.9%) 577.802 ns/op
+# Warmup Iteration  28: 5097.231 ±(99.9%) 613.496 ns/op
+# Warmup Iteration  29: 6725.363 ±(99.9%) 981.230 ns/op
+# Warmup Iteration  30: 5214.013 ±(99.9%) 701.926 ns/op
+Iteration   1: 4951.403 ±(99.9%) 536.514 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   536.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1090.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1454.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1676.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   13328.800 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  760273.920 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 836291.584 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   5120000.000 ns/op
+
+Iteration   2: 5464.347 ±(99.9%) 821.140 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   532.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1088.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1464.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1682.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   12064.000 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  778240.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 4970082.304 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6324224.000 ns/op
+
+Iteration   3: 5128.436 ±(99.9%) 629.086 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   535.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1090.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1462.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1678.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   12580.800 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  770048.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 864695.296 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6414336.000 ns/op
+
+Iteration   4: 5018.818 ±(99.9%) 613.991 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   536.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1092.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1460.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1680.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   11748.000 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  782336.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 900382.720 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6537216.000 ns/op
+
+Iteration   5: 5693.456 ±(99.9%) 864.589 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   535.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1086.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1460.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1680.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   17644.160 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  825488.384 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 959192.576 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   10797056.000 ns/op
+
+Iteration   6: 6527.231 ±(99.9%) 1313.311 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   531.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1088.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1456.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1686.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   68576.000 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  830592.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 7630336.000 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   11780096.000 ns/op
+
+Iteration   7: 7088.361 ±(99.9%) 937.291 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   533.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1128.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1456.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1742.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   88925.440 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  1083764.736 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1563146.035 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   7905280.000 ns/op
+
+Iteration   8: 7595.251 ±(99.9%) 1592.467 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   527.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1092.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1456.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1692.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   77184.000 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  854386.688 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 10136949.555 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   11730944.000 ns/op
+
+Iteration   9: 6180.886 ±(99.9%) 1128.930 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   535.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1092.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1456.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1674.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   13632.000 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  792576.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 5416269.414 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   10371072.000 ns/op
+
+Iteration  10: 5092.299 ±(99.9%) 670.767 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   535.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1088.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1452.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1666.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   11539.200 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  761184.256 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 914943.181 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6053888.000 ns/op
+
+Iteration  11: 5325.186 ±(99.9%) 664.306 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   532.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1096.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1464.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1676.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   13855.040 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  768508.928 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1126716.211 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6291456.000 ns/op
+
+Iteration  12: 5072.916 ±(99.9%) 693.554 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   532.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1092.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1460.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1680.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   11769.280 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  765952.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 879783.117 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6635520.000 ns/op
+
+Iteration  13: 5024.548 ±(99.9%) 632.523 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   530.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1090.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1458.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1672.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   13071.040 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  759808.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 842285.670 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6422528.000 ns/op
+
+Iteration  14: 5195.568 ±(99.9%) 675.779 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   533.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1088.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1458.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1676.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   14590.720 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  793448.448 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1000437.350 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   9699328.000 ns/op
+
+Iteration  15: 6244.167 ±(99.9%) 1202.750 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   534.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1094.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1458.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1680.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   13752.160 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  828416.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 5787116.339 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   11845632.000 ns/op
+
+Iteration  16: 6076.904 ±(99.9%) 1146.541 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   536.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1086.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1458.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1688.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   13948.800 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  827939.840 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 5093519.360 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   11468800.000 ns/op
+
+Iteration  17: 6620.003 ±(99.9%) 1337.590 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   534.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1080.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1458.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1690.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   75275.520 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  841737.216 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 6168576.000 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   11812864.000 ns/op
+
+Iteration  18: 7054.306 ±(99.9%) 1396.882 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   532.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1120.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1456.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1714.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   76060.160 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  868004.864 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 7473547.674 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   11812864.000 ns/op
+
+Iteration  19: 5023.046 ±(99.9%) 530.446 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   535.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1096.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1456.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1684.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   15632.000 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  770093.056 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 843789.517 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   4710400.000 ns/op
+
+Iteration  20: 5154.129 ±(99.9%) 687.851 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   535.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1086.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1458.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1676.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   11346.880 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  768000.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1200159.744 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6381568.000 ns/op
+
+Iteration  21: 4941.677 ±(99.9%) 567.312 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   533.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1094.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1460.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1676.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   11787.200 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  764894.208 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 854016.000 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   5070848.000 ns/op
+
+Iteration  22: 5003.817 ±(99.9%) 641.996 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   529.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1084.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1456.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1670.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   10137.600 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  763904.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 831132.467 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   7258112.000 ns/op
+
+Iteration  23: 5437.991 ±(99.9%) 751.430 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   534.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1086.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1460.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1688.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   12101.600 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  792576.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1318259.507 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6529024.000 ns/op
+
+Iteration  24: 5554.688 ±(99.9%) 882.760 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   533.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1086.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1452.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1666.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   14592.800 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  818833.408 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 908272.845 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   11911168.000 ns/op
+
+Iteration  25: 6304.219 ±(99.9%) 1079.490 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   534.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1098.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1454.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1682.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   65148.800 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  838656.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 4367093.760 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   11698176.000 ns/op
+
+
+# Run progress: 40.00% complete, ETA 00:02:47
+# Fork: 3 of 5
+# Warmup Iteration   1: 9282.974 ±(99.9%) 1271.228 ns/op
+# Warmup Iteration   2: 6262.514 ±(99.9%) 917.560 ns/op
+# Warmup Iteration   3: 5416.319 ±(99.9%) 710.386 ns/op
+# Warmup Iteration   4: 5577.922 ±(99.9%) 762.154 ns/op
+# Warmup Iteration   5: 5064.167 ±(99.9%) 593.389 ns/op
+# Warmup Iteration   6: 5852.640 ±(99.9%) 873.661 ns/op
+# Warmup Iteration   7: 5164.328 ±(99.9%) 621.851 ns/op
+# Warmup Iteration   8: 6372.561 ±(99.9%) 1230.020 ns/op
+# Warmup Iteration   9: 5630.210 ±(99.9%) 847.227 ns/op
+# Warmup Iteration  10: 5376.728 ±(99.9%) 778.008 ns/op
+# Warmup Iteration  11: 5540.343 ±(99.9%) 814.252 ns/op
+# Warmup Iteration  12: 6431.551 ±(99.9%) 695.731 ns/op
+# Warmup Iteration  13: 5438.104 ±(99.9%) 747.297 ns/op
+# Warmup Iteration  14: 5065.581 ±(99.9%) 610.191 ns/op
+# Warmup Iteration  15: 6179.281 ±(99.9%) 1001.097 ns/op
+# Warmup Iteration  16: 5014.969 ±(99.9%) 598.786 ns/op
+# Warmup Iteration  17: 5885.644 ±(99.9%) 860.004 ns/op
+# Warmup Iteration  18: 6128.559 ±(99.9%) 751.888 ns/op
+# Warmup Iteration  19: 8717.517 ±(99.9%) 1035.741 ns/op
+# Warmup Iteration  20: 5751.540 ±(99.9%) 853.286 ns/op
+# Warmup Iteration  21: 4985.834 ±(99.9%) 540.716 ns/op
+# Warmup Iteration  22: 5876.394 ±(99.9%) 872.488 ns/op
+# Warmup Iteration  23: 7018.401 ±(99.9%) 4416.012 ns/op
+# Warmup Iteration  24: 5717.614 ±(99.9%) 765.863 ns/op
+# Warmup Iteration  25: 5372.585 ±(99.9%) 670.737 ns/op
+# Warmup Iteration  26: 5141.023 ±(99.9%) 684.477 ns/op
+# Warmup Iteration  27: 5027.545 ±(99.9%) 621.545 ns/op
+# Warmup Iteration  28: 6039.674 ±(99.9%) 899.264 ns/op
+# Warmup Iteration  29: 5650.893 ±(99.9%) 718.567 ns/op
+# Warmup Iteration  30: 5958.116 ±(99.9%) 851.914 ns/op
+Iteration   1: 5327.790 ±(99.9%) 728.407 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   520.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1108.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1474.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1676.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   14646.720 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  780514.304 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1177819.546 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6979584.000 ns/op
+
+Iteration   2: 5193.651 ±(99.9%) 634.598 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   521.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1108.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1474.600 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1678.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   16073.280 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  772959.232 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1153731.994 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6389760.000 ns/op
+
+Iteration   3: 5089.167 ±(99.9%) 650.056 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   519.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1100.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1468.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1664.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   11680.000 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  756793.344 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 961594.982 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6348800.000 ns/op
+
+Iteration   4: 5539.274 ±(99.9%) 744.713 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   520.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1134.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1476.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1672.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   19770.880 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  804864.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1243136.000 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   8945664.000 ns/op
+
+Iteration   5: 6887.240 ±(99.9%) 958.189 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   522.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1154.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1492.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1725.200 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   87828.480 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  979824.640 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 4949262.336 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6144000.000 ns/op
+
+Iteration   6: 5468.779 ±(99.9%) 649.279 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   521.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1108.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1472.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1674.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   22107.520 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  788547.584 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1352116.634 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6381568.000 ns/op
+
+Iteration   7: 5474.087 ±(99.9%) 800.276 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   521.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1106.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1472.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1666.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   13436.000 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  761856.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 4423680.000 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6356992.000 ns/op
+
+Iteration   8: 5478.444 ±(99.9%) 741.549 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   522.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1096.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1468.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1662.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   13089.920 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  766976.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 2470739.968 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6692864.000 ns/op
+
+Iteration   9: 5175.290 ±(99.9%) 583.902 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   519.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1118.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1476.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1678.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   22799.680 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  771072.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 929732.506 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6504448.000 ns/op
+
+Iteration  10: 5861.916 ±(99.9%) 788.188 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   521.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1126.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1480.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1688.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   74432.000 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  796672.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 4219371.520 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6365184.000 ns/op
+
+Iteration  11: 5180.568 ±(99.9%) 624.683 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   520.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1126.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1466.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1656.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   15711.360 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  758784.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1054888.755 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   5218304.000 ns/op
+
+Iteration  12: 6430.450 ±(99.9%) 910.261 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   523.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1112.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1474.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1678.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   28548.480 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  914745.344 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 4717718.733 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6529024.000 ns/op
+
+Iteration  13: 5945.809 ±(99.9%) 924.123 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   522.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1092.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1466.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1670.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   78161.920 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  815271.936 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 4782879.539 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   11452416.000 ns/op
+
+Iteration  14: 6765.600 ±(99.9%) 1214.530 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   522.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1110.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1472.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1686.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   76953.600 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  862945.280 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 5776211.968 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   11829248.000 ns/op
+
+Iteration  15: 6138.158 ±(99.9%) 903.501 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   523.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1132.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1484.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1704.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   79232.000 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  894005.248 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1043897.549 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   12091392.000 ns/op
+
+Iteration  16: 5593.369 ±(99.9%) 695.962 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   521.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1094.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1468.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1675.900 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   27047.360 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  813750.272 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1034795.418 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6701056.000 ns/op
+
+Iteration  17: 4944.274 ±(99.9%) 598.851 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   519.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1100.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1472.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1660.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   11645.600 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  762880.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 900143.616 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   5906432.000 ns/op
+
+Iteration  18: 5718.623 ±(99.9%) 933.035 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   522.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1130.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1486.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1686.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   22638.720 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  786978.816 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1105395.302 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   11796480.000 ns/op
+
+Iteration  19: 5426.122 ±(99.9%) 753.611 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   519.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1096.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1468.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1670.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   14753.760 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  780428.288 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1637363.917 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6586368.000 ns/op
+
+Iteration  20: 5427.038 ±(99.9%) 697.680 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   523.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1132.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1474.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1674.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   18732.480 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  785728.512 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1043113.779 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6389760.000 ns/op
+
+Iteration  21: 5199.843 ±(99.9%) 726.171 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   521.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1094.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1464.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1666.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   13088.000 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  773120.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1257036.186 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6406144.000 ns/op
+
+Iteration  22: 5408.873 ±(99.9%) 731.440 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   522.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1134.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1464.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1660.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   28163.840 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  784704.512 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1171406.029 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6602752.000 ns/op
+
+Iteration  23: 6238.820 ±(99.9%) 895.443 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   517.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1120.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1466.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1676.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   32262.400 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  837355.520 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 4757471.232 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6397952.000 ns/op
+
+Iteration  24: 5059.190 ±(99.9%) 637.104 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   523.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1090.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1460.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1662.600 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   13876.160 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  760858.624 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 865287.987 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6537216.000 ns/op
+
+Iteration  25: 5039.195 ±(99.9%) 630.192 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   523.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1104.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1472.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1660.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   11689.120 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  763655.168 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 858986.701 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6201344.000 ns/op
+
+
+# Run progress: 60.00% complete, ETA 00:01:51
+# Fork: 4 of 5
+# Warmup Iteration   1: 8939.719 ±(99.9%) 1196.359 ns/op
+# Warmup Iteration   2: 6190.260 ±(99.9%) 898.900 ns/op
+# Warmup Iteration   3: 5214.437 ±(99.9%) 629.550 ns/op
+# Warmup Iteration   4: 5491.118 ±(99.9%) 609.805 ns/op
+# Warmup Iteration   5: 6475.395 ±(99.9%) 988.909 ns/op
+# Warmup Iteration   6: 6142.655 ±(99.9%) 1020.910 ns/op
+# Warmup Iteration   7: 5116.955 ±(99.9%) 541.656 ns/op
+# Warmup Iteration   8: 5185.279 ±(99.9%) 695.351 ns/op
+# Warmup Iteration   9: 5049.710 ±(99.9%) 617.333 ns/op
+# Warmup Iteration  10: 5423.320 ±(99.9%) 759.850 ns/op
+# Warmup Iteration  11: 5734.273 ±(99.9%) 872.053 ns/op
+# Warmup Iteration  12: 6030.369 ±(99.9%) 1026.149 ns/op
+# Warmup Iteration  13: 5524.198 ±(99.9%) 831.227 ns/op
+# Warmup Iteration  14: 6127.656 ±(99.9%) 1050.242 ns/op
+# Warmup Iteration  15: 5680.279 ±(99.9%) 718.250 ns/op
+# Warmup Iteration  16: 6548.848 ±(99.9%) 936.562 ns/op
+# Warmup Iteration  17: 4975.072 ±(99.9%) 536.587 ns/op
+# Warmup Iteration  18: 6016.772 ±(99.9%) 921.258 ns/op
+# Warmup Iteration  19: 5461.082 ±(99.9%) 854.872 ns/op
+# Warmup Iteration  20: 4965.770 ±(99.9%) 599.422 ns/op
+# Warmup Iteration  21: 5307.365 ±(99.9%) 696.461 ns/op
+# Warmup Iteration  22: 5039.095 ±(99.9%) 590.316 ns/op
+# Warmup Iteration  23: 5791.525 ±(99.9%) 862.858 ns/op
+# Warmup Iteration  24: 6096.024 ±(99.9%) 979.879 ns/op
+# Warmup Iteration  25: 5330.430 ±(99.9%) 713.253 ns/op
+# Warmup Iteration  26: 6261.998 ±(99.9%) 997.896 ns/op
+# Warmup Iteration  27: 5765.544 ±(99.9%) 735.509 ns/op
+# Warmup Iteration  28: 5153.193 ±(99.9%) 576.058 ns/op
+# Warmup Iteration  29: 7565.323 ±(99.9%) 1138.408 ns/op
+# Warmup Iteration  30: 7217.427 ±(99.9%) 947.657 ns/op
+Iteration   1: 5792.397 ±(99.9%) 639.274 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   593.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1210.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1604.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   2080.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   74067.200 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  818493.440 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1096068.096 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6643712.000 ns/op
+
+Iteration   2: 5391.815 ±(99.9%) 682.593 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   592.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1202.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1554.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1742.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   16913.600 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  769024.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1097455.616 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6307840.000 ns/op
+
+Iteration   3: 5484.553 ±(99.9%) 719.828 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   590.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1184.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1548.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1744.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   14243.520 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  774923.264 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1048369.664 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6479872.000 ns/op
+
+Iteration   4: 5334.967 ±(99.9%) 752.412 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   591.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1280.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1600.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1764.500 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   11548.000 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  760268.800 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1459240.960 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6234112.000 ns/op
+
+Iteration   5: 6054.309 ±(99.9%) 786.539 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   587.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1228.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1556.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1742.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   75059.200 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  851968.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1641537.536 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   5881856.000 ns/op
+
+Iteration   6: 5047.179 ±(99.9%) 585.132 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   593.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1188.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1554.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1768.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   14487.520 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  777216.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 879780.352 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6332416.000 ns/op
+
+Iteration   7: 5222.387 ±(99.9%) 667.287 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   591.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1188.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1548.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1742.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   12952.640 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  768944.128 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 934257.050 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6176768.000 ns/op
+
+Iteration   8: 5367.611 ±(99.9%) 653.939 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   594.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1182.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1546.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1740.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   19288.000 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  772096.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 893308.416 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6406144.000 ns/op
+
+Iteration   9: 5581.321 ±(99.9%) 730.821 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   591.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1196.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1558.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1750.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   16837.120 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  772919.296 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1097085.747 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6307840.000 ns/op
+
+Iteration  10: 5333.071 ±(99.9%) 660.149 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   593.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1214.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1568.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1766.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   14784.000 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  783360.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 915454.976 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6397952.000 ns/op
+
+Iteration  11: 5777.946 ±(99.9%) 743.063 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   592.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1210.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1568.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1780.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   35679.360 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  819774.464 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1432301.568 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6438912.000 ns/op
+
+Iteration  12: 6040.870 ±(99.9%) 912.884 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   592.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1194.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1562.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1770.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   23027.200 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  800768.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 5262757.888 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6356992.000 ns/op
+
+Iteration  13: 5414.764 ±(99.9%) 673.821 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   592.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1186.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1550.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1754.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   27768.000 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  769305.600 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1133107.200 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6365184.000 ns/op
+
+Iteration  14: 6409.169 ±(99.9%) 998.347 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   590.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1212.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1558.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1748.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   78099.200 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  798632.960 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 5775859.712 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   7667712.000 ns/op
+
+Iteration  15: 6844.663 ±(99.9%) 831.687 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   591.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1236.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1578.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1816.100 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   91009.280 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  1009461.248 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1543066.624 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6406144.000 ns/op
+
+Iteration  16: 5836.502 ±(99.9%) 854.548 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   590.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1206.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1570.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1792.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   24649.600 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  800768.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 5036376.064 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6348800.000 ns/op
+
+Iteration  17: 5455.386 ±(99.9%) 654.780 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   593.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1198.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1556.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1760.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   22731.520 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  786432.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 913702.093 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6324224.000 ns/op
+
+Iteration  18: 5731.116 ±(99.9%) 786.169 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   590.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1186.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1554.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1746.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   16706.560 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  780288.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 4308339.917 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6422528.000 ns/op
+
+Iteration  19: 5162.364 ±(99.9%) 625.747 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   588.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1196.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1556.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1756.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   19279.360 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  769024.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 869368.422 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6496256.000 ns/op
+
+Iteration  20: 5600.510 ±(99.9%) 733.865 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   591.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1190.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1556.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1756.500 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   76172.800 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  774144.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1273346.048 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6070272.000 ns/op
+
+Iteration  21: 6107.408 ±(99.9%) 782.546 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   589.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1212.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1578.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1840.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   76051.200 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  863232.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1158682.624 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6766592.000 ns/op
+
+Iteration  22: 6278.565 ±(99.9%) 1007.486 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   590.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1188.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1556.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1766.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   78007.040 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  840704.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1109132.493 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   10846208.000 ns/op
+
+Iteration  23: 5913.710 ±(99.9%) 755.291 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   590.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1186.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1556.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1766.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   77898.240 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  807936.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 2824860.467 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6217728.000 ns/op
+
+Iteration  24: 6125.367 ±(99.9%) 761.358 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   592.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1234.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1548.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1744.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   81918.720 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  865280.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1265458.176 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6291456.000 ns/op
+
+Iteration  25: 6007.188 ±(99.9%) 826.078 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   594.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1202.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1560.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1770.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   40913.280 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  822709.248 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 3092052.173 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6529024.000 ns/op
+
+
+# Run progress: 80.00% complete, ETA 00:00:55
+# Fork: 5 of 5
+# Warmup Iteration   1: 9217.389 ±(99.9%) 1324.503 ns/op
+# Warmup Iteration   2: 5731.415 ±(99.9%) 656.416 ns/op
+# Warmup Iteration   3: 5376.202 ±(99.9%) 687.227 ns/op
+# Warmup Iteration   4: 5375.135 ±(99.9%) 674.835 ns/op
+# Warmup Iteration   5: 5396.309 ±(99.9%) 697.735 ns/op
+# Warmup Iteration   6: 5337.265 ±(99.9%) 786.686 ns/op
+# Warmup Iteration   7: 4788.953 ±(99.9%) 503.251 ns/op
+# Warmup Iteration   8: 6291.515 ±(99.9%) 1173.244 ns/op
+# Warmup Iteration   9: 6983.123 ±(99.9%) 1126.343 ns/op
+# Warmup Iteration  10: 4956.090 ±(99.9%) 621.728 ns/op
+# Warmup Iteration  11: 4816.290 ±(99.9%) 535.969 ns/op
+# Warmup Iteration  12: 4932.366 ±(99.9%) 618.835 ns/op
+# Warmup Iteration  13: 4871.266 ±(99.9%) 582.342 ns/op
+# Warmup Iteration  14: 5566.966 ±(99.9%) 871.419 ns/op
+# Warmup Iteration  15: 5120.708 ±(99.9%) 650.734 ns/op
+# Warmup Iteration  16: 5302.234 ±(99.9%) 627.365 ns/op
+# Warmup Iteration  17: 5823.421 ±(99.9%) 850.101 ns/op
+# Warmup Iteration  18: 6004.973 ±(99.9%) 1043.620 ns/op
+# Warmup Iteration  19: 6564.934 ±(99.9%) 1166.151 ns/op
+# Warmup Iteration  20: 6275.551 ±(99.9%) 1162.573 ns/op
+# Warmup Iteration  21: 5506.652 ±(99.9%) 757.457 ns/op
+# Warmup Iteration  22: 6897.908 ±(99.9%) 912.189 ns/op
+# Warmup Iteration  23: 5025.056 ±(99.9%) 686.141 ns/op
+# Warmup Iteration  24: 5084.751 ±(99.9%) 664.151 ns/op
+# Warmup Iteration  25: 4739.141 ±(99.9%) 528.124 ns/op
+# Warmup Iteration  26: 5798.163 ±(99.9%) 842.304 ns/op
+# Warmup Iteration  27: 6497.236 ±(99.9%) 1284.540 ns/op
+# Warmup Iteration  28: 6033.662 ±(99.9%) 969.345 ns/op
+# Warmup Iteration  29: 5208.820 ±(99.9%) 697.307 ns/op
+# Warmup Iteration  30: 5266.990 ±(99.9%) 710.398 ns/op
+Iteration   1: 5181.743 ±(99.9%) 706.825 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   531.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1082.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1462.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1662.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   12304.640 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  765952.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1154832.794 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6070272.000 ns/op
+
+Iteration   2: 5148.537 ±(99.9%) 654.319 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   531.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1086.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1462.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1660.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   12585.280 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  770048.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 850840.166 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6356992.000 ns/op
+
+Iteration   3: 4952.083 ±(99.9%) 533.362 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   530.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1098.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1470.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1670.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   12112.000 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  778240.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 867893.760 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   5136384.000 ns/op
+
+Iteration   4: 6040.776 ±(99.9%) 1064.117 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   525.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1084.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1456.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1656.600 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   17317.760 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  833234.944 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1258304.102 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   11616256.000 ns/op
+
+Iteration   5: 6597.119 ±(99.9%) 1160.853 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   528.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1094.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1458.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1666.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   68631.040 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  860160.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 6135132.979 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   11583488.000 ns/op
+
+Iteration   6: 6293.713 ±(99.9%) 1306.354 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   531.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1076.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1450.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1654.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   16304.000 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  837632.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 4922883.891 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   12353536.000 ns/op
+
+Iteration   7: 6402.904 ±(99.9%) 1191.311 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   530.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1086.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1458.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1666.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   29310.400 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  839680.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 6026116.301 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   11616256.000 ns/op
+
+Iteration   8: 5200.857 ±(99.9%) 597.056 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   529.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1088.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1466.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1664.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   11968.000 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  788077.568 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1452792.218 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   5242880.000 ns/op
+
+Iteration   9: 5615.699 ±(99.9%) 858.533 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   530.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1118.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1472.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1674.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   16179.040 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  775158.784 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 5009400.627 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   9388032.000 ns/op
+
+Iteration  10: 5936.910 ±(99.9%) 760.196 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   530.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1116.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1482.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1690.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   31265.280 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  836608.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 2668275.302 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   7135232.000 ns/op
+
+Iteration  11: 5099.419 ±(99.9%) 620.331 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   530.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1086.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1464.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1664.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   13735.360 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  774390.784 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 922290.995 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6348800.000 ns/op
+
+Iteration  12: 4856.579 ±(99.9%) 574.482 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   529.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1084.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1456.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1648.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   10016.000 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  765542.400 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 867573.760 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6430720.000 ns/op
+
+Iteration  13: 5139.325 ±(99.9%) 688.269 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   531.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1094.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1466.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1660.700 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   11328.000 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  768068.608 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1144862.515 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6488064.000 ns/op
+
+Iteration  14: 4959.008 ±(99.9%) 549.546 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   531.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1090.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1466.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1662.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   15088.640 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  756793.344 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 822335.078 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   4415488.000 ns/op
+
+Iteration  15: 4963.784 ±(99.9%) 543.392 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   529.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1084.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1456.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1646.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   12186.080 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  783360.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 873806.131 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   4956160.000 ns/op
+
+Iteration  16: 5915.033 ±(99.9%) 1030.333 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   531.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1084.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1460.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1660.900 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   73273.600 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  819200.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1208474.214 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   11812864.000 ns/op
+
+Iteration  17: 5637.606 ±(99.9%) 942.983 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   529.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1084.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1458.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1660.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   14708.480 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  814080.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 1439177.318 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   11468800.000 ns/op
+
+Iteration  18: 6432.671 ±(99.9%) 1331.728 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   532.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1086.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1462.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1666.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   16998.720 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  829440.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 6774440.755 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   11878400.000 ns/op
+
+Iteration  19: 6383.041 ±(99.9%) 1174.028 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   528.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1080.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1450.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1650.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   68364.800 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  826368.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 5335248.896 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   11632640.000 ns/op
+
+Iteration  20: 4750.650 ±(99.9%) 546.923 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   528.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1092.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1460.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1650.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   10290.560 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  770721.792 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 845683.917 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6209536.000 ns/op
+
+Iteration  21: 6582.893 ±(99.9%) 846.709 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   529.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1164.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1462.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1686.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   81736.960 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  1015368.704 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 3101374.054 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   5931008.000 ns/op
+
+Iteration  22: 5860.453 ±(99.9%) 922.084 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   528.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1086.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1462.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1676.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   19219.200 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  796917.760 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 5007343.616 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   7118848.000 ns/op
+
+Iteration  23: 5234.755 ±(99.9%) 667.199 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   529.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1088.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1460.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1654.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   12297.280 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  770282.496 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 940814.234 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   6250496.000 ns/op
+
+Iteration  24: 4938.489 ±(99.9%) 569.376 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   530.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1084.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1462.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1658.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   12430.080 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  766976.000 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 855765.811 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   5275648.000 ns/op
+
+Iteration  25: 5569.346 ±(99.9%) 839.734 ns/op
+                 log4jsynLog_log4j___Style·p0.00:   528.000 ns/op
+                 log4jsynLog_log4j___Style·p0.50:   1082.000 ns/op
+                 log4jsynLog_log4j___Style·p0.90:   1458.000 ns/op
+                 log4jsynLog_log4j___Style·p0.95:   1656.000 ns/op
+                 log4jsynLog_log4j___Style·p0.99:   12640.000 ns/op
+                 log4jsynLog_log4j___Style·p0.999:  774153.216 ns/op
+                 log4jsynLog_log4j___Style·p0.9999: 5049578.291 ns/op
+                 log4jsynLog_log4j___Style·p1.00:   7110656.000 ns/op
+
+
+
+Result "me.justpitch.loggingbenchmarks.LoggingBenchmark.log4jsynLog_log4j___Style":
+  N = 12008979
+  mean =   5639.603 ±(99.9%) 72.590 ns/op
+
+  Histogram, ns/op:
+    [       0.000,  1250000.000) = 12007593 
+    [ 1250000.000,  2500000.000) = 424 
+    [ 2500000.000,  3750000.000) = 44 
+    [ 3750000.000,  5000000.000) = 279 
+    [ 5000000.000,  6250000.000) = 313 
+    [ 6250000.000,  7500000.000) = 195 
+    [ 7500000.000,  8750000.000) = 26 
+    [ 8750000.000, 10000000.000) = 15 
+    [10000000.000, 11250000.000) = 17 
+    [11250000.000, 12500000.000) = 73 
+    [12500000.000, 13750000.000) = 0 
+    [13750000.000, 15000000.000) = 0 
+    [15000000.000, 16250000.000) = 0 
+    [16250000.000, 17500000.000) = 0 
+    [17500000.000, 18750000.000) = 0 
+
+  Percentiles, ns/op:
+      p(0.0000) =    517.000 ns/op
+     p(50.0000) =   1138.000 ns/op
+     p(90.0000) =   1508.000 ns/op
+     p(95.0000) =   1716.000 ns/op
+     p(99.0000) =  20192.000 ns/op
+     p(99.9000) = 797696.000 ns/op
+     p(99.9900) = 1351680.000 ns/op
+     p(99.9990) = 7900866.150 ns/op
+     p(99.9999) = 11812864.000 ns/op
+    p(100.0000) = 12353536.000 ns/op
+
+
+# Run complete. Total time: 00:04:39
+
+Benchmark                                                                       Mode       Cnt         Score    Error  Units
+LoggingBenchmark.log4jsynLog_log4j___Style                                    sample  12008979      5639.603 ± 72.590  ns/op
+LoggingBenchmark.log4jsynLog_log4j___Style:log4jsynLog_log4j___Style·p0.00    sample                 517.000           ns/op
+LoggingBenchmark.log4jsynLog_log4j___Style:log4jsynLog_log4j___Style·p0.50    sample                1138.000           ns/op
+LoggingBenchmark.log4jsynLog_log4j___Style:log4jsynLog_log4j___Style·p0.90    sample                1508.000           ns/op
+LoggingBenchmark.log4jsynLog_log4j___Style:log4jsynLog_log4j___Style·p0.95    sample                1716.000           ns/op
+LoggingBenchmark.log4jsynLog_log4j___Style:log4jsynLog_log4j___Style·p0.99    sample               20192.000           ns/op
+LoggingBenchmark.log4jsynLog_log4j___Style:log4jsynLog_log4j___Style·p0.999   sample              797696.000           ns/op
+LoggingBenchmark.log4jsynLog_log4j___Style:log4jsynLog_log4j___Style·p0.9999  sample             1351680.000           ns/op
+LoggingBenchmark.log4jsynLog_log4j___Style:log4jsynLog_log4j___Style·p1.00    sample            12353536.000           ns/op
+
+Benchmark result is saved to results/log4j-sync_log4j-fmt.csv
