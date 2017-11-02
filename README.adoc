@@ -1,5 +1,10 @@
 == Java Logging Benchmarks iMac Results
 
+NB
+
+* Results measured in ns/op
+* Not intended to be taken as fully accruate. 
+
 |====================
 |                  | No Logging          | Logback Format       | Java Util Logging Format|  Log4j Format 
 | Java Util Logger | 158.051 (±0.762)    | 42404.202 (±541.229) | 86054.783 (±541.229)    |  74794.026 (±2244.146)  
